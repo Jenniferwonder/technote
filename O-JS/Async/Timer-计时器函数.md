@@ -1,16 +1,16 @@
 ---
+tags: 
+DateReviewed:
+Difficulty:
+Comment:
 Type: D
 DateDo: 
 DateDone: 
 DateDue: 
 Title: Timer-计时器函数
 DateStarted: 2022-12-14
-DateModified: 2023-11-28
+DateModified: 2024-02-03
 status: 
-LeadTime: "1"
-Cards-D: "0"
-Page-D: "0"
-EST: NaN
 Reviewed: 1
 Topic:
   - Function

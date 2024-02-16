@@ -15,11 +15,7 @@ Topic:
   - Basics
 ---
 
-# [[O-JS|D-JS]] Keywords and Reserved Words-关键字与保留字
-
-## Metadata
-
-- Up:: [[C03-Language Basics]]
+# Keywords and Reserved Words-关键字与保留字
 
 ## <mark class="hltr-gray ">" KEYWORDS AND RESERVED WORDS "</mark> [Page 4 ](zotero://open-pdf/library/items/2BS329KQ?page=4&annotation=2BDH8ES7)
 

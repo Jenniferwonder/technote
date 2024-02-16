@@ -585,7 +585,7 @@ filters:
           value: "String"
           type: tags
       - condition: AND
-        disabled: false
+        disabled: true
         label: "Array"
         color: "hsl(84,16%,54%)"
         filters:
@@ -630,7 +630,7 @@ filters:
           value: "Math"
           type: tags
       - condition: AND
-        disabled: true
+        disabled: false
         label: "OOP"
         color: "hsl(130,13%,54%)"
         filters:

@@ -17,12 +17,23 @@ status:
   - ToUseMore
 Comment:
 ---
+***
+Basic
 ### 找出满足小于 0 的第一个元素
-？
+Back:
 - `.find (mov => mov < 0)`
 	- Return the first element that satisfies the condition
+📌: JS::JS-Array 
+🏷️: JS-Array 
+<!--ID: 1706600287373-->
+****
 
+***
+Basic
 ### 筛选满足条件的所有元素
-？
+Back:
 - **`.filter()`**
     - Return a new array of all elements that satisfy the condition
+<!--ID: 1706600287376-->
+****
+

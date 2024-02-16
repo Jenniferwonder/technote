@@ -18,17 +18,17 @@ status:
 Comment:
 ---
 ### Character Literals 字符字面量
-- What is Character Literals for ;; **to represent nonprintable or otherwise useful characters**
-<!--SR:!2024-02-01,3,250-->
-- Multiple lines ;; `\n`
-<!--SR:!2024-02-01,3,250-->
+- What is Character Literals for
+	- **to represent nonprintable or otherwise useful characters**
+- Multiple lines 
+	- `\n`
 - ![[C3LanguageBasics-23-x75-y192.png]]
 	- ![[Paste image 1690812354432image.png]]
 	- ![[Paste image 1690812383271image.png]]
 	- https://www.computerhope.com/jargon.html
 
 ### Print Raw Strings (打印不含字符字面量的原始字符串)
-?
+Back:
 - String.raw tag function
-		- console.log (String.raw `first line\n second line`); // "first line\n second line"
+	- console.log (String.raw `first line\n second line`); // "first line\n second line"
 <!--SR:!2024-02-01,3,250-->

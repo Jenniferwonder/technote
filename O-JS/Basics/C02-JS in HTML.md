@@ -4,21 +4,20 @@ Type: O
 DateStarted: 2023-07-12
 DateModified: 2023-07-14
 mindmap-plugin: basic
-status: Mature
-aliases: C02
+status:
+  - Mature
+aliases:
+  - C02
 LeadTime: "2"
 Cards: 12
 DateDo: 2023-07-10T00:00:00.000+08:00
 DateDone: 2023-07-11T00:00:00.000+08:00
-Page-D: "6"
-Cards-D: "6"
 Pages: 12
-EST: "-19547"
 Topic:
   - Basics
 ---
 
-# [[O-JS]] C02-JS in HTML (JS 脚本/资源加载方式)
+# C02-JS in HTML (JS 脚本/资源加载方式)
 
 ## 目的
 
@@ -90,7 +89,7 @@ Topic:
 ## ❓JS 脚本/资源无法加载的情况
 
 - **`noscript` 标签** [Page 70 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=70&annotation=WNF8YEU9) - <mark class="hltr-yellow ">" created to provide alternate content for browsers without JavaScript "</mark> [Page 70 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=70&annotation=YAPFC98M) - 设置针对不支持/关闭 JS 浏览器的定制内容
-<!--SR:!2023-09-24,25,250!2023-08-16,3,250!2023-08-16,3,250!2023-08-16,3,250!2023-08-16,3,250!2023-08-16,3,250!2023-08-16,3,250!2023-08-16,3,250!2023-08-16,3,250!2023-08-16,3,250-->
+
 
 ## 相关概念
 

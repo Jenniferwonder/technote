@@ -18,17 +18,22 @@ status:
 Comment:
 ---
 # Object
-## Object Basics
-- [[Access Object Key (Property, Method) & Value]]
-- [[Create an Object (创建内置-自定义对象)]]
-- [[Object Types (instanceof)]]
-- [[Object Destructuring]]
-## Object Common Properties and Methods (通用对象实例属性与方法)
-- [[Assign Merge Copy Objects (ES6 合并复制对象)]]
-- [[Object Prototype Properties and Method (原型属性与方法)]]
-- [[this; call; apply; bind]]
-- [[Identify Object Equality (对象全等判定)]]
-- [[Convert Array or Object to String (数组对象转字符串方法)]]
+### [[Object Creation (创建对象)]]
+- [[Object literal (对象字面量表示法)]]
+- [[Factory Function (工厂模式)]]
+- [[Constructor Function (构造函数模式)]]
+	- [[Use 'new' Operator (使用 new 操作符)]]
+	- [[Object Types (instanceof 标识对象类型)]]
+- [[Prototype Pattern (原型模式)]]
+### [[Object Property & Value (对象属性与值)]]
+### [[Object Destructuring (对象解构)]]
+### [[Object Iteration (对象迭代)]]
+### [[Assign Merge Objects (对象合并)]]
+### [[Identify Object Equality (对象全等判定)]]
+### [[Convert Array or Object to String (数组对象转字符串方法)]]
+### [[OOP]]
+- [[Prototype Chain Inheritance]]
+
 ## Reference
 - [Working with objects - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 - [Introducing JavaScript objects - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)

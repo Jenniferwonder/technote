@@ -12,8 +12,6 @@ Topic:
   - Scope
 ---
 
-- Up:: [[O-JS]]
-
 ## 执行上下文
 
 > [理解 JavaScript 中的执行上下文和执行栈](https://juejin.cn/post/6844903682283143181 "https://juejin.cn/post/6844903682283143181") >[理解 JavaScript 的执行上下文](https://link.juejin.cn?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F72959191 "https://zhuanlan.zhihu.com/p/72959191") >[JavaScript 进阶-执行上下文](https://juejin.cn/post/6844903983438381069 "https://juejin.cn/post/6844903983438381069") >[JavaScript 深入之执行上下文栈](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fmqyqingfeng%2FBlog%2Fissues%2F4 "https://github.com/mqyqingfeng/Blog/issues/4") >[一道 js 面试题引发的思考 · Issue #18 · kuitos/kuitos.github.io · GitHub](https://github.com/kuitos/kuitos.github.io/issues/18)

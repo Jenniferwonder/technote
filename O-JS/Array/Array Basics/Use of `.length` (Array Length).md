@@ -15,8 +15,10 @@ Reviewed:
 status:
   - Mature
 ---
+***
+Basic
 ## Use of `.length` (Array Length)
-?
+Back:
 - Access the length of an array (0 or more)
 - Access the last item in an array
     - always at `.length – 1`
@@ -25,4 +27,8 @@ status:
 	- ![[1691246246599.png]]
 - Add Items using `.length`
 	- ![[1691246351519.png]]
+📌: JS::JS-Array 
+🏷️: JS-Array 
+<!--ID: 1706600287466-->
+****
 <!--SR:!2024-02-01,3,250-->

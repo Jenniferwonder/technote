@@ -17,17 +17,29 @@ status:
   - ToUseMore
 Comment:
 ---
+***
+Basic
 ### Return an array computed from original
-？
+Back:
 - `.map()` 
+📌: JS::JS-Array 
+🏷️: JS-Array 
+<!--ID: 1706600287395-->
+****
 
+***
+Basic
 ### Iterative Methods-数组循环迭代方法 
-？
+Back:
 - `.forEach()`
-    - 相当于使用 for 循环遍历数组
+	- 相当于使用 for 循环遍历数组
+<!--ID: 1706600287399-->
+****
 
+***
+Basic
 ### ES6 Destructuring (Iterator-迭代器方法)
-?
+Back:
 - `for (const [i, ele] of a.entries()){ }`
 - to split out the key/value pairs inside a loop
 - ![[1691247030389.png]]
@@ -38,4 +50,6 @@ Comment:
 - **`.entries()`**
 	- return an iterator of index/value pairs
 - ![[1691246935131.png]]
+<!--ID: 1706600287402-->
+****
 <!--SR:!2024-01-30,1,230-->

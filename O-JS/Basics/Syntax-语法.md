@@ -17,11 +17,7 @@ Topic:
   - Basics
 ---
 
-# [[O-JS|D-JS]] Syntax-语法
-
-## Metadata
-
-- Up:: [[C03-Language Basics]]
+# Syntax-语法
 
 ## <mark class="hltr-gray ">" Case-Sensitivity 区分大小写 "</mark> [Page 2 ](zotero://open-pdf/library/items/2BS329KQ?page=2&annotation=7MWFLTBP)
 

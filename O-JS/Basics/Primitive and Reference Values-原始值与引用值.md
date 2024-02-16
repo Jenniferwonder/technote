@@ -4,25 +4,21 @@ Type: D
 DateStarted: 2023-07-28
 DateModified: 2023-11-28
 mindmap-plugin: basic
-status: Mature
+status:
+  - Mature
 LeadTime: "13"
 DateDo: 2023-07-17T00:00:00.000+08:00
 DateDone: 2023-07-29T00:00:00.000+08:00
 Cards: 2
 Cards-D: "1"
 Page-D: "0"
-EST: "-19554"
 Difficulty: Easy
 Reviewed: 2
 Topic:
   - Basics
 ---
 
-# [[O-JS|D-JS]] Primitive and Reference Values-原始值与引用值
-
-## Metadata
-
-- Up:: [[C04-Variables; Scope; Memory-变量、作用域、内存]]
+# Primitive and Reference Values-原始值与引用值
 
 ## <mark class="hltr-orange ">" Primitive values-原始值 "</mark> [Page 2 ](zotero://open-pdf/library/items/777VEPFY?page=2&annotation=DL6JSJAY)
 

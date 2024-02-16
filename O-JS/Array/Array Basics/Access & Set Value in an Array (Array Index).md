@@ -15,11 +15,17 @@ Reviewed: 1
 status:
 ---
 
+***
+Basic
 # Access & Set Value in an Array (Array Index)
-?
+Back:
 ### square brackets
 - ![[1691246114528.png]]
 - zero-based numeric index of the value
 ### `.at(0)`
 - //similar to 'arr[0]'
+📌: JS::JS-Array 
+🏷️: JS-Array 
+<!--ID: 1706587230851-->
+****
 <!--SR:!2024-02-01,3,250-->

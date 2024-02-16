@@ -1,12 +1,12 @@
 ---
-Title: Assign Merge Copy Objects (ES6 合并复制对象)
+Title: Assign Merge Copy Objects (ES6 对象合并复制)
 Topic:
   - Objects
 Type: D
 tags:
   - JavaScript
 DateStarted: 2024-01-29
-DateModified: 2024-01-29
+DateModified: 2024-02-02
 DateDo: 
 DateDone: 
 DateDue: 
@@ -17,7 +17,7 @@ status:
   - ToUse
 Comment:
 ---
-## Assign Merge Copy Objects (合并复制对象)
+## Assign Merge Objects (ES6 对象合并)
 ?
 - `Object.assign()`
 	- 把源对象所有的本地属性一起复制到目标对象上，目标对象通过混入源对象的属性得到了增强

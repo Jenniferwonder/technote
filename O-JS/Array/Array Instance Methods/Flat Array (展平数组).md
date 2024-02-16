@@ -17,9 +17,10 @@ status:
   - Snooze
 Comment:
 ---
-### Convert nested array into one big array
+### ❓Convert nested array into one big array
 - Spread and Rest Operators `...`
 - `.flat(1/2)` (ES2019)
 
 ### Combine "map" and "flat" method to flat a map one level deep
 - `.flatMap(function)`
+

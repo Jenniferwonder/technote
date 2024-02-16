@@ -17,17 +17,23 @@ status:
   - ToUseMore
 Comment:
 ---
+***
+Basic
 ### Get the `sum` value of all items in an Array
-?
+Back:
 - `.reduce((prev, cur) => prev + cur)`
 	- ![[1691312206123.png]]
 - `.reduceRight((prev, cur) => prev + cur)`
     - works in the same way, just in the opposite direction
 	- ![[1691312257363.png]]
+<!--ID: 1706600287415-->
+****
 <!--SR:!2024-02-01,3,250-->
 
+***
+Basic
 ### 😺`.reduce()` 参数与返回值
-?
+Back:
 - Purpose
     - Return a computed value
 - 2 Arguments
@@ -38,4 +44,7 @@ Comment:
             - the item’s index [📌](obsidian://jump-to-pdf?pdf=ProJS%2FC6-Collection%20Reference%20Type.pdf&annotate=620a7f99-e301-6fd1)
             - the array object [📌](obsidian://jump-to-pdf?pdf=ProJS%2FC6-Collection%20Reference%20Type.pdf&annotate=1fc6464f-49da-aa80)
     - an optional **initial value** upon which the reduction is based [📌](obsidian://jump-to-pdf?pdf=ProJS%2FC6-Collection%20Reference%20Type.pdf&annotate=27095b3b-0310-a322)
+<!--ID: 1706600287419-->
+****
 <!--SR:!2024-01-30,1,230-->
+

@@ -15,6 +15,7 @@ EST: NaN
 Reviewed: 1
 Topic:
   - Function
+  - Async
 ---
 
 > [Learn Debounce And Throttle In 16 Minutes - YouTube](https://www.youtube.com/watch?v=cjIswDCKgu0)

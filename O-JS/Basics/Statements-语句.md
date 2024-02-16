@@ -3,9 +3,10 @@ Title: Statements-语句
 Type: D
 DateStarted: 2023-07-13
 DateModified: 2023-11-28
-aliases: Statements
-mindmap-plugin: basic
-status: Mature
+aliases:
+  - Statements
+status:
+  - Mature
 LeadTime: "17"
 DateDo: 2023-07-12T00:00:00.000+08:00
 DateDone: 2023-07-28T00:00:00.000+08:00
@@ -18,11 +19,8 @@ Topic:
   - Basics
 ---
 
-# [[O-JS|D-JS]] Statements-语句
+# Statements-语句
 
-## Metadata
-
-- Up:: [[C03-Language Basics]]
 
 ## <mark class="hltr-yellow ">" Multiple statements can be combined into a code block "</mark> [Page 3 ](zotero://open-pdf/library/items/2BS329KQ?page=3&annotation=ZXVBT58F)
 
@@ -38,9 +36,10 @@ Topic:
   - ![[Paste image 1690529292548image.png]]
 - Tenary Operation/ Conditional Operators
 
-  - ```js
+  ```js
     activePlayer = activePlayer === 1 ? 2 : 1;
     ```
+
 
 ## Loops
 
@@ -79,7 +78,7 @@ Topic:
 - - <mark class="hltr-yellow "> can be referenced later by using the break or continue statement. </mark> [Page 69](zotero://open-pdf/library/items/2BS329KQ?page=69&annotation=LPTU9BUA)
   - <mark class="hltr-yellow "> are typically used with nested loops. </mark> [Page 69](zotero://open-pdf/library/items/2BS329KQ?page=69&annotation=9JIS59K3)
 
-- ```js
+```js
   let num = 0;
   outermost: for (let i = 0; i < 10; i++) {
   	for (let j = 0; j < 10; j++) {

@@ -3,9 +3,10 @@ Title: C03-Language Basics
 Type: O
 DateStarted: 2023-07-12
 DateModified: 2023-07-14
-mindmap-plugin: basic
-status: Mature
-aliases: C03
+status:
+  - Mature
+aliases:
+  - C03
 LeadTime: "20"
 Cards: 76
 DateDo: 2023-07-12T00:00:00.000+08:00
@@ -18,7 +19,7 @@ Topic:
   - Basics
 ---
 
-# [[O-JS]] C03-Language Basics
+# C03-Language Basics
 
 ## [[Syntax-语法]]
 

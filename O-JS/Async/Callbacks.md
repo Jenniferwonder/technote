@@ -11,6 +11,7 @@ EST: NaN
 Reviewed: 1
 Topic:
   - Function
+  - Async
 ---
 - Up:: [[O-JS]]
 ## Use of Callbacks
@@ -87,7 +88,7 @@ order(0, production);
 
 - Callback Hell
 - hard to handle errors:
-- often you have to handle errors at each level of the "pyramid", instead of having error handling only once at the top level
+	- often you have to handle errors at each level of the "pyramid", instead of having error handling only once at the top level
 
 #### 6. ⛔ 同步函数示例
 

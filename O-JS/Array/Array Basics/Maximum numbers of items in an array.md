@@ -15,7 +15,13 @@ Reviewed: 1
 status:
   - Snooze
 ---
+***
+Basic
 ### Maximum Numbers of Items in an Array
-?
+Back:
 - 4,294,967,295
+📌: JS::JS-Array 
+🏷️: JS-Array 
+<!--ID: 1706600287462-->
+****
 <!--SR:!2024-02-01,3,250-->

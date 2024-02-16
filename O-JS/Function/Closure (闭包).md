@@ -1,24 +1,42 @@
 ---
-Title: Closures-闭包
-Type: D
-DateStarted: 2022-12-08
-DateModified: 2023-11-28
-status: 
+Title: Closure (闭包)
 Topic:
-  - Scope
+  - Function
+Type: D
+tags:
+  - JavaScript
+DateStarted: 2024-02-16
+DateModified: 2024-02-16
+DateDo: 
+DateDone: 
+DateDue: 
+DateReviewed: 2024-02-16
+Reviewed: 1
+Difficulty: 
+status: 
+Comment:
 ---
+***
+Basic
+### 闭包定义
+Back:
+* 引用了另一个函数作用域中变量的函数
+* 闭包中使用 this
+📌: JS::JS-Function
+🏷️: JS-Function
+****
 
-## Questions
+
+### Questions
 
 - [发现 JavaScript 中闭包的强大威力](https://juejin.cn/post/6844903769646317576 "https://juejin.cn/post/6844903769646317576")
 - [JavaScript 闭包的底层运行机制](https://link.juejin.cn/?target=http%3A%2F%2Fblog.leapoahead.com%2F2015%2F09%2F15%2Fjs-closure%2F "http://blog.leapoahead.com/2015/09/15/js-closure/")
 - [我从来不理解 JavaScript 闭包，直到有人这样向我解释它...](https://link.juejin.cn/?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F56490498 "https://zhuanlan.zhihu.com/p/56490498")
 - [破解前端面试（80% 应聘者不及格系列）：从闭包说起](https://juejin.cn/post/6844903474212143117#heading-0 "https://juejin.cn/post/6844903474212143117#heading-0")
 
-## Closures 闭包
+### Closures 闭包
 
 to give a function access to all variables of its parent function, even after that parent function has returned  
-**闭包：就是函数引用了外部作用域的变量**
 
 #### 1. 闭包常见的两种情况
 

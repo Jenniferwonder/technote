@@ -16,29 +16,26 @@ Reviewed: 1
 Topic:
   - Async
 ---
-- Up:: [[1.2.1.3 JavaScript]]
 
-> [What the heck is the event loop anyway? | Philip Roberts | JSConf EU - YouTube](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 ## What is JavaScript?
-
-> - [How JavaScript works](https://link.juejin.cn/?target=https%3A%2F%2Fblog.sessionstack.com%2Fhow-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5 "https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5")
-
+- [How JavaScript works](https://link.juejin.cn/?target=https%3A%2F%2Fblog.sessionstack.com%2Fhow-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5 "https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5")
 - A **single-threaded** non-blocking asynchronous concurrent language.
 - 单线程、无阻塞、异步、并发
 - Have **a call stack**, an event loop, a callback queue and other APIs...
 - 调用栈、堆栈溢出（stack overflow）、回调队列/任务队列（回调函数）、事件循环、
-
 ### V8
-
 - A JS runtime
 - Have a callstack and a heap
-- The V8 can do one thing at a time, but not the browser which can access other APIs.  
-  ![[Pasted image 20221208182251.png]]
+- The V8 can do one thing at a time, but not the browser which can access other APIs.
+  
+### Event Loop
+- [What the heck is the event loop anyway? | Philip Roberts | JSConf EU - YouTube](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+  ![[Pasted image 20221208182251.png|475]]
 
 ## 宏任务 微任务
 
-> - [Tasks, microtasks, queues and schedules](https://link.juejin.cn/?target=https%3A%2F%2Fjakearchibald.com%2F2015%2Ftasks-microtasks-queues-and-schedules%2F "https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/")
+- [Tasks, microtasks, queues and schedules](https://link.juejin.cn/?target=https%3A%2F%2Fjakearchibald.com%2F2015%2Ftasks-microtasks-queues-and-schedules%2F "https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/")
 
 JS 语言的一大特点就是单线程，也就是说，同一个时间只能做一件事。所有任务都需要排队，前一个任务结束，才会执行后一个任务。如果前一个任务耗时很长，后一个任务就不得不一直等着  
 所有任务可以分成两种，一种是宏任务，另一种是微任务

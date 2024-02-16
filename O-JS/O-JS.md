@@ -92,12 +92,12 @@ Topic: JavaScript
 
 - [[Class (ES6 类)]]
 - [[OOP Principles]]
-- [[Object Prototype (Prototype Chain)]]
-- [[this; call; apply; bind]]
+- [[Prototype Chain Inheritance]]
+- [[call; apply; bind]]
 
 ## [[C09-Proxies and Reflect-代理与反射]]
 
-## [[C10-Functions]]
+## [[The `return` Statement]]
 
 ### [[Closures-闭包]]
 

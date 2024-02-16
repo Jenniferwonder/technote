@@ -21,7 +21,6 @@ Topic:
   - OOP
 ---
 # OOP
-## [[Object]] 
 ## [[OOP Principles]]
 ## [[Inheritance Types]]
 ## [[Class (ES6 类)]]

@@ -16,8 +16,8 @@ Difficulty: Good
 status: 
 Comment:
 ---
-Template Literals 模板字面量
-- Template literals (模板字面量/字符串) `I'm ${firstName}`
+- Template literals (模板字面量/字符串) 
+	- `I'm ${firstName}`
 	- template literals respect new line characters, and can be defined spanning multiple lines
 	- template literals are especially useful when defining templates, such as HTML 
 	- template literals will exactly match the whitespace inside the backticks
@@ -31,7 +31,5 @@ Template Literals 模板字面量
 	- are able to define custom interpolation behavior.
 
 ### Nature of Strings 字符串特点
-?
 - Strings are **immutable** in ECMAScript
-		- To change the string held by a variable, the original string must be destroyed and the variable filled with another string containing a new value
-<!--SR:!2024-02-01,3,250-->
+	- To change the string held by a variable, the original string must be destroyed and the variable filled with another string containing a new value

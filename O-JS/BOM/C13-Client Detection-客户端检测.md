@@ -18,7 +18,7 @@ Topic:
   - BOM
 ---
 
-# [[O-JS]] C13-Client Detection-客户端检测
+# C13-Client Detection-客户端检测
 
 - <mark class="hltr-gray ">" CAPABILITY DETECTION "</mark> [Page 2 ](zotero://open-pdf/library/items/7R56ZBZH?page=2&annotation=UY2ZI3LF)
 

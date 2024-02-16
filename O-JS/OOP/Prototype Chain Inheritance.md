@@ -1,5 +1,5 @@
 ---
-Title: Object Prototype (Prototype Chain)
+Title: Prototype Pattern (Prototype Chain)
 tags:
   - JavaScript
 Topic:
@@ -9,7 +9,7 @@ DateStarted: 2022-12-02
 DateDo: 
 DateDone: 
 DateDue: 
-DateModified: 2024-01-29
+DateModified: 2024-02-02
 DateReviewed: 
 status:
   - ToCapture
@@ -47,7 +47,7 @@ Reviewed: 1
 - The prototype will have its own prototype, making what's called a **prototype chain**.
 - The chain ends when we reach a prototype that has `null` for its own prototype.
 - 它的作用就是当你在访问一个对象上属性的时候，如果该对象内部不存在这个属性，那么就会去它`__proto__`属性所指向的对象（原型对象）上查找。如果原型对象依旧不存在这个属性，那么就会去其原型的`__proto__`属性所指向的原型对象上去查找。以此类推，直到找到`nul`，而这个查找的线路，也就构成了我们常说的**原型链**
-## [[Object Prototype Properties and Method (原型属性与方法)]]
+## [[Prototype Properties and Method (原型属性与方法)]]
 ## More Questions
   - How Prototypes Work
   - Understanding the Prototype Hierarchy

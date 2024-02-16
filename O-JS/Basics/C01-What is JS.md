@@ -3,22 +3,19 @@ Title: C01-What is JS
 Type: O
 DateStarted: 2023-07-11
 DateModified: 2023-07-14
-status: Mature
-mindmap-plugin: basic
-aliases: C01
-LeadTime: "6"
+status:
+  - Mature
+aliases:
+  - C01
 Cards: 1
 DateDo: 2023-07-10T00:00:00.000+08:00
 DateDone: 2023-07-15T00:00:00.000+08:00
-Page-D: "2"
-Cards-D: "1"
 Pages: 12
-EST: "-19547"
 Topic:
   - Basics
 ---
 
-# [[O-JS]] C01-What is JS
+# C01-What is JS
 
 ## <mark class="hltr-gray ">" A SHORT HISTORY "</mark> [Page 49 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=49&annotation=UETQLMA6)
 

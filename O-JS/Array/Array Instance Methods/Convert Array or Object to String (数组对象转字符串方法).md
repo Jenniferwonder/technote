@@ -18,8 +18,10 @@ status:
   - ToUse
 Comment:
 ---
+***
+Basic
 ### Convert Array or Object to String (数组转字符串方法)
-?
+Back:
 - `toString()`
 - `valueOf()`
     - ![[1691303468091.png|500]]
@@ -27,6 +29,10 @@ Comment:
 - **`toLocaleString()`**
     - may end up returning the same value as toString() and valueOf(), but not always
     - ![[1691303867882.png]]
+📌: JS::JS-Array 
+🏷️: JS-Array 
+<!--ID: 1706600287338-->
+****
 <!--SR:!2024-01-30,1,230-->
 
 
