@@ -36,7 +36,7 @@ Back:
 	* 不声明参数也可以
 	* 可用作 `apply()` 的第二个参数：[[call; apply; bind]]
 * 箭头函数中没有 `arguments` 对象 
-	* 支持收集参数，可实现类似功能：[[Collect and Spread Function Arguments (收集与扩展参数)]]
+	* 支持收集参数，可实现类似功能：[[Collect or Rest and Spread Function Arguments (收集, 剩余与扩展参数)]]
 	* 可以在包装函数中把它提供给箭头函数
 		* ![[1691646042322.png]] 
 📌: JS::JS-Function
@@ -74,4 +74,4 @@ Back:
 <!--ID: 1708067341816-->
 ****
 
-### [[Collect and Spread Function Arguments (收集与扩展参数)]]
+### [[Collect or Rest and Spread Function Arguments (收集, 剩余与扩展参数)]]
