@@ -18,7 +18,7 @@ Topic:
   - API
 ---
 
-# [[O-JS]] C20-JS APIs
+# [O-JS](O-JS.md) C20-JS APIs
 
 - <mark class="hltr-gray ">" ATOMICS AND SharedArrayBuffer "</mark> [Page 2 ](zotero://open-pdf/library/items/B82CYUJR?page=2&annotation=JNFLZYXL)
 

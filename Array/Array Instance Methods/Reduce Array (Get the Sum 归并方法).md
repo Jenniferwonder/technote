@@ -22,10 +22,10 @@ Basic
 ### Get the `sum` value of all items in an Array
 Back:
 - `.reduce((prev, cur) => prev + cur)`
-	- ![[1691312206123.png]]
+	- ![](1691312206123.png)
 - `.reduceRight((prev, cur) => prev + cur)`
     - works in the same way, just in the opposite direction
-	- ![[1691312257363.png]]
+	- ![](1691312257363.png)
 <!--ID: 1706600287415-->
 ****
 <!--SR:!2024-02-01,3,250-->

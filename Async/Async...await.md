@@ -119,7 +119,7 @@ console.log("taking orders");
 
 ##### 4.3. Output results
 
-![[Pasted image 20221209200813.png]]
+![](Pasted%20image%2020221209200813.png)
 
 #### 5. Async/await Example (Icecream)
 

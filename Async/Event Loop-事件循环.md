@@ -41,7 +41,7 @@ Topic:
 - 调用栈、堆栈溢出（stack overflow）、回调队列/任务队列（回调函数）、事件循环、
 - render queue：重绘
 
-  ![[Pasted image 20221208182251.png|475]]
+  ![](Pasted%20image%2020221208182251.png)
 
 #### 事件轮询机制执行过程
 1）代码执行过程中，宏任务和微任务放在不同的任务队列中  
@@ -73,7 +73,7 @@ Topic:
 - [利用requestAnimationFrame优化大数据列表渲染 - 掘金](https://juejin.cn/post/7262900590937063482?searchId=202402181438115229F57507550A5779CE)
 
 ## 🛠️ Interview Exercise 
-#### Event Loop 经典题目：判断打印结果 （[[Promise]]）
+#### Event Loop 经典题目：判断打印结果 （[Promise](Promise.md)）
 
 ```javascript
 Promise.resolve()
@@ -107,7 +107,7 @@ console.log("start");
 ```
 
 
-#### [[Async...await]] 事件轮询执行时机
+#### [Async...await](Async...await.md) 事件轮询执行时机
 async 隐式返回 Promise，会产生一个微任务，await 后面的代码是在微任务时执行
 
 ```javascript
@@ -138,6 +138,6 @@ console.log("script end");
 // 打印结果:  script start => async2 end => Promise => script end => async1 end => promise1 => promise2 => setTimeout
 ```
 
-## ❓[[Node.js Event Loop]]
-## ❓[[Vue 异步更新 (Event loop 与 Vue nextTick)]]
+## ❓[Node.js Event Loop](Node.js%20Event%20Loop)
+## ❓[Vue 异步更新 (Event loop 与 Vue nextTick)](Vue%20异步更新%20(Event%20loop%20与%20Vue%20nextTick))
 

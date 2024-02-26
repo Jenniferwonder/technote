@@ -17,11 +17,11 @@ Topic:
   - Basics
 ---
 
-# [[O-JS|D-JS]] Operators-操作符
+# [D-JS](O-JS.md) Operators-操作符
 
 ## Metadata
 
-- Up:: [[C03-Language Basics]]
+- Up:: [C03-Language Basics](C03-Language%20Basics.md)
 
 ## <mark class="hltr-gray ">" Unary Operators-一元操作符 "</mark> [Page 44 ](zotero://open-pdf/library/items/2BS329KQ?page=44&annotation=V24TIWAA)
 
@@ -107,7 +107,7 @@ Topic:
 ## <mark class="hltr-gray ">" Equality Operators-相等操作符"</mark> [Page 62 ](zotero://open-pdf/library/items/2BS329KQ?page=62&annotation=S8IC7N29)
 
 - <mark class="hltr-gray ">" Equal and Not Equal "</mark> [Page 62 ](zotero://open-pdf/library/items/2BS329KQ?page=62&annotation=HBF8XYFZ)
-  - ![[C03LanguageBasics-63-x72-y191.png]]
+  - ![](C03LanguageBasics-63-x72-y191.png)
   - Compare after conversion
 - <mark class="hltr-gray ">" Identically Equal and Not Identically Equal "</mark> [Page 63 ](zotero://open-pdf/library/items/2BS329KQ?page=63&annotation=U4S6W887)
   - Compare without coercion

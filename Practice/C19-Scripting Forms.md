@@ -18,7 +18,7 @@ Topic:
   - Practice
 ---
 
-# [[O-JS]] C19-Scripting Forms
+# [O-JS](O-JS.md) C19-Scripting Forms
 
 - <mark class="hltr-gray ">" FORM BASICS "</mark> [Page 1 ](zotero://open-pdf/library/items/MMCBNHGL?page=1&annotation=9JBFCE8D)
 

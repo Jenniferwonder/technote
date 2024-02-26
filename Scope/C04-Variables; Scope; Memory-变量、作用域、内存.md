@@ -18,8 +18,8 @@ Topic:
   - Scope
 ---
 
-# [[O-JS]] C04-Variables, Scope, Memory-变量、作用域、内存
+# [O-JS](O-JS.md) C04-Variables, Scope, Memory-变量、作用域、内存
 
-## [[Context and Scope-执行上下文与作用域]]
+## [Context and Scope-执行上下文与作用域](Context%20and%20Scope-执行上下文与作用域.md)
 
-## [[Garbage Collection-垃圾回收]]
+## [Garbage Collection-垃圾回收](Garbage%20Collection-垃圾回收.md)

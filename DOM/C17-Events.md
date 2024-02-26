@@ -18,7 +18,7 @@ Topic:
   - DOM
 ---
 
-# [[O-JS]] C17-Events
+# [O-JS](O-JS.md) C17-Events
 
 - <mark class="hltr-gray ">" EVENT FLOW "</mark> [Page 2 ](zotero://open-pdf/library/items/M466R695?page=2&annotation=UUYYHYWU)
 

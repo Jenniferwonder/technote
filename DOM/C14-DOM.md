@@ -18,7 +18,7 @@ Topic:
   - DOM
 ---
 
-# [[O-JS]] C14-DOM
+# [O-JS](O-JS.md) C14-DOM
 
 ## Intro to DOM
 
@@ -26,13 +26,13 @@ Topic:
 
 - an application programming interface (API) for XML that was extended for use in HTML.
 - DOM 表示 由多层节点构成的文档，通过它开发者可以添加、删除和修改页面的各个部分。 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=96b20821-da4d-aff9)
-  - ![[z-C14-DOM.png]]
+  - ![](z-C14-DOM.png)
 
 ### Why DOM
 
 - <mark class="hltr-orange ">" World Wide Web Consortium (W 3 C) "</mark> [Page 55 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=55&annotation=RJG5RX9Q)
 
-### DOM 级别 ([[C16-DOM Level 2 and 3]])
+### DOM 级别 ([C16-DOM Level 2 and 3](C16-DOM%20Level%202%20and%203.md))
 
 - <mark class="hltr-orange ">" DOM Level 1 "</mark> [Page 55 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=55&annotation=NDUZFUVV)
   - <mark class="hltr-yellow ">" the DOM Core "</mark> [Page 55 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=55&annotation=YSJQWCTR)
@@ -55,7 +55,7 @@ Topic:
 - Reference
   - [Using the W3C DOM Level 1 Core - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Using_the_W3C_DOM_Level_1_Core)
 - Overview
-  - ![[Pasted image 20230310114615.png]]
+  - ![](Pasted%20image%2020230310114615.png)
 
 ### <mark class="hltr-gray ">" Other DOMs "</mark> [Page 56 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=56&annotation=KFGXNDZK)
 
@@ -174,7 +174,7 @@ Topic:
 - <mark class="hltr-gray ">" MutationObserver References "</mark> [Page 51 ](zotero://open-pdf/library/items/UVUQBQ7F?page=51&annotation=ASUSK77K)
 - <mark class="hltr-gray ">" MutationRecord References "</mark> [Page 52 ](zotero://open-pdf/library/items/UVUQBQ7F?page=52&annotation=MWRUW7YZ)
 
-## 📌[[C15-DOM Extensions]]
+## 📌[C15-DOM Extensions](C15-DOM%20Extensions.md)
 
 ### Selectors API [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=2f55abba-dd21-8d42)
 

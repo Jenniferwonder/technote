@@ -15,9 +15,9 @@ sr-interval: 4
 sr-ease: 270
 ---
 ## Metadata
-- Topic:: [[TechSkills]]
-- Reference:: [[Learning Strategies-怎样拥有技术领导力]]
-- Jumps:: [[Web Dev]], [[Cross-Platform]], [[Projects/Front-End/Visualization/Visualization|Visualization]]
+- Topic:: [TechSkills](TechSkills)
+- Reference:: [Learning Strategies-怎样拥有技术领导力](Learning%20Strategies-怎样拥有技术领导力)
+- Jumps:: [Web Dev](Web%20Dev), [Cross-Platform](Cross-Platform), [Visualization](Projects/Front-End/Visualization/Visualization)
 ## Purpose
 >这些基础知识通常不是可以速成的。虽然说，你可以在一两年内看完相关的书籍或论文，但是，我想说的是，这些基础技术是需要你用一生的时间来学习的，因为基础上的技术和知识，会随着阅历和经验的增加而有不同的感悟。
 - 基础技术是各种上层技术共同的基础。
@@ -27,10 +27,10 @@ sr-ease: 270
 - 很多**分布式系统架构，以及高可用、高性能、高并发的解决方案**基本都可以在基础技术上找到它们的身影。所以，学习基础技术能让你**更好地掌握更高维度的技术**。
 ## Scope
 %% Begin Waypoint %%
-- **[[Tech Fundamentals]]**
-	- **[[Programming Fundamentals]]**
-	- **[[System Fundamentals]]**
-	- [[技术面试常见智力题.pdf]]
+- **[Tech Fundamentals](Tech%20Fundamentals.md)**
+	- **[Programming Fundamentals](Programming%20Fundamentals.md)**
+	- **[System Fundamentals](System%20Fundamentals)**
+	- [技术面试常见智力题.pdf](技术面试常见智力题.pdf)
 
 %% End Waypoint %%
 ## Actions

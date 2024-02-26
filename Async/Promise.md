@@ -46,7 +46,7 @@ Topic:
 - **pending**: initial state, neither fulfilled nor rejected.
 - **fulfilled** (resolved): meaning that the operation was completed successfully.
 - **rejected**: meaning that the operation failed
-- ![[z-PromiseState-1.png|200]]   ![[z-PromiseState.png|300]]
+- ![](z-PromiseState-1.png)   ![](z-PromiseState.png)
 #### 执行特点
 - Promise 只以`第一次为准`，第一次成功就`永久`为`fulfilled`，第一次失败就永远状态为`rejected`
 - Promise中有 `throw` 的话，就相当于执行了`reject`
@@ -429,7 +429,7 @@ try {
 ```
 #### 返回值
 - 返回一个在所有给定的 promise 都已经`fulfilled`或`rejected`后的 promise，并带有一个**对象数组**，每个对象表示对应的 promise 结果
-	- ![[z-Promise.allSettled.png]]
+	- ![](z-Promise.allSettled.png)
 - 每个对象都有`status`属性，该属性的值只可能是字符串`fulfilled`或字符串`rejected`。
 	- `fulfilled`时，对象有`value`属性，
 	- `rejected`时有`reason`属性，对应两种状态的返回值。

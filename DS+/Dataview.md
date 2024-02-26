@@ -22,7 +22,7 @@ Topic:
 ## Dataview
 
 - 功能
-  - 同 [[Typed Array-定型数组|Typed Array]]
+  - 同 [Typed Array](Typed%20Array-定型数组.md)
 - 特点
   - for file I/O and network I/O [📌](obsidian://jump-to-pdf?id=ProJS-EN&annotate=79c3f16c-f7ae-5d44)
   - allows for a high degree of control when manipulating buffer data, but it offers reduced performance-支持对缓冲数据高度控制，但性能相对差些 [📌](obsidian://jump-to-pdf?id=ProJS-EN&annotate=9495318c-d3ef-35ce)
@@ -44,7 +44,7 @@ Topic:
       - 新建一个Dataview，让其从缓冲起点开始，限制使用前8个字节缓冲;;; `new Dataview(buf, 0, 8)`
   <!--SR:!2023-08-23,8,250!2023-08-24,9,250-->
 - 🟨 用 Dataview 读取缓冲，还需的几个组件
-  - [[ElementType|JS ElementType]]
+  - [JS ElementType](ElementType.md)
     - Dataview 针对每种 ElementType 均暴露了 `get`, `set` 方法
-  - [[Endianness 字节序|JS Endianness]]
+  - [JS Endianness](Endianness%20字节序.md)
   - Corner Cases 边界情形 [📌](obsidian://jump-to-pdf?id=ProJS-EN&annotate=167a2ccf-016b-39fc)

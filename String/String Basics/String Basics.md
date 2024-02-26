@@ -23,7 +23,7 @@ mindmap-plugin: basic
 ---
 # String Basics
 - ❓The normalize() Method
-- [[Character Literals 字符字面量]]
-- [[Template Literals 模板字面量]]
-- [[Convert Value to a String (转字符串方法)]]
+- [Character Literals 字符字面量](Character%20Literals%20字符字面量.md)
+- [Template Literals 模板字面量](Template%20Literals%20模板字面量.md)
+- [Convert Value to a String (转字符串方法)](Convert%20Value%20to%20a%20String%20(转字符串方法).md)
 

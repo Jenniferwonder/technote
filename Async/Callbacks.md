@@ -13,7 +13,7 @@ Topic:
   - Function
   - Async
 ---
-- Up:: [[O-JS]]
+- Up:: [O-JS](O-JS.md)
 ## Use of Callbacks
 
 #### 1. 回调函数（同步回调与异步回调？）

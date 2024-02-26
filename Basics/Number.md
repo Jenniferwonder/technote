@@ -16,11 +16,11 @@ Topic:
   - Number
 ---
 
-# [[O-JS|D-JS]] Number
+# [D-JS](O-JS.md) Number
 
 ## Metadata
 
-- Up:: [[C05-Basic Reference Types-基本引用类型]]
+- Up:: [C05-Basic Reference Types-基本引用类型](C05-Basic%20Reference%20Types-基本引用类型.md)
 
 ## Number 类型
 
@@ -76,12 +76,12 @@ Topic:
 - <mark class="hltr-orange "> </mark> isNaN() function [Page 19 ](zotero://open-pdf/library/items/2BS329KQ?page=19&annotation=SKYWJJEA)
   - <mark class="hltr-yellow "> </mark> to determine if the value is “not a number.” [Page 19 ](zotero://open-pdf/library/items/2BS329KQ?page=19&annotation=QWYI8S8G)
   - <mark class="hltr-yellow "> </mark> Any value that cannot be converted into a number causes the function to return true. [Page 19 ](zotero://open-pdf/library/items/2BS329KQ?page=19&annotation=M8ZM96DF)
-  - ![[Paste image 1690789727897image.png]]
+  - ![](Paste%20image%201690789727897image.png)
 
 ## <mark class="hltr-gray ">" Number Conversions "</mark> [Page 20 ](zotero://open-pdf/library/items/2BS329KQ?page=20&annotation=5TYX6IXZ)
 
 - <mark class="hltr-orange ">" Number() function 转型函数"</mark> [Page 20 ](zotero://open-pdf/library/items/2BS329KQ?page=20&annotation=67KS4CPB)
-  - ![[Paste image 1690790014137image.png]]
+  - ![](Paste%20image%201690790014137image.png)
 - <mark class="hltr-orange "> </mark> unary plus operator [Page 21 ](zotero://open-pdf/library/items/2BS329KQ?page=21&annotation=FC7LIRQT)
 
   - ```js
@@ -99,12 +99,12 @@ Topic:
   - 返回值
     - 并返回相应基数形式的数值字符串
 - <mark class="hltr-orange "> toFixed() </mark> [Page 18](zotero://open-pdf/library/items/6CRSJHBD?page=18&annotation=B38XUVSX)
-  - ![[z-Assets/C05BasicReferenceTypes-18-x68-y469.png]]
+  - ![](z-Assets/C05BasicReferenceTypes-18-x68-y469.png)
   - <mark class="hltr-yellow "> can represent numbers with 0 through 20 decimal places </mark> [Page 18](zotero://open-pdf/library/items/6CRSJHBD?page=18&annotation=5Y6GE2JY)
 - <mark class="hltr-orange "> toExponential() </mark> [Page 18](zotero://open-pdf/library/items/6CRSJHBD?page=18&annotation=NK94UD7F)
-  - ![[z-Assets/C05BasicReferenceTypes-18-x66-y196.png]]
+  - ![](z-Assets/C05BasicReferenceTypes-18-x66-y196.png)
 - <mark class="hltr-orange "> toPrecision() </mark> [Page 18](zotero://open-pdf/library/items/6CRSJHBD?page=18&annotation=NEW9XL9L)
-  - ![[z-Assets/C05BasicReferenceTypes-18-x64-y67.png]]
+  - ![](z-Assets/C05BasicReferenceTypes-18-x64-y67.png)
   - <mark class="hltr-yellow "> can represent numbers with 1 through 21 decimal places </mark> [Page 19](zotero://open-pdf/library/items/6CRSJHBD?page=19&annotation=Z69M7WK4)
 
 ## Number 构造函数方法

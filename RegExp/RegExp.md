@@ -16,11 +16,11 @@ Topic:
   - Practice
 ---
 
-# [[O-JS|D-JS]] RegExp
+# [D-JS](O-JS.md) RegExp
 
 ## Metadata
 
-- Up:: [[C05-Basic Reference Types-基本引用类型]]
+- Up:: [C05-Basic Reference Types-基本引用类型](C05-Basic%20Reference%20Types-基本引用类型.md)
 
 ## <mark class="hltr-orange "> RegExp type </mark> [Page 7](zotero://open-pdf/library/items/6CRSJHBD?page=7&annotation=GL7UNM5J)
 
@@ -47,15 +47,15 @@ Topic:
 - <mark class="hltr-orange "> metacharacters </mark> [Page 8](zotero://open-pdf/library/items/6CRSJHBD?page=8&annotation=DMUZF2SB)
   - must be escaped by a backslash (`\`) when used as part of the pattern [Page 8](zotero://open-pdf/library/items/6CRSJHBD?page=8&annotation=4SJM39PG)
   - 元字符含义
-    - ![[C05BasicReferenceTypes-8-x67-y438.png|275]]
-    - ![[Paste image 1690779496589image.png]]
-- 创建 RegExp instance (实例) 的方法 - <mark class="hltr-orange "> literal form 字面量形式</mark> [Page 8](zotero://open-pdf/library/items/6CRSJHBD?page=8&annotation=E7F9IWUI) - <mark class="hltr-yellow "> Regular-expression literals always share the same RegExp instance </mark> [Page 9](zotero://open-pdf/library/items/6CRSJHBD?page=9&annotation=7U3TETB7) - <mark class="hltr-orange "> RegExp constructor 构造函数 </mark> [Page 8](zotero://open-pdf/library/items/6CRSJHBD?page=8&annotation=IFRKFMIU) - <mark class="hltr-yellow "> accepts two arguments </mark> [Page 8](zotero://open-pdf/library/items/6CRSJHBD?page=8&annotation=ZB42L7KU) - a string **pattern** to match - <mark class="hltr-yellow "> All metacharacters must be double-escaped </mark> [Page 8](zotero://open-pdf/library/items/6CRSJHBD?page=8&annotation=L8KABP7I) - and an optional string of **flags** to apply - <mark class="hltr-yellow "> It is also possible to copy existing regular expression instances and optionally modify their flags using the constructor </mark> [Page 9](zotero://open-pdf/library/items/6CRSJHBD?page=9&annotation=NCMX6TWH) - ![[C05BasicReferenceTypes-9-x92-y69.png|325]]
+    - ![](C05BasicReferenceTypes-8-x67-y438.png)
+    - ![](Paste%20image%201690779496589image.png)
+- 创建 RegExp instance (实例) 的方法 - <mark class="hltr-orange "> literal form 字面量形式</mark> [Page 8](zotero://open-pdf/library/items/6CRSJHBD?page=8&annotation=E7F9IWUI) - <mark class="hltr-yellow "> Regular-expression literals always share the same RegExp instance </mark> [Page 9](zotero://open-pdf/library/items/6CRSJHBD?page=9&annotation=7U3TETB7) - <mark class="hltr-orange "> RegExp constructor 构造函数 </mark> [Page 8](zotero://open-pdf/library/items/6CRSJHBD?page=8&annotation=IFRKFMIU) - <mark class="hltr-yellow "> accepts two arguments </mark> [Page 8](zotero://open-pdf/library/items/6CRSJHBD?page=8&annotation=ZB42L7KU) - a string **pattern** to match - <mark class="hltr-yellow "> All metacharacters must be double-escaped </mark> [Page 8](zotero://open-pdf/library/items/6CRSJHBD?page=8&annotation=L8KABP7I) - and an optional string of **flags** to apply - <mark class="hltr-yellow "> It is also possible to copy existing regular expression instances and optionally modify their flags using the constructor </mark> [Page 9](zotero://open-pdf/library/items/6CRSJHBD?page=9&annotation=NCMX6TWH) - ![](C05BasicReferenceTypes-9-x92-y69.png)
 <!--SR:!2023-08-20,8,250!2023-08-24,12,250-->
 
 ## <mark class="hltr-gray ">" RegExp Instance Properties "</mark> [Page 10 ](zotero://open-pdf/library/items/6CRSJHBD?page=10&annotation=Z6DWF5AV)
 
-- ![[Paste image 1690781179401image.png]]
-- ![[C05BasicReferenceTypes-10-x65-y213.png|350]]
+- ![](Paste%20image%201690781179401image.png)
+- ![](C05BasicReferenceTypes-10-x65-y213.png)
 - lastIndex
   - 表示在源字符串中下一次搜索的开始位置，或上一次搜索结束位置的右边第一位，始终从 0 开始
 
@@ -71,16 +71,16 @@ Topic:
       - <mark class="hltr-orange "> input </mark> [Page 11](zotero://open-pdf/library/items/6CRSJHBD?page=11&annotation=M8YI8TNQ)
         - 要查找的字符串
       - 数组的第一个元素是匹配整个模式的字符串，其他元素是与表达式中的捕获组匹配的字符串
-      - ![[Paste image 1690782053073image.png]]
+      - ![](Paste%20image%201690782053073image.png)
     - or **null** if no match was found.
     - 模式标记为`g`
       - <mark class="hltr-yellow "> The exec() method returns information about one match at a time even if the pattern is global </mark> [Page 11](zotero://open-pdf/library/items/6CRSJHBD?page=11&annotation=SCGCLNAK)
       - <mark class="hltr-yellow "> With the global g flag set on the pattern, each call to exec() moves further into the string looking for matches </mark> [Page 11](zotero://open-pdf/library/items/6CRSJHBD?page=11&annotation=8B4KA7FH)
-        - ![[Paste image 1690782124256image.png]]
+        - ![](Paste%20image%201690782124256image.png)
     - 模式标记为`y`
       - 每次调用 exec()就只会在 `lastIndex` 的位置上寻找匹配项。粘附标记覆盖全局标记
       - <mark class="hltr-orange "> lastIndex </mark>tracks the index of the character that appears immediately to the right of the last match. [Page 12](zotero://open-pdf/library/items/6CRSJHBD?page=12&annotation=Z5X4SZ2B)
-      - ![[Paste image 1690782407110image.png]]
+      - ![](Paste%20image%201690782407110image.png)
 - <mark class="hltr-orange "> test() </mark> [Page 12](zotero://open-pdf/library/items/6CRSJHBD?page=12&annotation=P57J7K52)
   - 判断输入的文本与模式是否匹配，返回值：true/ false
   - <mark class="hltr-yellow "> returns true if the pattern matches the argument and false if it does not </mark> [Page 12](zotero://open-pdf/library/items/6CRSJHBD?page=12&annotation=SAL7FVIT)
@@ -89,8 +89,8 @@ Topic:
 
 ## <mark class="hltr-gray ">" RegExp Constructor Properties "</mark> [Page 13 ](zotero://open-pdf/library/items/6CRSJHBD?page=13&annotation=6679RQYU)
 
-- ![[C05BasicReferenceTypes-13-x84-y22.png|425]]
-- ![[C05BasicReferenceTypes-14-x67-y271.png|425]]
+- ![](C05BasicReferenceTypes-13-x84-y22.png)
+- ![](C05BasicReferenceTypes-14-x67-y271.png)
 
 ## <mark class="hltr-gray ">" Pattern Limitations "</mark> [Page 15 ](zotero://open-pdf/library/items/6CRSJHBD?page=15&annotation=4IVXA75J)
 

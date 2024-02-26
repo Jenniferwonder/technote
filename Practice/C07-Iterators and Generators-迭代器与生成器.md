@@ -18,8 +18,8 @@ Topic:
   - Practice
 ---
 
-# [[O-JS]] C07-Iterators and Generators-迭代器与生成器
+# [O-JS](O-JS.md) C07-Iterators and Generators-迭代器与生成器
 
-## [[Iterator 迭代器|迭代器]]
+## [迭代器](Iterator%20迭代器.md)
 
-## [[Generator-生成器|生成器]]
+## [生成器](Generator-生成器.md)

@@ -99,7 +99,7 @@ Back:
 Basic
 ### Convert Set (s) and Map (m) into an new Array Instance
 Back:
-- ![[1691244271831.png]]
+- ![](1691244271831.png)
 <!--ID: 1706536858072-->
 ****
 <!--SR:!2024-02-01,3,250--> 
@@ -135,9 +135,9 @@ Back:
 - 2nd Arg (Optional)
 	- map function argument
 	- same with `Array.from().map()`
-	- [[Iterate and Map over Array (数组循环迭代)]]
+	- [Iterate and Map over Array (数组循环迭代)](Iterate%20and%20Map%20over%20Array%20(数组循环迭代).md)
 - 3rd Arg (Optional)
-	- ![[1691244947152.png|525]]
+	- ![](1691244947152.png)
 <!--ID: 1706536858100-->
 ****
 <!--SR:!2024-02-05,7,250-->

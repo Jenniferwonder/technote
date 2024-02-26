@@ -20,5 +20,5 @@ Topic:
 ## 🟨ElementType [📌](obsidian://jump-to-pdf?id=ProJS-EN&annotate=736bbc9a-8885-6c34)
 
 - 实现 JavaScript 的 Number 类型到缓冲内二进制格式的转换 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=f50d2162-4b7c-0fbc)
-- 8 种类型（等价的 [[C 语言]] 类型）
-  - ![[1691475879636.png|475]] [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=2390e271-03e5-7198)
+- 8 种类型（等价的 [C 语言](C%20语言) 类型）
+  - ![](1691475879636.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=2390e271-03e5-7198)

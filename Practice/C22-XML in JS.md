@@ -18,7 +18,7 @@ Topic:
   - Practice
 ---
 
-# [[O-JS]] C22-XML in JS
+# [O-JS](O-JS.md) C22-XML in JS
 
 - <mark class="hltr-gray ">" XML DOM SUPPORT IN BROWSERS "</mark> [Page 1 ](zotero://open-pdf/library/items/XGCNDC6E?page=1&annotation=HKAGT3I8)
 

@@ -25,4 +25,4 @@ Comment:
 ### Convert Number to String (Binary, Octal, Hexadecimal, or any other valid radix base)
 - `.toString()` accepts a single argument: the radix(基数)
 
-### 📌[[Convert Array or Object to String (数组对象转字符串方法)]]
+### 📌[Convert Array or Object to String (数组对象转字符串方法)](Convert%20Array%20or%20Object%20to%20String%20(数组对象转字符串方法).md)

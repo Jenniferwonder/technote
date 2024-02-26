@@ -18,7 +18,7 @@ Topic:
   - Practice
 ---
 
-# [[O-JS]] C28-Best Practices
+# [O-JS](O-JS.md) C28-Best Practices
 
 - <mark class="hltr-gray ">" MAINTAINABILITY "</mark> [Page 1 ](zotero://open-pdf/library/items/3FD8QQ7P?page=1&annotation=HU97HN7X)
 

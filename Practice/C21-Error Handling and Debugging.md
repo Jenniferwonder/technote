@@ -18,7 +18,7 @@ Topic:
   - Practice
 ---
 
-# [[O-JS]] C21-Error Handling and Debugging
+# [O-JS](O-JS.md) C21-Error Handling and Debugging
 
 - <mark class="hltr-gray ">" BROWSER ERROR REPORTING "</mark> [Page 2 ](zotero://open-pdf/library/items/TR3995DH?page=2&annotation=GSUIK6ZE)
 

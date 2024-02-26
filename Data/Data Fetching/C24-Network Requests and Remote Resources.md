@@ -18,7 +18,7 @@ Topic:
   - Data
 ---
 
-# [[O-JS]] C24-Network Requests and Remote Resources
+# [O-JS](O-JS.md) C24-Network Requests and Remote Resources
 
 - <mark class="hltr-gray ">" THE XMLHttpRequest OBJECT "</mark> [Page 2 ](zotero://open-pdf/library/items/U5SZ8N2F?page=2&annotation=BFPL3WGT)
 

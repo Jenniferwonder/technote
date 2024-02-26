@@ -8,7 +8,7 @@ sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 277
 ---
-Up:: [[Network]]
+Up:: [Network](Network)
 ## Reference
 - [浅谈 HTML5 Web Worker](https://juejin.cn/post/6844903496550989837 "https://juejin.cn/post/6844903496550989837")
 - [JavaScript 中的多线程 -- Web Worker](https://link.juejin.cn?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F25184390 "https://zhuanlan.zhihu.com/p/25184390")

@@ -1,1 +1,1 @@
-![[z-Assets/Zotero/C05BasicReferenceTypes/C05BasicReferenceTypes-18-x68-y469.png]]
+![](z-Assets/Zotero/C05BasicReferenceTypes/C05BasicReferenceTypes-18-x68-y469.png)

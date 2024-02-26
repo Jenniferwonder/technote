@@ -41,7 +41,7 @@ Basic
 ### Enhanced Object Property Syntax (ES6)
 Back:
 - 属性值简写-Property Value Shorthand
-	- ![[1692024641437.png]] 
+	- ![](1692024641437.png) 
 - 简写方法名
 - 可计算属性-Computed Property Keys
 	- 可以在对象字面量中完成动态属性赋值

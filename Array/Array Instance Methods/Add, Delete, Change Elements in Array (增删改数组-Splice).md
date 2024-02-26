@@ -52,7 +52,7 @@ Back:
 - the starting position
 - number of items to delete
 - the items to insert
-- ![[1691309906253.png]]
+- ![](1691309906253.png)
 <!--ID: 1706600287334-->
 ****
 <!--SR:!2024-02-01,3,250-->

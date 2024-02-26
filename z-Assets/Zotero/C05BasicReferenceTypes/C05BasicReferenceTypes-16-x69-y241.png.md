@@ -1,1 +1,1 @@
-![[C05BasicReferenceTypes-16-x69-y241.png.png]]
+![](C05BasicReferenceTypes-16-x69-y241.png.png)

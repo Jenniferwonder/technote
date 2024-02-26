@@ -40,9 +40,9 @@ Back:
 Basic
 ### Ways to Create Object
 Back:
-- [[Object literal (对象字面量表示法)]]
-- [[Factory Function (工厂模式)]]
-- [[Constructor Function (构造函数模式)]]
-- [[Prototype Properties and Method (原型属性与方法)]]
+- [Object literal (对象字面量表示法)](Object%20literal%20(对象字面量表示法).md)
+- [Factory Function (工厂模式)](Factory%20Function%20(工厂模式).md)
+- [Constructor Function (构造函数模式)](Constructor%20Function%20(构造函数模式).md)
+- [Prototype Properties and Method (原型属性与方法)](Prototype%20Properties%20and%20Method%20(原型属性与方法))
 <!--ID: 1706843480979-->
 ****

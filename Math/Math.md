@@ -17,7 +17,7 @@ Topic:
   - JS-Math
 ---
 
-# [[O-JS|D-JS]] Math
+# [D-JS](O-JS.md) Math
 
 ## Metadata
 - Reference:: [Math - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math), [Basic math in JavaScript — numbers and operators - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
@@ -29,7 +29,7 @@ Topic:
 - <mark class="hltr-yellow "> A side-effect of this is that precision of these operations may vary between browsers, operating systems, instruction sets, and hardware. </mark> [Page 37](zotero://open-pdf/library/items/6CRSJHBD?page=37&annotation=JMXPAXA3)
 
 ## " Math Object Properties " [Page 38 ](zotero://open-pdf/library/items/6CRSJHBD?page=38&annotation=DNAZUPG4)
-- ![[C05BasicReferenceTypes-38-x45-y370.png|475]]
+- ![](C05BasicReferenceTypes-38-x45-y370.png)
 - PI
 
     -

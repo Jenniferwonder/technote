@@ -16,7 +16,7 @@ Reviewed: 0
 
 # Copy-深浅拷贝
 
-Related:: [[Primitive and Reference Values-原始值与引用值]]
+Related:: [Primitive and Reference Values-原始值与引用值](Primitive%20and%20Reference%20Values-原始值与引用值.md)
 
 ## Reference
 

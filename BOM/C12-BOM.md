@@ -17,7 +17,7 @@ Topic:
   - BOM
 ---
 
-# [[O-JS]] C12-BOM
+# [O-JS](O-JS.md) C12-BOM
 
 ## 定义与功能
 
@@ -27,12 +27,12 @@ Topic:
 - <mark class="hltr-yellow ">" any browserspecific extension to JavaScript is considered to be a part of the BOM "</mark> [Page 58 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=58&annotation=MIWYQ9CK)
 - <mark class="hltr-yellow ">" that allowed access and manipulation of the browser window "</mark> [Page 57 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=57&annotation=69PJJZGT)
 
-## [[Window Object|Window Object]]
+## [Window Object](Window%20Object.md)
 
-## [[Location Object|Location Object]]
+## [Location Object](Location%20Object.md)
 
-## [[Navigator Object|Navigator Object]]
+## [Navigator Object](Navigator%20Object.md)
 
-## [[History Object|History Object]]
+## [History Object](History%20Object.md)
 
-## [[Screen Object|Screen Object]]
+## [Screen Object](Screen%20Object.md)

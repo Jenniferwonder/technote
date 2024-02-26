@@ -44,5 +44,5 @@ Topic:
 ## 使用弱集合 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=c0e730f4-9688-e93f)
 
 - 弱集合在给对象打标签时还是有 价值的 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=abcdfbb5-40a7-3102)
-- ![[1691561411853.png]] [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=6577b05d-5425-4318)
+- ![](1691561411853.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=6577b05d-5425-4318)
   - 通过查询元素在不在 disabledElements 中，就可以知道它是不是被禁用了 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=205bff7c-c908-905e)

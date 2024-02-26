@@ -31,4 +31,4 @@ const circle = createCircle(1);
 ```
 
 ### 工厂模式缺点
-- 无法判断新创建的对象是什么类型 ([[Object Types (instanceof 标识对象类型)]])
+- 无法判断新创建的对象是什么类型 ([Object Types (instanceof 标识对象类型)](Object%20Types%20(instanceof%20标识对象类型).md))

@@ -1,15 +1,15 @@
 
-### [[Function Feature (函数本质与特点)]]
-### [[Function Creation (创建函数)]]
-### [[Function Names (读取函数名)]]
-### [[Function Arguments (函数参数)]]
+### [Function Feature (函数本质与特点)](Function%20Feature%20(函数本质与特点).md)
+### [Function Creation (创建函数)](Function%20Creation%20(创建函数).md)
+### [Function Names (读取函数名)](Function%20Names%20(读取函数名).md)
+### [Function Arguments (函数参数)](Function%20Arguments%20(函数参数).md)
 
 ### 函数内部特殊对象
-* [[`this` in JS Function]]
-* [[`new.target` 功能用法 (ES6)]]
+* [`this` in JS Function](`this`%20in%20JS%20Function.md)
+* [`new.target` 功能用法 (ES6)](`new.target`%20功能用法%20(ES6).md)
 
 ### 函数属性与方法
-* [[call; apply; bind]]
+* [call; apply; bind](call;%20apply;%20bind.md)
 * `prototype`
 * `length`
 	* 保存函数定义的命名参数的个数
@@ -20,7 +20,7 @@
 	* `console.log(inner.caller);`
 		* ![image](0abc5bc2d093e03182bbcfdb1ab7ca89.png)
 
-### [[Closure (闭包)]]
+### [Closure (闭包)](Closure%20(闭包).md)
 
 ### 立即调用的函数表达式 (IIFE)
 * IIFE，Immediately Invoked Function Expression

@@ -26,6 +26,6 @@ Topic:
 
 - [Arrays - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
 
-## [[Array Basics]]
+## [Array Basics](Array%20Basics.md)
 
-## [[Array Instance Methods]]
+## [Array Instance Methods](Array%20Instance%20Methods.md)

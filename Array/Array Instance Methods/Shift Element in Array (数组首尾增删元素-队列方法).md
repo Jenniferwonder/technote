@@ -23,7 +23,7 @@ Basic
 Back:
 - `.shift()`
     - Return the first item
-    - ![[1691305532869.png]] 
+    - ![](1691305532869.png) 
 📌: JS::JS-Array 
 🏷️: JS-Array 
 <!--ID: 1706600287453-->

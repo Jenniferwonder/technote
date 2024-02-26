@@ -20,7 +20,7 @@ Comment:
 Basic
 ### 构造函数本质
 Back:
-- 任何函数 ([[The `return` Statement]]) 只要使用new操作符调用就是构造函数
+- 任何函数 ([The `return` Statement](The%20`return`%20Statement.md)) 只要使用new操作符调用就是构造函数
 🏷️: JS-Objects 
 📌: JS::JS-Objects 
 <!--ID: 1706843828751-->
@@ -30,7 +30,7 @@ Back:
 Basic
 ### 将构造函数作为普通函数调用
 Back:
-- 在另一个对象作用域调用： [[call; apply; bind]]
+- 在另一个对象作用域调用： [call; apply; bind](call;%20apply;%20bind.md)
 	- `Person.call(o, "Kristen", 25, "Nurse");`
 - 在 window 对象调用
 <!--ID: 1706843828762-->
@@ -92,9 +92,9 @@ console.log(obj); // {test:1}
 <!--ID: 1706843828793-->
 ****
 
-### [[Use 'new' Operator (使用 new 操作符)]]
+### [Use 'new' Operator (使用 new 操作符)](Use%20'new'%20Operator%20(使用%20new%20操作符).md)
 
-### [[Object Types (instanceof 标识对象类型)]]
+### [Object Types (instanceof 标识对象类型)](Object%20Types%20(instanceof%20标识对象类型).md)
 
 ***
 Basic
@@ -103,7 +103,7 @@ Back:
 - 其定义的方法会在每个实例上都创建一遍
 	- 函数是对象，因此每次定义函数时，都会初始化一个对象
 	- 不同实例上的函数虽然同名却不相等
-- 解决方案：[[Prototype Chain Inheritance]]
+- 解决方案：[Prototype Chain Inheritance](Prototype%20Chain%20Inheritance.md)
 <!--ID: 1706843828803-->
 ****
 

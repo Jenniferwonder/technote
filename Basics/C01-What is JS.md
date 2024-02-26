@@ -45,9 +45,9 @@ Topic:
   - <mark class="hltr-yellow ">" JavaScript now interacts with nearly all aspects of the browser window and its contents. JavaScript is recognized as a full programming language "</mark> [Page 48 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=48&annotation=HFVXL9EX)
   - <mark class="hltr-yellow ">" JavaScript is at once a very simple and very complicated language that takes minutes to learn but years to master. "</mark> [Page 49 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=49&annotation=BTMGYKB6)
 - <mark class="hltr-orange ">" a complete JavaScript implementation is made up of the following three distinct parts "</mark> [Page 50 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=50&annotation=E8SK6SWA)
-  - [[ECMAScript]]-核心
+  - [ECMAScript](ECMAScript.md)-核心
     - 由 ECMA-262 定义并提供核心功能
-  - [[DOM]]-文档对象模型
+  - [DOM](DOM)-文档对象模型
     - 提供与网页内容交互的方法和接口
-  - [[BOM]]-浏览器对象模型
+  - [BOM](BOM)-浏览器对象模型
     - 提供与浏览器交互的方法和接口

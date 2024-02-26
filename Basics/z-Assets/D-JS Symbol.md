@@ -16,11 +16,11 @@ Topic:
   - Basics
 ---
 
-# [[O-JS|D-JS]] Symbol
+# [D-JS](O-JS.md) Symbol
 
 ## Metadata
 
-- Up:: [[Data Types-数据类型]]
+- Up:: [Data Types-数据类型](Data%20Types-数据类型.md)
 
 ## Reference
 
@@ -43,7 +43,7 @@ Topic:
   console.log(s1 === s2); // false
   ```
 
-## The [[Symbol|Symbol]] Type
+## The [Symbol](Symbol) Type
 
 - <mark class="hltr-gray ">" Basic Symbol Use "</mark> [Page 30 ](zotero://open-pdf/library/items/2BS329KQ?page=30&annotation=A38C63WY)
 - <mark class="hltr-gray ">" Using the Global Symbol Registry "</mark> [Page 31 ](zotero://open-pdf/library/items/2BS329KQ?page=31&annotation=L5AQMQME)

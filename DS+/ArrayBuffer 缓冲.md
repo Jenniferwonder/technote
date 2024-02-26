@@ -25,7 +25,7 @@ Topic:
 - 变体
   - **SharedArrayBuffer**
     - 可以无须复制就在执行上下文间传递它 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=1b4b8715-6f67-9be9)
-    - 参考 [[C27-Workers]]
+    - 参考 [C27-Workers](C27-Workers.md)
 - ArrayBuffer() [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=7ab34090-1e66-e3fa) - 定义 - 一个 JavaScript 构造函数 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=b334972c-db54-863b) - 功能 - 可用于**在内存中分配特定数量的字节空间** [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=f10694c3-087a-9f6c) - 在内存中分配 16 字节 (Byte) ;;;`const buf = new ArrayBuffer(16)`
   <!--SR:!2023-08-25,10,250!2023-08-22,7,250-->
       - 获取一个变量的字节长度;;;`const buf = new ArrayBuffer(16)`

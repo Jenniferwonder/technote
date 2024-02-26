@@ -18,7 +18,7 @@ Topic:
   - Data
 ---
 
-# [[O-JS]] C23-JSON
+# [O-JS](O-JS.md) C23-JSON
 
 - <mark class="hltr-gray ">" SYNTAX "</mark> [Page 2 ](zotero://open-pdf/library/items/CLFRCMQB?page=2&annotation=Z3GR8HMT)
 

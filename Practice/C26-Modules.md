@@ -18,7 +18,7 @@ Topic:
   - Practice
 ---
 
-# [[O-JS]] C26-Modules
+# [O-JS](O-JS.md) C26-Modules
 
 - <mark class="hltr-gray ">" UNDERSTANDING THE MODULE PATTERN "</mark> [Page 2 ](zotero://open-pdf/library/items/QCNJVJRE?page=2&annotation=RAPZ7I7X)
 

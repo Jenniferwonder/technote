@@ -16,11 +16,11 @@ Topic:
   - Basics
 ---
 
-# [[O-JS|D-JS]] ECMAScript
+# [D-JS](O-JS.md) ECMAScript
 
 ## Metadata
 
-- Up:: [[C01-What is JS]]
+- Up:: [C01-What is JS](C01-What%20is%20JS.md)
 
 ## <mark class="hltr-yellow ">" ECMA-262 defines this language as a base upon which more-robust scripting languages may be built. "</mark> [Page 50 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=50&annotation=YNNAJNPZ)
 
@@ -52,21 +52,21 @@ Topic:
 
 - <mark class="hltr-orange ">" ECMAScript 3.1 became ECMA-262, fifth edition "</mark> [Page 51 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=51&annotation=AEXJ5LPH)
 - <mark class="hltr-yellow ">" a native JSON object for parsing and serializing JSON data, methods for inheritance and advanced property definition, and the inclusion of a new strict mode "</mark> [Page 51 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=51&annotation=FTCT35ID)
-- [[JSON]]
-- Methods for inheritance - [[Inheritance Types]]
-- Strict Mode - [[Syntax-语法]]
+- [JSON](JSON.md)
+- Methods for inheritance - [Inheritance Types](Inheritance%20Types)
+- Strict Mode - [Syntax-语法](Syntax-语法.md)
 
 ## ES6
 
 - <mark class="hltr-orange ">" The sixth edition of ECMA-262—colloquially referred to as ES6, ES2015, or ES Harmony "</mark> [Page 51 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=51&annotation=C6LWQM35)
 - <mark class="hltr-yellow ">" contains arguably the most important collection of enhancements "</mark> [Page 51 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=51&annotation=8CD4CSUA)
 - <mark class="hltr-yellow ">" classes, modules, iterators, generators, arrow functions, promises, reflection, proxies, and a host of new data types. "</mark> [Page 51 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=51&annotation=XFTUVGI6)
-- [[Class (ES6 类)]]
-- [[C26-Modules]]
-- [[C-C07-Iterators and Generators]]
-- [[Function-函数]] - Arrow Function
-- [[Promise]]
-- [[C09-Proxies and Reflect-代理与反射]]
+- [Class (ES6 类)](Class%20(ES6%20类).md)
+- [C26-Modules](C26-Modules.md)
+- [C-C07-Iterators and Generators](C-C07-Iterators%20and%20Generators)
+- [Function-函数](Function-函数) - Arrow Function
+- [Promise](Promise.md)
+- [C09-Proxies and Reflect-代理与反射](C09-Proxies%20and%20Reflect-代理与反射.md)
 
 ## ES7
 

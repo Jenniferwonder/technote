@@ -46,7 +46,7 @@ console.log(Object.__proto__ === Function.prototype); // true
 console.log(Function.prototype.__proto__ === Object.prototype); // true
 console.log(Object.prototype.__proto__ === null); // true
 ```
-- ![[z-Prototype Pattern (原型模式).png|375]]
+- ![](z-Prototype%20Pattern%20(原型模式).png)
 📌: JS::JS-Objects  
 🏷️: JS-Objects 
 <!--ID: 1706946593114-->

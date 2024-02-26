@@ -24,11 +24,11 @@ Basic
 Back:
 - `toString()`
 - `valueOf()`
-    - ![[1691303468091.png|500]]
+    - ![](1691303468091.png)
 - `.join(",")`
 - **`toLocaleString()`**
     - may end up returning the same value as toString() and valueOf(), but not always
-    - ![[1691303867882.png]]
+    - ![](1691303867882.png)
 📌: JS::JS-Array 
 🏷️: JS-Array 
 <!--ID: 1706600287338-->

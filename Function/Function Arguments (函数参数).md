@@ -34,11 +34,11 @@ Back:
 	* 可以使用中括号语法访问其中的元素
 		* `arguments[0]`
 	* 不声明参数也可以
-	* 可用作 `apply()` 的第二个参数：[[call; apply; bind]]
+	* 可用作 `apply()` 的第二个参数：[call; apply; bind](call;%20apply;%20bind.md)
 * 箭头函数中没有 `arguments` 对象 
-	* 支持收集参数，可实现类似功能：[[Collect or Rest and Spread Function Arguments (收集, 剩余与扩展参数)]]
+	* 支持收集参数，可实现类似功能：[Collect or Rest and Spread Function Arguments (收集, 剩余与扩展参数)](Collect%20or%20Rest%20and%20Spread%20Function%20Arguments%20(收集,%20剩余与扩展参数).md)
 	* 可以在包装函数中把它提供给箭头函数
-		* ![[1691646042322.png]] 
+		* ![](1691646042322.png) 
 📌: JS::JS-Function
 🏷️: JS-Function
 <!--ID: 1708067341797-->
@@ -74,4 +74,4 @@ Back:
 <!--ID: 1708067341816-->
 ****
 
-### [[Collect or Rest and Spread Function Arguments (收集, 剩余与扩展参数)]]
+### [Collect or Rest and Spread Function Arguments (收集, 剩余与扩展参数)](Collect%20or%20Rest%20and%20Spread%20Function%20Arguments%20(收集,%20剩余与扩展参数).md)

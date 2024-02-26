@@ -20,7 +20,7 @@ Topic:
   - Number
 ---
 
-# [[O-JS]] C05-Basic Reference Types-基本引用类型
+# [O-JS](O-JS.md) C05-Basic Reference Types-基本引用类型
 
 ## Reference Type
 
@@ -33,9 +33,9 @@ Topic:
 - <mark class="hltr-yellow "> Functions are a reference type </mark> [Page 2](zotero://open-pdf/library/items/6CRSJHBD?page=2&annotation=E3F9YDP6)
 <!--SR:!2023-08-23,8,250!2023-08-25,10,250-->
 
-## " THE [[Date|Date]] TYPE " [Page 2 ](zotero://open-pdf/library/items/6CRSJHBD?page=2&annotation=ZCMRAWIJ)
+## " THE [Date](Date.md) TYPE " [Page 2 ](zotero://open-pdf/library/items/6CRSJHBD?page=2&annotation=ZCMRAWIJ)
 
-## " THE [[RegExp|RegExp]] TYPE " [Page 7 ](zotero://open-pdf/library/items/6CRSJHBD?page=7&annotation=7CTZW4JC)
+## " THE [RegExp](RegExp.md) TYPE " [Page 7 ](zotero://open-pdf/library/items/6CRSJHBD?page=7&annotation=7CTZW4JC)
 
 ## 原始值包装类型
 
@@ -43,18 +43,18 @@ Topic:
   - 为了方便操作原始值
     - 每当用到某个原始值的方法或属性时，后台都会创建一个相应原始包装类型的对象，从而暴露出操作原始值的各种方法。
 - 类型
-  - [[Boolean]]
-  - [[Number]]
-  - [[String]]
+  - [Boolean](Boolean.md)
+  - [Number](Number.md)
+  - [String](String.md)
 - 特点
   - 生命周期只存在于访问它的那行代码执行期间，即不能在运行时给原始值添加属性和方法
   - 可以显式地使用 Boolean、 Number 和 String 构造函数创建原始值包装对象实例。不过应该在确实必要时，否则易分不清是原始值还是引用值，在实例上调用`typeof` 会返回 `object`
   - Object 构造函数作为一个工厂方法，能够根据传入值的类型返回相应原始值包装类型的实例
-    - ![[Paste image 1690786151062image.png]]
+    - ![](Paste%20image%201690786151062image.png)
   - 使用 new 调用原始值包装类型的构造函数，与调用同名的转型函数并不一样
-    - ![[Paste image 1690786054733image.png]]
+    - ![](Paste%20image%201690786054733image.png)
 
 ## Singleton Built-in Objects-单例内置对象
 
-- " The [[Global Object-全局对象|Global Object]] " [Page 33 ](zotero://open-pdf/library/items/6CRSJHBD?page=33&annotation=2YN64C3N)
-- " The [[Math|Math]] Object " [Page 37 ](zotero://open-pdf/library/items/6CRSJHBD?page=37&annotation=MG3CNTWP)
+- " The [Global Object](Global%20Object-全局对象.md) " [Page 33 ](zotero://open-pdf/library/items/6CRSJHBD?page=33&annotation=2YN64C3N)
+- " The [Math](Math.md) Object " [Page 37 ](zotero://open-pdf/library/items/6CRSJHBD?page=37&annotation=MG3CNTWP)

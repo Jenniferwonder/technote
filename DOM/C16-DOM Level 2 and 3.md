@@ -18,7 +18,7 @@ Topic:
   - DOM
 ---
 
-# [[O-JS]] C16-DOM Level 2 and 3
+# [O-JS](O-JS.md) C16-DOM Level 2 and 3
 
 - <mark class="hltr-gray ">" DOM CHANGES "</mark> [Page 2 ](zotero://open-pdf/library/items/EDAXI67A?page=2&annotation=MFYJI2PU)
 

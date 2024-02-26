@@ -17,11 +17,11 @@ Topic:
   - DS+
 ---
 
-# [[O-JS|D-JS]] Boolean
+# [D-JS](O-JS.md) Boolean
 
 ## Metadata
 
-- Up:: [[C05-Basic Reference Types-基本引用类型]]
+- Up:: [C05-Basic Reference Types-基本引用类型](C05-Basic%20Reference%20Types-基本引用类型.md)
 
 ## Boolean 值是？
 
@@ -31,7 +31,7 @@ Topic:
 - Boolean Conversion
   - <mark class="hltr-orange ">" Boolean() casting function 转型函数 "</mark> [Page 16 ](zotero://open-pdf/library/items/2BS329KQ?page=16&annotation=HTTDACCT)
     - <mark class="hltr-yellow ">" To convert a value into its Boolean equivalent "</mark> [Page 16 ](zotero://open-pdf/library/items/2BS329KQ?page=16&annotation=H5YGYMRG)
-    - ![[C3LanguageBasics-16-x46-y210.png]]
+    - ![](C3LanguageBasics-16-x46-y210.png)
   - <mark class="hltr-yellow ">" flow-control statements, such as the if statement, automatically perform this Boolean conversion "</mark>
 
 ## Boolean 对象是？
@@ -41,9 +41,9 @@ Topic:
   - 使用 Boolean 构造函数并传入 true 或 false
   - `let booleanObject = new Boolean(true);`
 
-## " The [[Boolean|Boolean]] Type 与 Boolean Value 区别 " [Page 17 ](zotero://open-pdf/library/items/6CRSJHBD?page=17&annotation=YZAPCZN6)
+## " The [Boolean](Boolean.md) Type 与 Boolean Value 区别 " [Page 17 ](zotero://open-pdf/library/items/6CRSJHBD?page=17&annotation=YZAPCZN6)
 
 - <mark class="hltr-orange "> The Boolean type </mark> [Page 17](zotero://open-pdf/library/items/6CRSJHBD?page=17&annotation=MP9GBAAN)
-  - ![[z-Assets/C05BasicReferenceTypes-17-x93-y390.png]]
+  - ![](z-Assets/C05BasicReferenceTypes-17-x93-y390.png)
 - <mark class="hltr-orange "> Boolean values </mark> [Page 17](zotero://open-pdf/library/items/6CRSJHBD?page=17&annotation=WP3KNF32)
-  - ![[z-Assets/C05BasicReferenceTypes-17-x91-y224.png]]
+  - ![](z-Assets/C05BasicReferenceTypes-17-x91-y224.png)

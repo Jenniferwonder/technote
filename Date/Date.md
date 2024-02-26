@@ -17,11 +17,11 @@ Topic:
   - Date
 ---
 
-# [[O-JS|D-JS]] Date
+# [D-JS](O-JS.md) Date
 
 ## Metadata
 
-- Up:: [[C05-Basic Reference Types-基本引用类型]]
+- Up:: [C05-Basic Reference Types-基本引用类型](C05-Basic%20Reference%20Types-基本引用类型.md)
 
 ## <mark class="hltr-gray "> THE DATE TYPE </mark> [Page 2](zotero://open-pdf/library/items/6CRSJHBD?page=2&annotation=ZCMRAWIJ)
 
@@ -42,9 +42,9 @@ Topic:
     - <mark class="hltr-orange "> Date.parse() </mark> [Page 2](zotero://open-pdf/library/items/6CRSJHBD?page=2&annotation=S662XPX7)
 
       - 接收一个表示日期的字符串参数，尝试将这个字符串转换为表示该日期的毫秒数/timestamp
-        - ![[C05BasicReferenceTypes-2-x50-y85.png|500]]
-      - ![[C05BasicReferenceTypes-2-x63-y48.png|475]]
-      - ![[C05BasicReferenceTypes-3-x73-y540.png|375]]
+        - ![](C05BasicReferenceTypes-2-x50-y85.png)
+      - ![](C05BasicReferenceTypes-2-x63-y48.png)
+      - ![](C05BasicReferenceTypes-3-x73-y540.png)
 
         - convert a timestamp to a date
 
@@ -57,8 +57,8 @@ Topic:
       - 也返回日期的毫秒表示，但使用不同参数
         - <mark class="hltr-yellow "> the year, the zero-based month (January is 0, February is 1, and so on), the day of the month (1 through 31), and the hours (0 through 23), minutes, seconds, and milliseconds of the time. </mark> [Page 3](zotero://open-pdf/library/items/6CRSJHBD?page=3&annotation=VISGXEEJ)
         - <mark class="hltr-yellow "> (year and month) are required </mark> [Page 3](zotero://open-pdf/library/items/6CRSJHBD?page=3&annotation=NR4D2AYH)
-      - ![[C05BasicReferenceTypes-3-x85-y286.png|375]]
-      - ![[C05BasicReferenceTypes-3-x91-y74.png|375]]
+      - ![](C05BasicReferenceTypes-3-x85-y286.png)
+      - ![](C05BasicReferenceTypes-3-x91-y74.png)
 
       - ```JS
 

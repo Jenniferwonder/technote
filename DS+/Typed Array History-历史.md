@@ -18,7 +18,7 @@ Topic:
   - DS+
 ---
 
-# [[Typed Array-定型数组|Typed Array]] History-历史
+# [Typed Array](Typed%20Array-定型数组.md) History-历史
 
 - WebGL [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=0ee87a05-f2c0-3b47)
   - 2006 年，目的（Mozilla、Opera 等浏览器提供商提出）

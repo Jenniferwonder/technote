@@ -23,7 +23,7 @@ Back:
 - ❌`constructor` 属性
 - ✅`instanceof`
 	- To identify what type of object it is (更常用)
-	- ![[C04VariablesScopeMemory-6-x62-y394.png|425]]
+	- ![](C04VariablesScopeMemory-6-x62-y394.png)
 🏷️: JS-Objects 
 📌: JS::JS-Objects 
 <!--ID: 1706844449149-->

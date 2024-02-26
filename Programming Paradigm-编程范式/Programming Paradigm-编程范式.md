@@ -16,17 +16,17 @@ sr-interval: 4
 sr-ease: 275
 ---
 ## Metadata
-- Up:: [[Programming Fundamentals]]
-- Jumps:: [[C 语言]], [[Programming Paradigm-编程范式]]
+- Up:: [Programming Fundamentals](Programming%20Fundamentals.md)
+- Jumps:: [C 语言](C%20语言), [Programming Paradigm-编程范式](Programming%20Paradigm-编程范式.md)
 ## Scope
-- [[Modules]]
-- [[Code Structure]]
+- [Modules](Modules)
+- [Code Structure](Code%20Structure.md)
 - Publish-Subscribe Pattern
-- [[函数式编程]]
+- [函数式编程](函数式编程.md)
 %% Begin Waypoint %%
-- **[[Programming Paradigm-编程范式]]**
-	- [[Code Structure]]
-	- [[函数式编程]]
+- **[Programming Paradigm-编程范式](Programming%20Paradigm-编程范式.md)**
+	- [Code Structure](Code%20Structure.md)
+	- [函数式编程](函数式编程.md)
 
 %% End Waypoint %%
 ## Why?[^1]

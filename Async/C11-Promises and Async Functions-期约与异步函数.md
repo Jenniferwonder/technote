@@ -28,7 +28,7 @@ mindmap-plugin: basic
     - <mark class="hltr-gray ">" Handling Failure "</mark> [Page 4 ](zotero://open-pdf/library/items/B29JDDKZ?page=4&annotation=CX9HK66A)
     - <mark class="hltr-gray ">" Nesting Asynchronous Callbacks "</mark> [Page 4 ](zotero://open-pdf/library/items/B29JDDKZ?page=4&annotation=X4B7RWIM)
 
-## <mark class="hltr-gray ">" [[Promise]] "</mark> [Page 5 ](zotero://open-pdf/library/items/B29JDDKZ?page=5&annotation=Q57QXZ97)
+## <mark class="hltr-gray ">" [Promise](Promise.md) "</mark> [Page 5 ](zotero://open-pdf/library/items/B29JDDKZ?page=5&annotation=Q57QXZ97)
 - <mark class="hltr-gray ">" The Promises/A+ Specification "</mark> [Page 5 ](zotero://open-pdf/library/items/B29JDDKZ?page=5&annotation=EDZU3EVS)
 - <mark class="hltr-gray ">" Promise Basics "</mark> [Page 5 ](zotero://open-pdf/library/items/B29JDDKZ?page=5&annotation=HLA8W4MX)
     - <mark class="hltr-gray ">" The Promise State Machine "</mark> [Page 6 ](zotero://open-pdf/library/items/B29JDDKZ?page=6&annotation=6884JP5Z)

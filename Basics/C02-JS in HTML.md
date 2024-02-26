@@ -44,7 +44,7 @@ Topic:
     - 用法
       - 位置
         - include all JavaScript references **in the `<body>` element, after the page content**
-          - ![[Paste image 1689431862863image.png]]
+          - ![](Paste%20image%201689431862863image.png)
       - 主要属性
         - <mark class="hltr-orange ">" src "</mark> [Page 61 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=61&annotation=K98LZDHQ)
           - 功能
@@ -93,7 +93,7 @@ Topic:
 
 ## 相关概念
 
-- [[HTML]] 标签编译顺序
+- [HTML](HTML) 标签编译顺序
   - <mark class="hltr-yellow ">" elements are interpreted in the order in which they occur on the page so long as defer and async attributes are not used "</mark> [Page 71 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=71&annotation=7SG6FZJC)
 - 🟨 Browser Preloader (浏览器预加载器)
 - <mark class="hltr-gray ">" Changes in XHTML "</mark> [Page 66 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=66&annotation=Y3TDAWQF)
@@ -111,5 +111,5 @@ Topic:
     - <mark class="hltr-yellow ">" no level of true browser consistency can be achieved without hacks. "</mark> [Page 69 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=69&annotation=97E59QGN)
   - <mark class="hltr-orange ">" standards mode "</mark> [Page 69 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=69&annotation=DS4Z4ZKJ)
     - <mark class="hltr-orange ">" Standards mode is turned on when one of the following doctypes is used: "</mark> [Page 69 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=69&annotation=RL5ZTCN9)
-    - ![[C-Professional JavaScript for Web Developers.png|350]]
+    - ![](C-Professional%20JavaScript%20for%20Web%20Developers.png)
   - <mark class="hltr-orange ">" almost standards mode "</mark> [Page 69 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=69&annotation=K4KQVAYH)

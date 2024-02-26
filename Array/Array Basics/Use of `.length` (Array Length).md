@@ -22,11 +22,11 @@ Back:
 - Access the length of an array (0 or more)
 - Access the last item in an array
     - always at `.length – 1`
-    - [[Pop-Push Last Element in Array (数组末位增删元素-栈方法)]]
+    - [Pop-Push Last Element in Array (数组末位增删元素-栈方法)](Pop-Push%20Last%20Element%20in%20Array%20(数组末位增删元素-栈方法).md)
 - Delete Items using `.length`
-	- ![[1691246246599.png]]
+	- ![](1691246246599.png)
 - Add Items using `.length`
-	- ![[1691246351519.png]]
+	- ![](1691246351519.png)
 📌: JS::JS-Array 
 🏷️: JS-Array 
 <!--ID: 1706600287466-->

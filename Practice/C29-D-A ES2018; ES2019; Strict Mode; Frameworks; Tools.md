@@ -18,7 +18,7 @@ Topic:
   - Practice
 ---
 
-# [[O-JS]] C29-D-A ES2018, ES2019, Strict Mode, Frameworks, Tools
+# [O-JS](O-JS.md) C29-D-A ES2018, ES2019, Strict Mode, Frameworks, Tools
 
 ## <mark class="hltr-gray ">" ES2018 and ES2019 "</mark> [Page 1 ](zotero://open-pdf/library/items/X7MW3Q6Z?page=1&annotation=E5VJI9JT)
 

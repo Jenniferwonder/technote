@@ -29,7 +29,7 @@ Topic:
   - 嵌套数组
   - 自定义迭代器 iterator
   - 空数组
-  - ![[1691557774350.png]] [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=c087dff3-79bc-3917)
+  - ![](1691557774350.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=c087dff3-79bc-3917)
   - 在映射中用作键和值的对象及其他“集合”类型，在自己的内容或属性被修改时 仍然保持不变 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=9e76a4dc-804b-df5a)
   - delete()和 clear() [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=11acae9e-7a4c-fe5d)
   - size 属性 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=656a56cf-4ba9-b436)
@@ -41,7 +41,7 @@ Topic:
   - alert(m.entries === m[Symbol.iterator]); // true [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=597aa12b-2fdf-e11f)
   - Symbol.iterator 属性 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=c7ca45ad-b948-a2cc)
   - entries()方法 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=e38e4327-065e-d5cd)
-  - console.log([...m]); // [[key1,val1],[key2,val2],[key3,val3]] [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=236f7bbe-ccdf-428f)
+  - console.log([...m]); // [key1,val1],[key2,val2],[key3,val3](key1,val1],[key2,val2],[key3,val3) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=236f7bbe-ccdf-428f)
   - forEach(callback, opt_thisArg) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=40288775-8d63-01c2)
   - 传入的回调接收可选的第二个参数，这个参数用于重写回调 内部 this 的值 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=9ed3c264-5811-2686)
   - keys()和 values() [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=fc1253e8-9c3a-a36f)

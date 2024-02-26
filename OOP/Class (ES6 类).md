@@ -21,8 +21,8 @@ Comment:
 * 新的基础性语法糖结构
 	* just a way to make it easier to set up a prototype chain
 * 背后使用的仍然是原型和构造函数的概念
-	* [[Prototype Pattern (原型模式)]]
-	* [[Constructor Function (构造函数模式)]]
+	* [Prototype Pattern (原型模式)](Prototype%20Pattern%20(原型模式).md)
+	* [Constructor Function (构造函数模式)](Constructor%20Function%20(构造函数模式).md)
 * 类就是一种特殊函数
 	* 把类作为参数传递
 	* 立即调用
@@ -63,7 +63,7 @@ class Person {
 	* 不定义构造函数相当于将构造函数定义为空函数
 * 类构造函数与构造函数的主要区别
 	* 调用类构造函数必须使用 `new` 操作符。而普通构造函数如果不使用 `new` 调用，那么就会以全局的 `this`（通常是 window）作为内部对象
-		* [[Use 'new' Operator (使用 new 操作符)]]
+		* [Use 'new' Operator (使用 new 操作符)](Use%20'new'%20Operator%20(使用%20new%20操作符).md)
 	* 使用对类构造函数的引用创建一个新实例
 		* `let p2 = new p1.constructor();`
 	* 类中定义的 `constructor` 方法不会被当成构造函数

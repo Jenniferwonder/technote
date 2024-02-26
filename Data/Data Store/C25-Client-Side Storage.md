@@ -18,7 +18,7 @@ Topic:
   - Data
 ---
 
-# [[O-JS]] C25-Client-Side Storage
+# [O-JS](O-JS.md) C25-Client-Side Storage
 
 - <mark class="hltr-gray ">" COOKIES "</mark> [Page 1 ](zotero://open-pdf/library/items/K3DKQBMJ?page=1&annotation=WEMLF5FH)
 

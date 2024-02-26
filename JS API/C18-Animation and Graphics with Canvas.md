@@ -18,7 +18,7 @@ Topic:
   - API
 ---
 
-# [[O-JS]] C18-Animation and Graphics with Canvas
+# [O-JS](O-JS.md) C18-Animation and Graphics with Canvas
 
 - <mark class="hltr-gray ">" USING requestAnimationFrame "</mark> [Page 2 ](zotero://open-pdf/library/items/R5YMAZ4G?page=2&annotation=H2XDU2HA)
 

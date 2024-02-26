@@ -18,7 +18,7 @@ Topic:
   - DOM
 ---
 
-# [[O-JS]] C15-DOM Extensions
+# [O-JS](O-JS.md) C15-DOM Extensions
 
 - <mark class="hltr-gray ">" SELECTORS API "</mark> [Page 2 ](zotero://open-pdf/library/items/96SWFK35?page=2&annotation=4DHAJKD3)
 

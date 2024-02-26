@@ -42,14 +42,14 @@ Basic
 Back:
 - `for (const [i, ele] of a.entries()){ }`
 - to split out the key/value pairs inside a loop
-- ![[1691247030389.png]]
+- ![](1691247030389.png)
 - **`.keys()`**
 	- return an iterator of the array's indices
 - **`.values()`**
 	- return an iterator of the array’s elements/values
 - **`.entries()`**
 	- return an iterator of index/value pairs
-- ![[1691246935131.png]]
+- ![](1691246935131.png)
 <!--ID: 1706600287402-->
 ****
 <!--SR:!2024-01-30,1,230-->

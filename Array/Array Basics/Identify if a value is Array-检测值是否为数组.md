@@ -22,7 +22,7 @@ Basic
 Back:
 - `Array.isArray(value)`
     - to definitively determine **if a given value is an array** regardless of the global execution context in which it was created
-	- ![[1691246767653.png]]
+	- ![](1691246767653.png)
 📌: JS::JS-Array 
 🏷️: JS-Array 
 <!--ID: 1706587302138-->

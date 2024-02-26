@@ -20,7 +20,7 @@ Basic
 # Access & Set Value in an Array (Array Index)
 Back:
 ### square brackets
-- ![[1691246114528.png]]
+- ![](1691246114528.png)
 - zero-based numeric index of the value
 ### `.at(0)`
 - //similar to 'arr[0]'

@@ -18,7 +18,7 @@ Topic:
   - Practice
 ---
 
-# [[O-JS]] C27-Workers
+# [O-JS](O-JS.md) C27-Workers
 
 - <mark class="hltr-gray ">" INTRODUCTION TO WORKERS "</mark> [Page 2 ](zotero://open-pdf/library/items/FXPQGLEP?page=2&annotation=2BQUGCVE)
 

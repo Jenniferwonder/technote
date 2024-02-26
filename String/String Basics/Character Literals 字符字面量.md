@@ -22,9 +22,9 @@ Comment:
 	- **to represent nonprintable or otherwise useful characters**
 - Multiple lines 
 	- `\n`
-- ![[C3LanguageBasics-23-x75-y192.png]]
-	- ![[Paste image 1690812354432image.png]]
-	- ![[Paste image 1690812383271image.png]]
+- ![](C3LanguageBasics-23-x75-y192.png)
+	- ![](Paste%20image%201690812354432image.png)
+	- ![](Paste%20image%201690812383271image.png)
 	- https://www.computerhope.com/jargon.html
 
 ### Print Raw Strings (打印不含字符字面量的原始字符串)

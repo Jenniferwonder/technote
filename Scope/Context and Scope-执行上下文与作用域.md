@@ -16,11 +16,11 @@ Topic:
   - Scope
 ---
 
-# [[O-JS|D-JS]] Context and Scope-执行上下文与作用域
+# [D-JS](O-JS.md) Context and Scope-执行上下文与作用域
 
 ## Metadata
 
-- Up:: [[C04-Variables; Scope; Memory-变量、作用域、内存]]
+- Up:: [C04-Variables; Scope; Memory-变量、作用域、内存](C04-Variables;%20Scope;%20Memory-变量、作用域、内存.md)
 
 ## Scope Definition
 
@@ -46,7 +46,7 @@ Topic:
     - Eg. if/ for loops
   - 在块级作用域中，可通过 let 和 const 声明变量，该变量在指定块的作用域外无法被访问
     - let; const (not var)
-- Related:: [[Variables-变量]]
+- Related:: [Variables-变量](Variables-变量.md)
 
 ## 作用域链
 

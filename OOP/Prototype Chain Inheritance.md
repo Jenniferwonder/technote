@@ -42,12 +42,12 @@ Reviewed: 1
 ### Prototype
 - 原型被定义为给其它对象提供共享属性的对象，函数的实例可以共享原型上的属性和方法
 - to reuse code and combine objects.
-- built-in property called **prototype**, which is itself an [[Object]]
+- built-in property called **prototype**, which is itself an [Object](Object.md)
 ### Prototype Chain
 - The prototype will have its own prototype, making what's called a **prototype chain**.
 - The chain ends when we reach a prototype that has `null` for its own prototype.
 - 它的作用就是当你在访问一个对象上属性的时候，如果该对象内部不存在这个属性，那么就会去它`__proto__`属性所指向的对象（原型对象）上查找。如果原型对象依旧不存在这个属性，那么就会去其原型的`__proto__`属性所指向的原型对象上去查找。以此类推，直到找到`nul`，而这个查找的线路，也就构成了我们常说的**原型链**
-## [[Prototype Properties and Method (原型属性与方法)]]
+## [Prototype Properties and Method (原型属性与方法)](Prototype%20Properties%20and%20Method%20(原型属性与方法))
 ## More Questions
   - How Prototypes Work
   - Understanding the Prototype Hierarchy

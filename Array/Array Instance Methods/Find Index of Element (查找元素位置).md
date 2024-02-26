@@ -24,7 +24,7 @@ Back:
 - `.indexOf()` (严格相等/全等比较)
 	- Return the index of an element based on value
 - `.lastIndexOf()` (严格相等/全等比较)
-	- ![[Paste image 1691284203252image.png]]
+	- ![](Paste%20image%201691284203252image.png)
 - `.findIndex()`
 	- 断言函数
 		- 断言函数的返回值决定了相应索引的元素是否被认为匹配

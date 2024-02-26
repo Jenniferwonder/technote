@@ -18,7 +18,7 @@ Topic:
   - Function
 ---
 
-# [[O-JS]] C09-Proxies and Reflect-代理与反射
+# [O-JS](O-JS.md) C09-Proxies and Reflect-代理与反射
 
 ## 代理基础 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=fdf62bd0-6b34-2aee)
 
@@ -35,18 +35,18 @@ Topic:
     - 缺 少其中任何一个参数都会抛出 TypeError [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=604c6bc4-41fb-a9d6)
   - 最简单的代理是空代理，即除了作为一个抽象的目标对象，什么也不做。 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=ce9c40e8-8e42-d342)
   - 在代理对象上执行的任何操作实际上都会应用到目标对象。唯一可感知的不同 就是代码中操作的是代理对象。 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=e66375f5-4931-dde2)
-  - ![[1691640571936.png]] [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=1fd5a820-eb04-5efc)
+  - ![](1691640571936.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=1fd5a820-eb04-5efc)
 - 定义捕获器 (Traps) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=29c38d6b-50ed-1e7b)
   - 使用代理的主要目的是可以定义捕获器（trap） [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=fae3c413-9741-3a47)
     - 就是在处理程序对象中定义的“基本操作的 拦截器” [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=a226f4c5-da08-f4c4)
     - 每个捕获器都对应一种基本操作，可以直接 或间接在代理对象上调用 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=47bb1b51-0027-45e8)
   - 每次在代理对象上调用这些基本操作时，代理可以在这些操作传播到目标对 象之前先调用捕获器函数，从而拦截并修改相应的行为 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=72fe8b27-7ae4-efae)
-    - ![[1691640762307.png]] [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=9250b292-e187-3036)
+    - ![](1691640762307.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=9250b292-e187-3036)
 - 捕获器参数 (Trap Parameters) 和反射 API (Reflect API) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=f2b41a8c-8bbc-8d80)
   - 处理程序对象中所有可以捕获的方法都有对应的反射（Reflect）API 方法。 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=bac01039-75c4-f1cc)
     - 与捕获器拦截 的方法具有相同的名称和函数签名，而且也具有与被拦截方法相同的行为。 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=5e3f4d7d-961b-6b56)
   - 创建一个可以捕获所有方法，然后将每个方法转发给对应反射 API 的空代理 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=4e510858-a049-3357)
-    - ![[1691640998045.png]] [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=d5d2a857-b9b4-295b)
+    - ![](1691640998045.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=d5d2a857-b9b4-295b)
 - 捕获器不变式 (Trap Invariants) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=790f45e0-8725-7e7f)
   - 使用捕获器几乎可以改变所有基本方法的行为，但也不是没有限制 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=fa578a2a-f4c6-434d)
   - 捕获处理程序的行为必须遵循“捕获器不变式” （trap invariant） [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=e0edb10f-de1d-6457)

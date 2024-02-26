@@ -46,7 +46,7 @@ to give a function access to all variables of its parent function, even after th
 
 可以让局部变量的值始终保持在内存中；  
 对内部变量进行保护，使外部访问不到  
-最常见的案例：`函数节流和防抖` [[Debounce and Throttle-防抖节流]]
+最常见的案例：`函数节流和防抖` [Debounce and Throttle-防抖节流](Debounce%20and%20Throttle-防抖节流.md)
 
 #### 3. 闭包的垃圾回收
 

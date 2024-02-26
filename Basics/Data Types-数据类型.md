@@ -32,16 +32,16 @@ mindmap-plugin: basic
 - functions are considered **objects** in ECMAScript  
 		- they do have some special properties  
 		- differentiating between functions and other objects
-- [[Object Types (instanceof 标识对象类型)]]
+- [Object Types (instanceof 标识对象类型)](Object%20Types%20(instanceof%20标识对象类型).md)
 
 ## 6 simple data types
-- The [[Undefined and Null|Undefined and Null]] Type
-- The [[Boolean|Boolean]] Type
-- The [[Number|Number]] Type
-- The [[String|String]] Type
-- The [[Symbol|Symbol]] Type (ES2015)
+- The [Undefined and Null](Undefined%20and%20Null.md) Type
+- The [Boolean](Boolean.md) Type
+- The [Number](Number.md) Type
+- The [String](String.md) Type
+- The [Symbol](Symbol) Type (ES2015)
 
 ## 1 complex data type
-- The [[Object|Object]] Type
+- The [Object](Object.md) Type
 
 
