@@ -19,7 +19,7 @@ status:
   - Mature
 ---
 
-# ![](O-JS/String/z-Assets/V-JS%20String%20and%20Array%20Methods.png)String Instance Methods
+# ![](z-Assets/O-JS/String/z-Assets/V-JS%20String%20and%20Array%20Methods.png)String Instance Methods
 
 ## Reference
 
@@ -41,7 +41,7 @@ status:
 
 - <mark class="hltr-orange "> indexOf() </mark> [Page 26](zotero://open-pdf/library/items/6CRSJHBD?page=26&annotation=YMZ4ZN6R)
 - <mark class="hltr-orange "> lastIndexOf() </mark> [Page 26](zotero://open-pdf/library/items/6CRSJHBD?page=26&annotation=IVU8QJS4)
-  - ![](C05BasicReferenceTypes-26-x66-y478.png)
+  - ![](z-Assets/C05BasicReferenceTypes-26-x66-y478.png)
 - <mark class="hltr-yellow "> Each method accepts an optional second argument that indicates the position to start searching from within the string. </mark> [Page 26](zotero://open-pdf/library/items/6CRSJHBD?page=26&annotation=XJ3NSRXM)
 
 ## 大
@@ -73,7 +73,7 @@ status:
 
 - <mark class="hltr-orange "> 拼接方法 concat() </mark> [Page 24](zotero://open-pdf/library/items/6CRSJHBD?page=24&annotation=S8W8WKMB)
   - <mark class="hltr-yellow "> concatenate one or more strings to another, returning the concatenated string as the result. </mark> [Page 24](zotero://open-pdf/library/items/6CRSJHBD?page=24&annotation=QDESJDLV)
-    - ![](C05BasicReferenceTypes-24-x64-y258.png)
+    - ![](z-Assets/C05BasicReferenceTypes-24-x64-y258.png)
   - <mark class="hltr-yellow "> it can create a string from any number of other strings </mark> [Page 24](zotero://open-pdf/library/items/6CRSJHBD?page=24&annotation=TZ45IYHT)
   - <mark class="hltr-orange "> the addition operator (+) </mark> [Page 24](zotero://open-pdf/library/items/6CRSJHBD?page=24&annotation=G7ZM4RZY)
     - <mark class="hltr-yellow "> used more often and, in most cases, actually performs better than the concat() method even when concatenating multiple strings. </mark> [Page 24](zotero://open-pdf/library/items/6CRSJHBD?page=24&annotation=YBEPCSH7)
@@ -94,8 +94,8 @@ status:
     - <mark class="hltr-orange "> There are different behaviors for these methods when an argument is a negative number. </mark> [Page 25](zotero://open-pdf/library/items/6CRSJHBD?page=25&annotation=RAN8KSE3)
   - <mark class="hltr-orange "> substr() </mark> [Page 25](zotero://open-pdf/library/items/6CRSJHBD?page=25&annotation=AQ366DXI)
     - <mark class="hltr-yellow "> the second argument is the number of characters to return </mark> [Page 25](zotero://open-pdf/library/items/6CRSJHBD?page=25&annotation=5UF687YR)
-  - ![](C05BasicReferenceTypes-25-x85-y457.png)
-  - ![](C05BasicReferenceTypes-25-x90-y219.png)
+  - ![](z-Assets/C05BasicReferenceTypes-25-x85-y457.png)
+  - ![](z-Assets/C05BasicReferenceTypes-25-x90-y219.png)
 
 ## 查
 
@@ -104,7 +104,7 @@ status:
 - <mark class="hltr-orange "> match() </mark> [Page 29](zotero://open-pdf/library/items/6CRSJHBD?page=29&annotation=WG6WQZ2J)
   - 参数
     - 正则表达式字符串或 RegExp 对象
-  - ![](Paste%20image%201690963574528image.png)
+  - ![](z-Assets/Paste%20image%201690963574528image.png)
 - <mark class="hltr-orange "> search() </mark> [Page 30](zotero://open-pdf/library/items/6CRSJHBD?page=30&annotation=D6W6UKHA)
   - 参数
     - 正则表达式字符串或 RegExp 对象
@@ -112,18 +112,18 @@ status:
     - 返回模式第一个匹配的位置索引，如果没找到则返回 -1。
   - 特点
     - search() 始终从字符串开头向后匹配模式
-  - ![](Paste%20image%201690963484325image.png)
+  - ![](z-Assets/Paste%20image%201690963484325image.png)
 - <mark class="hltr-orange "> replace() </mark> [Page 30](zotero://open-pdf/library/items/6CRSJHBD?page=30&annotation=W6SB8XLJ)
   - 参数
     - 两个参数：1. 字符串或 RegExp 对象；2.新字符串
-  - ![](C05BasicReferenceTypes-30-x68-y348.png)
+  - ![](z-Assets/C05BasicReferenceTypes-30-x68-y348.png)
 
 ## 序
 
 ### <mark class="hltr-gray ">" The localeCompare() Method——位置顺序判断 "</mark> [Page 32 ](zotero://open-pdf/library/items/6CRSJHBD?page=32&annotation=EYLW8PV5)
 
 - <mark class="hltr-orange "> localeCompare() </mark> [Page 32](zotero://open-pdf/library/items/6CRSJHBD?page=32&annotation=9M7KNRB2)
-  - ![](C05BasicReferenceTypes-32-x65-y344.png)
+  - ![](z-Assets/C05BasicReferenceTypes-32-x65-y344.png)
 
 ## 重
 
@@ -132,14 +132,14 @@ status:
 - <mark class="hltr-orange "> repeat() </mark> [Page 28](zotero://open-pdf/library/items/6CRSJHBD?page=28&annotation=SUJL25K8)
   - Repeat a String
   - <mark class="hltr-yellow "> accepts a single integer argument count, copies the string count times, and concatenates all the copies </mark> [Page 28](zotero://open-pdf/library/items/6CRSJHBD?page=28&annotation=LBHKWIZY)
-  - ![](Paste%20image%201690967742892image.png)
+  - ![](z-Assets/Paste%20image%201690967742892image.png)
 
 ## 填
 
 ### <mark class="hltr-gray ">" The padStart() and padEnd() Methods——填充"</mark> [Page 28 ](zotero://open-pdf/library/items/6CRSJHBD?page=28&annotation=4S9JYAE6)
 
 - <mark class="hltr-yellow "> will copy a string and, if the length of the string is less than the specified length, add padding to either side of a string to extend it to a certain length. </mark> [Page 28](zotero://open-pdf/library/items/6CRSJHBD?page=28&annotation=CGKY4PIK)
-- ![](C05BasicReferenceTypes-28-x65-y363.png)
+- ![](z-Assets/C05BasicReferenceTypes-28-x65-y363.png)
 
 - ```js
 
@@ -152,12 +152,12 @@ status:
 
 ### <mark class="hltr-yellow "> in a for of loop </mark> [Page 28](zotero://open-pdf/library/items/6CRSJHBD?page=28&annotation=DPBN3MUF)
 
-- ![](C05BasicReferenceTypes-28-x62-y31.png)
+- ![](z-Assets/C05BasicReferenceTypes-28-x62-y31.png)
 
 ### <mark class="hltr-yellow "> with the destructuring operator </mark> [Page 29](zotero://open-pdf/library/items/6CRSJHBD?page=29&annotation=YRVY6RB4)
 
 - <mark class="hltr-yellow "> allows you to easily split a string by its characters </mark> [Page 29](zotero://open-pdf/library/items/6CRSJHBD?page=29&annotation=TBZ8Q45P)
-- ![](C05BasicReferenceTypes-29-x89-y498.png)
+- ![](z-Assets/C05BasicReferenceTypes-29-x89-y498.png)
 
 ## <mark class="hltr-gray ">" HTML Methods "</mark> [Page 33 ](zotero://open-pdf/library/items/6CRSJHBD?page=33&annotation=F97NKWWU)
 

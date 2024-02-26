@@ -26,7 +26,7 @@ Topic:
 
 - an application programming interface (API) for XML that was extended for use in HTML.
 - DOM 表示 由多层节点构成的文档，通过它开发者可以添加、删除和修改页面的各个部分。 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=96b20821-da4d-aff9)
-  - ![](z-C14-DOM.png)
+  - ![](z-Assets/z-C14-DOM.png)
 
 ### Why DOM
 
@@ -55,7 +55,7 @@ Topic:
 - Reference
   - [Using the W3C DOM Level 1 Core - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Using_the_W3C_DOM_Level_1_Core)
 - Overview
-  - ![](Pasted%20image%2020230310114615.png)
+  - ![](z-Assets/Pasted%20image%2020230310114615.png)
 
 ### <mark class="hltr-gray ">" Other DOMs "</mark> [Page 56 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=56&annotation=KFGXNDZK)
 

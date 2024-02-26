@@ -34,19 +34,19 @@ status:
 ## 都兼容扩展操作符 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=bf35d48a-c8ae-475a)
 
 - 扩展操作符在对可迭代对象执行浅复制时特别有用， 只需简单的语法就可以复制整个对象 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=3dc50145-1288-1070)
-- ![](1691561776097.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=68519783-683f-dab7)
+- ![](z-Assets/1691561776097.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=68519783-683f-dab7)
 
 ## 只要传入一个可迭代对象就可以实现复制 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=04ed2322-0033-d7bf)
 
-- ![](1691561810813.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=8059ec2c-548a-6bc0)
+- ![](z-Assets/1691561810813.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=8059ec2c-548a-6bc0)
 
 ## 也可以构建数组的部分元素 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=e2fada41-689f-3aa5)
 
-- ![](1691561816320.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=67b2f001-e4c0-2ce6)
+- ![](z-Assets/1691561816320.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=67b2f001-e4c0-2ce6)
 
 ## 浅复制意味着只会复制对象引用 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=50d87cd0-4370-dc90)
 
-- ![](1691561917304.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=3ef388e9-f4a3-bf22)
+- ![](z-Assets/1691561917304.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=3ef388e9-f4a3-bf22)
 
 ## 都支持多种构建方法，比如 Array.of()和 Array.from()静态方法。在与扩展操 作符一起使用时，可以非常方便地实现互操作 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=935d9d73-5608-96b2)
 

@@ -21,7 +21,6 @@ Topic:
 
 # Statements-语句
 
-
 ## <mark class="hltr-yellow ">" Multiple statements can be combined into a code block "</mark> [Page 3 ](zotero://open-pdf/library/items/2BS329KQ?page=3&annotation=ZXVBT58F)
 
 ## <mark class="hltr-orange ">" also called flow-control statements "</mark> [Page 66 ](zotero://open-pdf/library/items/2BS329KQ?page=66&annotation=2VF6KXAJ)
@@ -30,16 +29,15 @@ Topic:
 
 - <mark class="hltr-gray ">" The if Statement "</mark> [Page 66 ](zotero://open-pdf/library/items/2BS329KQ?page=66&annotation=U87WSUNB)
   - <mark class="hltr-yellow "> It’s considered best coding practice to always use block statements </mark> [Page 66](zotero://open-pdf/library/items/2BS329KQ?page=66&annotation=NRHPN9LX)
-  - ![](Paste%20image%201690529359572image.png)
+  - ![](z-Assets/Paste%20image%201690529359572image.png)
 - <mark class="hltr-gray ">" The switch Statement "</mark> [Page 72 ](zotero://open-pdf/library/items/2BS329KQ?page=72&annotation=C84573YU)
   - <mark class="hltr-yellow "> The switch statement compares values using the identically equal operator, so no type coercion occurs </mark> [Page 74](zotero://open-pdf/library/items/2BS329KQ?page=74&annotation=DB4WPHM5)
-  - ![](Paste%20image%201690529292548image.png)
+  - ![](z-Assets/Paste%20image%201690529292548image.png)
 - Tenary Operation/ Conditional Operators
 
   ```js
-    activePlayer = activePlayer === 1 ? 2 : 1;
-    ```
-
+  activePlayer = activePlayer === 1 ? 2 : 1;
+  ```
 
 ## Loops
 
@@ -47,11 +45,11 @@ Topic:
   - <mark class="hltr-orange "> post-test loop </mark> [Page 66](zotero://open-pdf/library/items/2BS329KQ?page=66&annotation=UTI74GZM)
   - <mark class="hltr-yellow "> meaning that the escape condition is evaluated only after the code inside the loop has been executed </mark> [Page 66](zotero://open-pdf/library/items/2BS329KQ?page=66&annotation=QTGNV32X)
   - <mark class="hltr-yellow "> The body of the loop is always executed at least once </mark> [Page 66](zotero://open-pdf/library/items/2BS329KQ?page=66&annotation=2S9XVXHN)
-  - ![](Paste%20image%201690529496174image.png)
+  - ![](z-Assets/Paste%20image%201690529496174image.png)
 - <mark class="hltr-gray ">" The while Statement "</mark> [Page 67 ](zotero://open-pdf/library/items/2BS329KQ?page=67&annotation=FK77AR7S)
   - <mark class="hltr-orange "> pretest loop </mark> [Page 67](zotero://open-pdf/library/items/2BS329KQ?page=67&annotation=9RZ8K2YG)
   - <mark class="hltr-yellow "> it is possible that the body of the loop is never executed </mark> [Page 67](zotero://open-pdf/library/items/2BS329KQ?page=67&annotation=RRS8J6KI)
-  - ![](Paste%20image%201690529529772image.png)
+  - ![](z-Assets/Paste%20image%201690529529772image.png)
 - <mark class="hltr-gray ">" The for Statement "</mark> [Page 67 ](zotero://open-pdf/library/items/2BS329KQ?page=67&annotation=GU882LFC)
   - <mark class="hltr-orange "> pretest loop </mark> [Page 67](zotero://open-pdf/library/items/2BS329KQ?page=67&annotation=V67VFJXI)
   - <mark class="hltr-yellow "> the for statement one of the most used in the language </mark> [Page 68](zotero://open-pdf/library/items/2BS329KQ?page=68&annotation=NAN44N4X)
@@ -60,18 +58,18 @@ Topic:
     - <mark class="hltr-yellow "> Nothing can be done with a for loop that can’t be done using a while loop </mark> [Page 68](zotero://open-pdf/library/items/2BS329KQ?page=68&annotation=VLVWUALH)
   - <mark class="hltr-yellow "> the cleanest implementation is to use a let declaration inside the loop initialization to declare the iterator variable because its scope will be limited to only the loop itself. </mark> [Page 68](zotero://open-pdf/library/items/2BS329KQ?page=68&annotation=AI8JCPL2)
   - <mark class="hltr-yellow "> If the body is executed, the postloop expression is also executed </mark> [Page 68](zotero://open-pdf/library/items/2BS329KQ?page=68&annotation=FLCI44VW)
-  - ![](Paste%20image%201690529552779image.png)
-  - ![](Paste%20image%201690529642587image.png)
+  - ![](z-Assets/Paste%20image%201690529552779image.png)
+  - ![](z-Assets/Paste%20image%201690529642587image.png)
 - <mark class="hltr-gray ">" The for-in Statement "</mark> [Page 68 ](zotero://open-pdf/library/items/2BS329KQ?page=68&annotation=C2AEGDF2)
   - <mark class="hltr-orange "> strict iterative statement </mark> [Page 68](zotero://open-pdf/library/items/2BS329KQ?page=68&annotation=TALNCD6W)
   - <mark class="hltr-yellow "> used to enumerate the non-symbol keyed properties of an object </mark> [Page 68](zotero://open-pdf/library/items/2BS329KQ?page=68&annotation=2ELCB3DF)
   - <mark class="hltr-yellow "> is used to display all the properties of the BOM window object </mark> [Page 68](zotero://open-pdf/library/items/2BS329KQ?page=68&annotation=QF6AEZXN)
-  - ![](Paste%20image%201690529687869image.png)
+  - ![](z-Assets/Paste%20image%201690529687869image.png)
 - <mark class="hltr-gray ">" The for-of Statement "</mark> [Page 69 ](zotero://open-pdf/library/items/2BS329KQ?page=69&annotation=M3ALI9C5)
   - <mark class="hltr-orange "> strict iterative statement </mark> [Page 69](zotero://open-pdf/library/items/2BS329KQ?page=69&annotation=LGQ3I3DJ)
   - <mark class="hltr-yellow "> used to loop through elements in an iterable object </mark> [Page 69](zotero://open-pdf/library/items/2BS329KQ?page=69&annotation=596BJG5V)
   - <mark class="hltr-yellow "> the const operator in the control statement is not necessary but is recommended for ensuring the use of a local variable that will not be altered </mark> [Page 69](zotero://open-pdf/library/items/2BS329KQ?page=69&annotation=8ITIUUEP)
-  - ![](Paste%20image%201690529801720image.png)
+  - ![](z-Assets/Paste%20image%201690529801720image.png)
 
 ## <mark class="hltr-gray ">" Labeled Statements "</mark> [Page 69 ](zotero://open-pdf/library/items/2BS329KQ?page=69&annotation=C42TFP9R)
 
@@ -79,17 +77,17 @@ Topic:
   - <mark class="hltr-yellow "> are typically used with nested loops. </mark> [Page 69](zotero://open-pdf/library/items/2BS329KQ?page=69&annotation=9JIS59K3)
 
 ```js
-  let num = 0;
-  outermost: for (let i = 0; i < 10; i++) {
-  	for (let j = 0; j < 10; j++) {
-  		if (i == 5 && j == 5) {
-  			continue outermost;
-  		}
-  		num++;
-  	}
-  }
-  console.log(num); // 95
-  ```
+let num = 0;
+outermost: for (let i = 0; i < 10; i++) {
+	for (let j = 0; j < 10; j++) {
+		if (i == 5 && j == 5) {
+			continue outermost;
+		}
+		num++;
+	}
+}
+console.log(num); // 95
+```
 
 ## <mark class="hltr-gray ">" The break and continue Statements "</mark> [Page 70 ](zotero://open-pdf/library/items/2BS329KQ?page=70&annotation=HGG2V8WG)
 

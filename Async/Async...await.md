@@ -1,12 +1,12 @@
 ---
 Type: D
-DateDo: 
-DateDone: 
-DateDue: 
+DateDo:
+DateDone:
+DateDue:
 Title: Async...await
 DateStarted: 2022-12-09
 DateModified: 2023-11-28
-status: 
+status:
 LeadTime: "1"
 Cards-D: "0"
 Page-D: "0"
@@ -14,6 +14,7 @@ EST: NaN
 Topic:
   - Async
 ---
+
 ## Async... await (Syntactical Sugar)
 
 > [[英字] JavaScript 异步编程（Async/Await、Promise、Callback）FreeCodeCamp](https://www.bilibili.com/video/BV1g44y1z7N3/?spm_id_from=333.788.recommend_more_video.4&vd_source=be278a4cfd00a5f72dcf153eaca79333)  
@@ -119,7 +120,7 @@ console.log("taking orders");
 
 ##### 4.3. Output results
 
-![](Pasted%20image%2020221209200813.png)
+![](z-Assets/Pasted%20image%2020221209200813.png)
 
 #### 5. Async/await Example (Icecream)
 

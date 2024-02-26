@@ -65,7 +65,7 @@ Topic:
     - <mark class="hltr-yellow ">" conditionally declare it only if it has not "</mark> [Page 8 ](zotero://open-pdf/library/items/2BS329KQ?page=8&annotation=4IMUWUY9)
 - <mark class="hltr-gray ">" Global Declarations "</mark> [Page 8 ](zotero://open-pdf/library/items/2BS329KQ?page=8&annotation=WEUZDU2E)
   - <mark class="hltr-yellow ">" variables will not attach to the window object as they do with var "</mark> [Page 8 ](zotero://open-pdf/library/items/2BS329KQ?page=8&annotation=ZZY7P3LC)
-  - ![](Paste%20image%201690534149883image.png)
+  - ![](z-Assets/Paste%20image%201690534149883image.png)
 
 ## `const` 声明
 
@@ -75,7 +75,7 @@ Topic:
   - <mark class="hltr-yellow ">" you cannot use const to declare for loop iterators "</mark> [Page 11 ](zotero://open-pdf/library/items/2BS329KQ?page=11&annotation=6NIQJB6R)
   - <mark class="hltr-yellow "> Once declared, it cannot be reassigned to a new value at any point in its lifetime. </mark> [Page 12](zotero://open-pdf/library/items/777VEPFY?page=12&annotation=I5YCL9JT)
   - <mark class="hltr-orange "> Object.freeze() </mark> [Page 12](zotero://open-pdf/library/items/777VEPFY?page=12&annotation=M5HBDEMU)
-    - ![](C04VariablesScopeMemory-12-x62-y38.png)
+    - ![](z-Assets/C04VariablesScopeMemory-12-x62-y38.png)
     - <mark class="hltr-yellow "> to make the entire object immutable </mark> [Page 12](zotero://open-pdf/library/items/777VEPFY?page=12&annotation=RRNIJI7V)
 - <mark class="hltr-yellow ">" it must be initialized with a value-必须初始化/赋值 "</mark> [Page 10 ](zotero://open-pdf/library/items/2BS329KQ?page=10&annotation=ZUXGB5XK)
 

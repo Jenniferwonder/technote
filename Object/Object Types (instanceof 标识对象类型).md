@@ -7,27 +7,31 @@ tags:
   - JavaScript
 DateStarted: 2024-01-29
 DateModified: 2024-02-02
-DateDo: 
-DateDone: 
-DateDue: 
+DateDo:
+DateDone:
+DateDue:
 DateReviewed: 2024-02-02
 Reviewed: 2
-Difficulty: 
-status: 
+Difficulty:
+status:
 Comment:
 ---
-***
+
+---
+
 Basic
+
 ### 判断对象是否某该构造函数的实例（标识对象类型）
+
 Back:
+
 - ❌`constructor` 属性
-- ✅`instanceof`
-	- To identify what type of object it is (更常用)
-	- ![](C04VariablesScopeMemory-6-x62-y394.png)
-🏷️: JS-Objects 
-📌: JS::JS-Objects 
+- ✅`instanceof` - To identify what type of object it is (更常用) - ![](z-Assets/C04VariablesScopeMemory-6-x62-y394.png)
+🏷️: JS-Objects
+📌: JS::JS-Objects
 <!--ID: 1706844449149-->
-****
+
+---
 
 ### `instanceof` 特殊示例
 

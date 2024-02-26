@@ -26,7 +26,7 @@ Topic:
 
 - 最简单的迭代 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=676c2276-9bfb-d891)
   - 计数循环 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=8e661f59-1eca-a0ca)
-    - ![](1691564604297.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=42590d6d-5407-156f)
+    - ![](z-Assets/1691564604297.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=42590d6d-5407-156f)
 - 循环是迭代机制的基础 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=3afecd5b-01ad-d115)
   - 因为它可以指定迭代的次数，以及每次迭代要执行什么操作 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=6c4e7b92-ce28-868b)
 - 在一个有序集合上进行 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=22d5ab25-364a-703a)
@@ -48,7 +48,7 @@ Topic:
     - 支持迭代的自我识别能力 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=277d1c8f-3d3e-4dcd)
       - 必须暴露一个属性作为“默认迭代器” [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=b062c107-604d-1af0)
       - 检查是否存在默认迭代器属性可以暴露这个工厂函数 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=a97de4d3-94ff-d513)
-        - ![](1691565228166.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=665c7d9a-85b3-a0ec)
+        - ![](z-Assets/1691565228166.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=665c7d9a-85b3-a0ec)
     - 创建实现 Iterator 接口的对象的能力 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=6b519eb0-c495-5e09)
       - 默认迭代器属性必须引用一个迭代器工厂函数 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=97b1c89a-1ee4-77bc)
       - 这个属性必须使用特殊的 `Symbol.iterator` 作为键 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=ec85170e-8c69-774a)

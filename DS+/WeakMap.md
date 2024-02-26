@@ -55,5 +55,5 @@ Topic:
 - <mark class="hltr-gray ">" DOM Node Metadata "</mark> [Page 45 ](zotero://open-pdf/library/items/J32BLJDJ?page=45&annotation=44FMIZUR)
   - DOM 节点元数据 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=1248dc3b-e504-6983)
   - 因为 WeakMap 实例不会妨碍垃圾回收，所以非常适合保存关联元数据 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=f3fb6ad1-6f8d-483d)
-  - ![](1691559775005.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=3082729e-8050-93f4)
-  - ![](1691559786052.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=0b5854d1-32fd-7fca)
+  - ![](z-Assets/1691559775005.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=3082729e-8050-93f4)
+  - ![](z-Assets/1691559786052.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=0b5854d1-32fd-7fca)

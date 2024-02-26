@@ -67,19 +67,19 @@ Topic:
 ## 实例方法
 
 - 与普通数组相似的方法
-  - ![](1691479384516.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=efaf4dda-e67e-94a2)
-  - ![](1691479394996.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=2cd981fe-8b4d-e6cb)
+  - ![](z-Assets/1691479384516.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=efaf4dda-e67e-94a2)
+  - ![](z-Assets/1691479394996.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=2cd981fe-8b4d-e6cb)
 - 拼、删、增、截、改
   - 不适用的方法
-    - ![](1691479512448.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=6d6ac39d-c030-7453)
+    - ![](z-Assets/1691479512448.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=6d6ac39d-c030-7453)
   - 复制数据的新方法
     - set() [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=febf8d19-0b8c-e53c)
       - 从提供的数组或定型数组中把值复制到当前定型数组中指定的索引位置 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=93948f7e-b5f8-57b5)
-        - ![](1691479695992.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=833ff7bc-b582-28c9)
+        - ![](z-Assets/1691479695992.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=833ff7bc-b582-28c9)
       - subarray() [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=17219271-1fd7-caaa)
         - 基于从原始定型数组中复制的值返回一个新定型数组 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=42946009-b1ce-ac1f)
         - 开始索引和结束索引可选 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=1aa13bd4-d289-948a)
-        - ![](1691479818115.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=566e9cb1-27ce-8d16)
+        - ![](z-Assets/1691479818115.png) [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=566e9cb1-27ce-8d16)
   - 拼接方法
 - 🟨 下溢和上溢-Underflow and Overflow [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=1144ee1c-f89c-5b14)
 <!--SR:!2023-08-25,10,250-->

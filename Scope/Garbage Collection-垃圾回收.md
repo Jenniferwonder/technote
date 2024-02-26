@@ -46,7 +46,7 @@ Topic:
   - <mark class="hltr-orange "> dereferencing the value 解除引用 </mark> [Page 17](zotero://open-pdf/library/items/777VEPFY?page=17&annotation=AQ5EF4NP)
     - <mark class="hltr-yellow "> When data is no longer necessary, it’s best to set the value to null, freeing up the reference </mark> [Page 17](zotero://open-pdf/library/items/777VEPFY?page=17&annotation=QFNGYCJC)
     - <mark class="hltr-yellow "> applies mostly to global values and properties of global objects</mark> [Page 17](zotero://open-pdf/library/items/777VEPFY?page=17&annotation=Q63DYHYU)
-    - ![](C04VariablesScopeMemory-18-x65-y456.png)
+    - ![](z-Assets/C04VariablesScopeMemory-18-x65-y456.png)
   - <mark class="hltr-gray ">" Use const and let Declarations "</mark> [Page 18 ](zotero://open-pdf/library/items/777VEPFY?page=18&annotation=TIYHTYRX)
     - <mark class="hltr-yellow "> signal to the garbage collector that an allocated variable is eligible for cleanup far sooner </mark> [Page 18](zotero://open-pdf/library/items/777VEPFY?page=18&annotation=99T85KC4)
   - <mark class="hltr-gray ">" Hidden Classes and the delete Operation-隐藏类与删除操作 "</mark> [Page 18 ](zotero://open-pdf/library/items/777VEPFY?page=18&annotation=SJS2JDHM)
@@ -54,10 +54,10 @@ Topic:
       - <mark class="hltr-yellow "> Objects that are able to share the same hidden class will have better performance </mark> [Page 18](zotero://open-pdf/library/items/777VEPFY?page=18&annotation=59KNUJDF)
     - 在构造函数中一次性声明所有属性
       - 避免动态添加属性
-        - ![](C04VariablesScopeMemory-19-x89-y398.png)
+        - ![](z-Assets/C04VariablesScopeMemory-19-x89-y398.png)
       - 避免动态删除属性
         - <mark class="hltr-yellow "> Best practices dictate that unwanted properties should be set to null. </mark> [Page 19](zotero://open-pdf/library/items/777VEPFY?page=19&annotation=MTX5E2UV)
-        - ![](C04VariablesScopeMemory-19-x91-y95.png)
+        - ![](z-Assets/C04VariablesScopeMemory-19-x91-y95.png)
   - <mark class="hltr-gray ">" Memory Leaks-内存泄漏 3 种情形避免"</mark> [Page 19 ](zotero://open-pdf/library/items/777VEPFY?page=19&annotation=8AD54VW7)
     - <mark class="hltr-yellow "> the variable is not prefixed with a declaration keyword </mark> [Page 20](zotero://open-pdf/library/items/777VEPFY?page=20&annotation=8SP35ULF)
       - 没有用关键字声明变量，意外声明全局变量

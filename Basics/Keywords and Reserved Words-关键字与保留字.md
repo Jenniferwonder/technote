@@ -19,6 +19,6 @@ Topic:
 
 ## <mark class="hltr-gray ">" KEYWORDS AND RESERVED WORDS "</mark> [Page 4 ](zotero://open-pdf/library/items/2BS329KQ?page=4&annotation=2BDH8ES7)
 
-## ![](C-C3-Language%20Basics.png)
+## ![](z-Assets/C-C3-Language%20Basics.png)
 
-## ![](C-C3-Language%20Basics-Keywords.png)
+## ![](z-Assets/C-C3-Language%20Basics-Keywords.png)

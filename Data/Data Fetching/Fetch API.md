@@ -49,18 +49,18 @@ fetch("https://reqres.in/api/users", {
 });
 ```
 
-- Result: ![](Pasted%20image%2020221210115058.png)
+- Result: ![](z-Assets/Pasted%20image%2020221210115058.png)
 
 ### Response
 
 Once a [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response) is retrieved, there are a number of methods available to define what the **body** content/ **JSON** is and how it should be handled.
 
-- ![](Pasted%20image%2020221210111900.png)
+- ![](z-Assets/Pasted%20image%2020221210111900.png)
 
 #### 1. Convert the JSON response to Object
 
 - `res.json()` returns a [Promise](Promise.md) that **resolves** to an [Object](Object.md) containing all the JSON data
-- ![](Pasted%20image%2020221210112955.png)
+- ![](z-Assets/Pasted%20image%2020221210112955.png)
 
 #### 2. How to handle HTTP error status?
 

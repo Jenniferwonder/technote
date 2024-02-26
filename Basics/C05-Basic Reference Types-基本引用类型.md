@@ -50,9 +50,9 @@ Topic:
   - 生命周期只存在于访问它的那行代码执行期间，即不能在运行时给原始值添加属性和方法
   - 可以显式地使用 Boolean、 Number 和 String 构造函数创建原始值包装对象实例。不过应该在确实必要时，否则易分不清是原始值还是引用值，在实例上调用`typeof` 会返回 `object`
   - Object 构造函数作为一个工厂方法，能够根据传入值的类型返回相应原始值包装类型的实例
-    - ![](Paste%20image%201690786151062image.png)
+    - ![](z-Assets/Paste%20image%201690786151062image.png)
   - 使用 new 调用原始值包装类型的构造函数，与调用同名的转型函数并不一样
-    - ![](Paste%20image%201690786054733image.png)
+    - ![](z-Assets/Paste%20image%201690786054733image.png)
 
 ## Singleton Built-in Objects-单例内置对象
 

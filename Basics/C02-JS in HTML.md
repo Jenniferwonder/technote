@@ -44,7 +44,7 @@ Topic:
     - 用法
       - 位置
         - include all JavaScript references **in the `<body>` element, after the page content**
-          - ![](Paste%20image%201689431862863image.png)
+          - ![](z-Assets/Paste%20image%201689431862863image.png)
       - 主要属性
         - <mark class="hltr-orange ">" src "</mark> [Page 61 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=61&annotation=K98LZDHQ)
           - 功能
@@ -90,7 +90,6 @@ Topic:
 
 - **`noscript` 标签** [Page 70 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=70&annotation=WNF8YEU9) - <mark class="hltr-yellow ">" created to provide alternate content for browsers without JavaScript "</mark> [Page 70 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=70&annotation=YAPFC98M) - 设置针对不支持/关闭 JS 浏览器的定制内容
 
-
 ## 相关概念
 
 - [HTML](HTML) 标签编译顺序
@@ -111,5 +110,5 @@ Topic:
     - <mark class="hltr-yellow ">" no level of true browser consistency can be achieved without hacks. "</mark> [Page 69 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=69&annotation=97E59QGN)
   - <mark class="hltr-orange ">" standards mode "</mark> [Page 69 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=69&annotation=DS4Z4ZKJ)
     - <mark class="hltr-orange ">" Standards mode is turned on when one of the following doctypes is used: "</mark> [Page 69 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=69&annotation=RL5ZTCN9)
-    - ![](C-Professional%20JavaScript%20for%20Web%20Developers.png)
+    - ![](z-Assets/C-Professional%20JavaScript%20for%20Web%20Developers.png)
   - <mark class="hltr-orange ">" almost standards mode "</mark> [Page 69 ](zotero://open-pdf/library/items/ZK2IJ5LN?page=69&annotation=K4KQVAYH)

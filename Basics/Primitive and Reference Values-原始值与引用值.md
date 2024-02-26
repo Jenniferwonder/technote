@@ -42,6 +42,6 @@ Topic:
 ## <mark class="hltr-gray ">" Argument Passing 参数传递 "</mark> [Page 3 ](zotero://open-pdf/library/items/777VEPFY?page=3&annotation=L64HPRQ9)
 
 - All function arguments in ECMAScript are passed by value (按值传递); the value outside of the function is copied
-  - ![](C04VariablesScopeMemory-5-x88-y399.png)
+  - ![](z-Assets/C04VariablesScopeMemory-5-x88-y399.png)
 
 ## [Copy-深浅拷贝](Copy-深浅拷贝.md)
