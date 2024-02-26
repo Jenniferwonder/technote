@@ -21,7 +21,7 @@ Basic
 ## 将两个或多个数组合并为一个新数组（忽略二维数组结构）
 Back:
 - `let newColor = color.concat(oldColor)`
-	- ![](1691308392551.png)
+	- ![](z-Assets/1691308392551.png)
 - ✅`let newColor = [...color,...oldColor]`
 <!--ID: 1706600287314-->
 ****
