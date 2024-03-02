@@ -21,7 +21,7 @@ Topic:
 
 ## Metadata
 
-- Up:: [C03-Language Basics](C03-Language%20Basics.md)
+- Up:: [C03-Language Basics](../Private/C-JS/C03-Language%20Basics.md)
 
 ## <mark class="hltr-gray ">" Unary Operators-一元操作符 "</mark> [Page 44 ](zotero://open-pdf/library/items/2BS329KQ?page=44&annotation=V24TIWAA)
 

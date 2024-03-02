@@ -18,7 +18,7 @@ status:
 
 ## ECMAScript 6 新增的迭代器和扩展操作符对集合引用类型特别有用 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=9f801676-c5e0-442d)
 
-## [C07-Iterators and Generators-迭代器与生成器](C07-Iterators%20and%20Generators-迭代器与生成器.md)
+## [C07-Iterators and Generators-迭代器与生成器](../Private/C-JS/C07-Iterators%20and%20Generators-迭代器与生成器.md)
 
 ## 让集合类型之间 相互操作、复制和修改变得异常方便 [📌](obsidian://jump-to-pdf?id=ProJS-ZN&annotate=a4ebc2f7-a0ee-35fc)
 

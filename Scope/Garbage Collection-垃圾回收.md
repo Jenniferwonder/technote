@@ -20,7 +20,7 @@ Topic:
 
 ## Metadata
 
-- Up:: [C04-Variables; Scope; Memory-变量、作用域、内存](C04-Variables;%20Scope;%20Memory-变量、作用域、内存.md)
+- Up:: [C04-Variables; Scope; Memory-变量、作用域、内存](../Private/C-JS/C04-Variables;%20Scope;%20Memory-变量、作用域、内存.md)
 
 ## <mark class="hltr-orange "> garbage-collected language </mark> [Page 14](zotero://open-pdf/library/items/777VEPFY?page=14&annotation=IMJJBYSZ)
 

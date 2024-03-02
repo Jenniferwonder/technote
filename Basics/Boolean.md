@@ -21,7 +21,7 @@ Topic:
 
 ## Metadata
 
-- Up:: [C05-Basic Reference Types-基本引用类型](C05-Basic%20Reference%20Types-基本引用类型.md)
+- Up:: [C05-Basic Reference Types-基本引用类型](../Private/C-JS/C05-Basic%20Reference%20Types-基本引用类型.md)
 
 ## Boolean 值是？
 
