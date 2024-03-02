@@ -1,6 +1,6 @@
 ---
 Title: Local storage
-Type: D
+Type: C
 tags:
   - JavaScript
 DateStarted: 2023-07-03

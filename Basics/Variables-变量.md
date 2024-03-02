@@ -3,27 +3,17 @@ Title: Variables-变量
 Type: D
 DateStarted: 2022-12-02
 DateModified: 2023-11-28
-status: Young
-mindmap-plugin: basic
-LeadTime: "12"
+status:
+  - Young
 DateDo: 2023-07-17T00:00:00.000+08:00
 DateDone: 2023-07-28T00:00:00.000+08:00
-Cards: 15
-Cards-D: "2"
-Page-D: "0"
-EST: "-19554"
 Reviewed: 2
 Topic:
   - Basics
   - Scope
 ---
 
-# [D-JS](O-JS.md) Variables-变量
-
-## Metadata
-
-- Reference:: [Storing the information you need — Variables - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables), [js 块级作用域和 let，const，var 区别](https://link.juejin.cn?target=https%3A%2F%2Fwww.cnblogs.com%2Fmoumoon%2Fp%2F10985250.html "https://www.cnblogs.com/moumoon/p/10985250.html")
-- Up:: [C04-Variables; Scope; Memory-变量、作用域、内存](C04-Variables;%20Scope;%20Memory-变量、作用域、内存.md)
+# Variables-变量
 
 ## `var` 关键字
 
@@ -34,7 +24,7 @@ Topic:
   - 没有块的概念，可以跨块访问
     - 借助 **[Closures-闭包](Closures-闭包)** 和函数作用域来实现块级作用域的效果
 - 可重复声明同一个变量
-<!--SR:!2023-08-22,10,250-->
+
 
 ## `let` 声明
 

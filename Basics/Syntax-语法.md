@@ -1,20 +1,15 @@
 ---
 Title: Syntax-语法
+Topic:
+  - Basics
 Type: D
 DateStarted: 2023-07-13
 DateModified: 2023-11-28
-mindmap-plugin: basic
-status: Mature
-LeadTime: "17"
+status:
+  - Mature
 DateDo: 2023-07-12T00:00:00.000+08:00
 DateDone: 2023-07-28T00:00:00.000+08:00
-Cards: 5
-Cards-D: "1"
-Page-D: "0"
-EST: "-19549"
 Reviewed: 2
-Topic:
-  - Basics
 ---
 
 # Syntax-语法

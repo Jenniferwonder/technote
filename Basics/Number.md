@@ -1,19 +1,14 @@
 ---
 Title: Number
+Topic:
+  - Number
 Type: D
 DateStarted: 2022-12-01
 DateModified: 2023-11-28
-status: Mature
-mindmap-plugin: basic
-LeadTime: "20"
+status:
+  - Mature
 DateDo: 2023-07-12T00:00:00.000+08:00
 DateDone: 2023-07-31T00:00:00.000+08:00
-Cards: 46
-Cards-D: "3"
-Page-D: "0"
-EST: "-19549"
-Topic:
-  - Number
 ---
 
 # [D-JS](O-JS.md) Number

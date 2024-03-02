@@ -1,12 +1,20 @@
 ---
 Title: Web Worker
-tags: TechSkills
+tags:
+  - JavaScript
+Type: C
+Topic:
+  - Worker
 DateStarted: 2022-12-16
-DateModified: 2022-12-16
+DateModified: 2024-03-02
+DateDo: 
+DateDone: 
+DateDue: 
+DateReviewed: 
+Reviewed: 
+Difficulty: 
+Comment: 
 status:
-sr-due: 2023-07-02
-sr-interval: 4
-sr-ease: 277
 ---
 ## Reference
 - [浅谈 HTML5 Web Worker](https://juejin.cn/post/6844903496550989837 "https://juejin.cn/post/6844903496550989837")

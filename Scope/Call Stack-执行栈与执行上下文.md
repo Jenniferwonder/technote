@@ -1,15 +1,20 @@
 ---
 Title: Call Stack-执行栈与执行上下文
-Type: D
-DateStarted: 2022-12-16
-DateModified: 2023-11-28
-status:
-LeadTime: "1"
-Cards-D: "0"
-Page-D: "0"
-EST: NaN
 Topic:
   - Scope
+tags:
+  - JavaScript
+Type: D
+DateStarted: 2022-12-16
+DateModified: 2024-03-02
+DateDo: 
+DateDone: 
+DateDue: 
+DateReviewed: 
+Comment: 
+Reviewed: 
+Difficulty: 
+status:
 ---
 
 ## 执行上下文

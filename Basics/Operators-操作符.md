@@ -3,25 +3,17 @@ Title: Operators-操作符
 Type: D
 DateStarted: 2022-11-29
 DateModified: 2023-11-28
-status: Mature
-mindmap-plugin: basic
-LeadTime: "17"
+status:
+  - Mature
 DateDo: 2023-07-12T00:00:00.000+08:00
 DateDone: 2023-07-28T00:00:00.000+08:00
-Cards: 18
-Cards-D: "2"
-Page-D: "0"
-EST: "-19549"
 Reviewed: 2
 Topic:
   - Basics
 ---
 
-# [D-JS](O-JS.md) Operators-操作符
+# Operators-操作符
 
-## Metadata
-
-- Up:: [C03-Language Basics](../Private/C-JS/C03-Language%20Basics.md)
 
 ## <mark class="hltr-gray ">" Unary Operators-一元操作符 "</mark> [Page 44 ](zotero://open-pdf/library/items/2BS329KQ?page=44&annotation=V24TIWAA)
 

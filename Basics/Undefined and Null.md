@@ -1,5 +1,7 @@
 ---
 Title: Undefined and Null
+Topic:
+  - Basics
 Type: D
 DateStarted: 2023-07-28
 DateModified: 2023-11-28
@@ -7,12 +9,7 @@ status:
   - Mature
 DateDo: 2023-07-12T00:00:00.000+08:00
 DateDone: 2023-07-29T00:00:00.000+08:00
-Cards: 1
-Cards-D: "1"
-Page-D: "0"
 Reviewed: 2
-Topic:
-  - Basics
 ---
 
 # Undefined and Null

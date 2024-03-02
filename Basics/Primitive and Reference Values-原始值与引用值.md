@@ -1,21 +1,15 @@
 ---
 Title: Primitive and Reference Values-原始值与引用值
+Topic:
+  - Basics
 Type: D
 DateStarted: 2023-07-28
 DateModified: 2023-11-28
-mindmap-plugin: basic
 status:
   - Mature
-LeadTime: "13"
 DateDo: 2023-07-17T00:00:00.000+08:00
 DateDone: 2023-07-29T00:00:00.000+08:00
-Cards: 2
-Cards-D: "1"
-Page-D: "0"
 Difficulty: Easy
-Reviewed: 2
-Topic:
-  - Basics
 ---
 
 # Primitive and Reference Values-原始值与引用值

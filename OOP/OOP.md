@@ -7,7 +7,7 @@ Comment:
 Title: OOP
 Type: O
 status:
-  - ToCapture
+  - ToUse
 DateStarted: 2023-07-14
 DateDo: 2023-08-10T00:00:00.000+08:00
 DateDue: 2023-08-16T00:00:00.000+08:00

@@ -1,9 +1,19 @@
 ---
 Title: Cookies
+Topic:
+  - DataStore
 tags:
   - JavaScript
+Type: C
+DateDo: 
+DateDone: 
+DateDue: 
+DateReviewed: 
+Reviewed: 
+Difficulty: 
+Comment: 
 DateStarted: 2023-02-16
-DateModified: 2023-02-16
+DateModified: 2024-03-02
 status:
 ---
 ## Reference

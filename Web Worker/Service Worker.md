@@ -1,12 +1,20 @@
 ---
-Title: Service Worker-PWA
-tags: TechSkills
+Title: Service Worker
+Topic:
+  - Worker
+tags:
+  - JavaScript
+Type: C
+DateDo: 
+DateDone: 
+DateDue: 
+DateReviewed: 
+Reviewed: 
+Difficulty: 
+Comment: 
 DateStarted: 2022-12-16
-DateModified: 2022-12-16
+DateModified: 2024-03-02
 status:
-sr-due: 2023-07-02
-sr-interval: 4
-sr-ease: 270
 ---
 
 - [Service Worker：简介](https://link.juejin.cn?target=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Ffundamentals%2Fprimers%2Fservice-workers "https://developers.google.com/web/fundamentals/primers/service-workers")
