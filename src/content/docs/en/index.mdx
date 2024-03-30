@@ -1,0 +1,31 @@
+---
+title: Check Out My JavaScript Notes
+description: Get started learning and improving your JS skills.
+template: splash
+hero:
+  tagline: Start learning and improving JS skills with me!
+  image:
+    file: ../../../assets/houston.webp
+  actions:
+    - text: Read Notes
+      link: /js-note/basics/data-types
+      icon: right-arrow
+      variant: primary
+    - text: Fork the JS notes
+      link: https://starlight.astro.build
+      icon: external
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+## Next steps
+
+<CardGrid stagger>
+	<Card title="Read and Learn JS Fundamentals" icon="pencil">
+		Start learning JS with me
+	</Card>
+	<Card title="Build JS Demos" icon="open-book">
+		Find JS demo inspiration in [JS Projects
+		](https://github.com/Jenniferwonder/js-practice).
+	</Card>
+</CardGrid>
