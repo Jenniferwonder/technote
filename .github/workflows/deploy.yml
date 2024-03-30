@@ -35,8 +35,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+        id: deployment
+        uses: actions/deploy-pages@v4
       # - name: Checkout
       #   uses: actions/checkout@v4
       # - name: Set up Node
@@ -55,4 +55,3 @@ jobs:
       #   with:
       #     # Upload dist folder
       #     path: "./dist"
-      
