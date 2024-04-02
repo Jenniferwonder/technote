@@ -1,14 +1,14 @@
 ---
-title: JavaScript 笔记
-description: Get started learning and improving your JS skills.
+title: 编程学习小册
+description: Get started learning and improving your programming skills.
 template: splash
 hero:
-  tagline: 一起学习提升 JS 基本功吧！
+  tagline: 一起学习提升编程基本功吧！
   image:
     file: ../../assets/houston.webp
   actions:
     - text: 开始阅读
-      link: /js-note/basics/data-types
+      link: /js-note/overview
       icon: right-arrow
       variant: primary
     - text: Fork 笔记仓库
@@ -16,16 +16,32 @@ hero:
       icon: external
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
+import { Card, LinkCard, CardGrid } from "@astrojs/starlight/components";
 
-## Next steps
+## JavaScript
 
-<CardGrid stagger>
-	<Card title="复习 JS 基础知识" icon="pencil">
-		学习、复习 JS 卡片笔记，强化基础，温故知新
-	</Card>
-	<Card title="手写 JS Demos" icon="open-book">
+<CardGrid>
+	<LinkCard
+		title="复习 JS 基础知识"
+		description="学习、复习 JS 卡片笔记，强化基础，温故知新"
+		href="/js-note/js/basics/data-types"
+	/>
+	<Card title="手写 JS Demos" icon="pencil">
 		JS Demo 灵感与经典练习：[JS Projects
 		](https://github.com/Jenniferwonder/js-practice).
+	</Card>
+</CardGrid>
+
+## React
+
+<CardGrid>
+	<LinkCard
+		title="复习 React 基础知识"
+		description="学习、复习 React 卡片笔记，强化基础，温故知新"
+		href="/js-note/react/react-basics/readme"
+	/>
+	<Card title="手写 React Demos" icon="open-book">
+		React Demo 灵感与经典练习：[Learn React
+		](https://github.com/Jenniferwonder/learn-react).
 	</Card>
 </CardGrid>

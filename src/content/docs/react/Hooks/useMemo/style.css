@@ -1,0 +1,17 @@
+.dark {
+	background-color: #242424;
+	color: white;
+}
+
+.light {
+	background-color: white;
+	color: black;
+}
+
+.todolist {
+	height: 300px;
+	overflow: scroll;
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

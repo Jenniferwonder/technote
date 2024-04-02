@@ -1,31 +1,59 @@
 ---
-title: Check Out My JavaScript Notes
+title: Jen's Coding Notes
 description: Get started learning and improving your JS skills.
 template: splash
 hero:
-  tagline: Start learning and improving JS skills with me!
+  tagline: Start learning and improving programming skills with me!
   image:
     file: ../../../assets/houston.webp
   actions:
     - text: Read Notes
-      link: /js-note/basics/data-types
+      link: /js-note/overview
       icon: right-arrow
       variant: primary
-    - text: Fork the JS notes
+    - text: Fork notes
       link: https://starlight.astro.build
       icon: external
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
+import { LinkCard, Card, CardGrid } from "@astrojs/starlight/components";
 
-## Next steps
+## JavaScript
 
-<CardGrid stagger>
-	<Card title="Read and Learn JS Fundamentals" icon="pencil">
-		Start learning JS with me
-	</Card>
-	<Card title="Build JS Demos" icon="open-book">
-		Find JS demo inspiration in [JS Projects
+<CardGrid>
+	<LinkCard
+		title="Review JS Fundamentals"
+		icon="pencil"
+		description="Learn and review JS fundamentals using card notes and spaced repetition
+		methodology"
+		href="overview"
+	/>
+	{/* <Card title="Review JS Fundamentals" icon="pencil">
+		Learn and review JS fundamentals using card notes and spaced repetition
+		methodology
+	</Card> */}
+	<Card title="Implement JS Demos" icon="pencil">
+		Find JS Demo inspirations and practice：[JS Projects
 		](https://github.com/Jenniferwonder/js-practice).
+	</Card>
+</CardGrid>
+
+## React
+
+<CardGrid>
+	<LinkCard
+		title="Review React Fundamentals"
+		icon="pencil"
+		description="Learn and review React fundamentals using card notes and spaced repetition
+	methodology"
+		href="overview"
+	/>
+	{/* <Card title="Review React Fundamentals" icon="pencil">
+		Learn and review React fundamentals using card notes and spaced repetition
+		methodology
+	</Card> */}
+	<Card title="Implement React Demos" icon="open-book">
+		Find React Demo inspirations and practice：[Learn React
+		](https://github.com/Jenniferwonder/learn-react).
 	</Card>
 </CardGrid>

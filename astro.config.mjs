@@ -5,6 +5,9 @@ import starlight from "@astrojs/starlight";
 // import starlightLinksValidator from "starlight-links-validator";
 // import wikiLinkPlugin from "@portaljs/remark-wiki-link";
 // import { getPermalinks } from "@portaljs/remark-wiki-link";
+import react from "@astrojs/react";
+
+// import rehypeAstroRelativeMarkdownLinks from "astro-rehype-relative-markdown-links";
 
 // TODO: support for markdown link or wikilink
 // https://github.com/vernak2539/astro-rehype-relative-markdown-links
@@ -13,9 +16,16 @@ import starlight from "@astrojs/starlight";
 
 // const processor = unified().use(markdown).use(wikiLinkPlugin);
 // const pageUrlPathPrefix = "http://localhost:4321/";
+// const options = {
+// contentPath:"",
+// basePath: "/js-note",
+// };
 // https://astro.build/config
 export default defineConfig({
+	site: "https://jenniferwonder.github.io",
+	base: "/js-note",
 	// markdown: {
+	// 	rehypePlugins: [rehypeAstroRelativeMarkdownLinks, options],
 	// 	remarkPlugins: [
 	// 		[
 	// 			wikiLinkPlugin,
@@ -28,11 +38,69 @@ export default defineConfig({
 	// 		],
 	// 	],
 	// },
-	site: "https://jenniferwonder.github.io",
-	base: "/js-note",
 	integrations: [
 		starlight({
+			sidebar: [
+				{
+					label: "Overview",
+					link: "overview",
+				},
+				{
+					label: "JS",
+					collapsed: true,
+					// items: [
+					// 	{
+					// 		label: "基础",
+					// 		collapsed: true,
+					// 		autogenerate: {
+					// 			directory: "js/basics",
+					// 		},
+					// 		translations: { en: "Basics" },
+					// 	},
+					// 	{
+					// 		label: "数组",
+					// 		collapsed: true,
+					// 		autogenerate: {
+					// 			directory: "js/array",
+					// 		},
+					// 		translations: { en: "Array" },
+					// 	},
+					// ],
+					autogenerate: {
+						directory: "js",
+					},
+				},
+				{
+					label: "React",
+					collapsed: true,
+					autogenerate: {
+						directory: "react",
+					},
+				},
+				// {
+				// 	label: "Guides",
+				// 	items: [
+				// 		// Each item here is one entry in the navigation menu.
+				// 		{ label: "Example Guide", link: "/guides/example/" },
+				// 	],
+				// },
+				/* 
+    {
+    	label: "Reference",
+    	autogenerate: { directory: "reference" },
+    }, */
+				/* {
+    	label: "String Instance Method",
+    	autogenerate: { directory: "string-instance" },
+    }, */
+				// Add the generated sidebar group to the sidebar.
+				// obsidianSidebarGroup,
+			],
 			title: "瞻思笔记",
+			// translations: { en: "JenCode" },
+			editLink: {
+				baseUrl: "https://github.com/Jenniferwonder/js-note/tree/main/",
+			},
 			components: {
 				// Override
 				PageTitle: "./src/components/PageTitle.astro",
@@ -66,34 +134,7 @@ export default defineConfig({
 				// 	errorOnRelativeLinks: false,
 				// })
 			],
-			sidebar: [
-				{
-					label: "Basics",
-					autogenerate: { directory: "basics" },
-				},
-				{
-					label: "Array",
-					autogenerate: { directory: "array" },
-				},
-				// {
-				// 	label: "Guides",
-				// 	items: [
-				// 		// Each item here is one entry in the navigation menu.
-				// 		{ label: "Example Guide", link: "/guides/example/" },
-				// 	],
-				// },
-				/* 
-				{
-					label: "Reference",
-					autogenerate: { directory: "reference" },
-				}, */
-				/* {
-					label: "String Instance Method",
-					autogenerate: { directory: "string-instance" },
-				}, */
-				// Add the generated sidebar group to the sidebar.
-				// obsidianSidebarGroup,
-			],
 		}),
+		react(),
 	],
 });
