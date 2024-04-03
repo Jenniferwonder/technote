@@ -318,594 +318,6 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/basics/boolean.md": {
-	id: "js/basics/boolean.md";
-  slug: "js/basics/boolean";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/data-types.md": {
-	id: "js/basics/data-types.md";
-  slug: "js/basics/data-types";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/ecmascript-version.md": {
-	id: "js/basics/ecmascript-version.md";
-  slug: "js/basics/ecmascript-version";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/keywords-and-reserved-words-关键字与保留字.md": {
-	id: "js/basics/keywords-and-reserved-words-关键字与保留字.md";
-  slug: "js/basics/keywords-and-reserved-words-关键字与保留字";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/number.md": {
-	id: "js/basics/number.md";
-  slug: "js/basics/number";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/operators-操作符.md": {
-	id: "js/basics/operators-操作符.md";
-  slug: "js/basics/operators-操作符";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/primitive-and-reference-values-原始值与引用值.md": {
-	id: "js/basics/primitive-and-reference-values-原始值与引用值.md";
-  slug: "js/basics/primitive-and-reference-values-原始值与引用值";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/statements-语句.md": {
-	id: "js/basics/statements-语句.md";
-  slug: "js/basics/statements-语句";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/symbol.md": {
-	id: "js/basics/symbol.md";
-  slug: "js/basics/symbol";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/syntax-语法.md": {
-	id: "js/basics/syntax-语法.md";
-  slug: "js/basics/syntax-语法";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/undefined-and-null.md": {
-	id: "js/basics/undefined-and-null.md";
-  slug: "js/basics/undefined-and-null";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/basics/variables-变量.md": {
-	id: "js/basics/variables-变量.md";
-  slug: "js/basics/variables-变量";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/bom/global-object.md": {
-	id: "js/bom/global-object.md";
-  slug: "js/bom/global-object";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/bom/history-object.md": {
-	id: "js/bom/history-object.md";
-  slug: "js/bom/history-object";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/bom/location-object.md": {
-	id: "js/bom/location-object.md";
-  slug: "js/bom/location-object";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/bom/navigator-object.md": {
-	id: "js/bom/navigator-object.md";
-  slug: "js/bom/navigator-object";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/bom/screen-object.md": {
-	id: "js/bom/screen-object.md";
-  slug: "js/bom/screen-object";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/bom/window-object.md": {
-	id: "js/bom/window-object.md";
-  slug: "js/bom/window-object";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-fetching/async/async...await.md": {
-	id: "js/data-fetching/async/async...await.md";
-  slug: "js/data-fetching/async/asyncawait";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-fetching/async/callbacks.md": {
-	id: "js/data-fetching/async/callbacks.md";
-  slug: "js/data-fetching/async/callbacks";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-fetching/async/debounce-and-throttle-防抖节流.md": {
-	id: "js/data-fetching/async/debounce-and-throttle-防抖节流.md";
-  slug: "js/data-fetching/async/debounce-and-throttle-防抖节流";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-fetching/async/event-loop-事件循环.md": {
-	id: "js/data-fetching/async/event-loop-事件循环.md";
-  slug: "js/data-fetching/async/event-loop-事件循环";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-fetching/async/promise.md": {
-	id: "js/data-fetching/async/promise.md";
-  slug: "js/data-fetching/async/promise";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-fetching/async/timer-计时器函数.md": {
-	id: "js/data-fetching/async/timer-计时器函数.md";
-  slug: "js/data-fetching/async/timer-计时器函数";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-fetching/axios.md": {
-	id: "js/data-fetching/axios.md";
-  slug: "js/data-fetching/axios";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-fetching/data-fetching.md": {
-	id: "js/data-fetching/data-fetching.md";
-  slug: "js/data-fetching/data-fetching";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-fetching/fetch-api.md": {
-	id: "js/data-fetching/fetch-api.md";
-  slug: "js/data-fetching/fetch-api";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-store/cookies.md": {
-	id: "js/data-store/cookies.md";
-  slug: "js/data-store/cookies";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-store/json.md": {
-	id: "js/data-store/json.md";
-  slug: "js/data-store/json";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-store/local-storage.md": {
-	id: "js/data-store/local-storage.md";
-  slug: "js/data-store/local-storage";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-store/mock-data.md": {
-	id: "js/data-store/mock-data.md";
-  slug: "js/data-store/mock-data";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/data-store/session.md": {
-	id: "js/data-store/session.md";
-  slug: "js/data-store/session";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/date/date.md": {
-	id: "js/date/date.md";
-  slug: "js/date/date";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/ds-plus/arraybuffer-缓冲.md": {
-	id: "js/ds-plus/arraybuffer-缓冲.md";
-  slug: "js/ds-plus/arraybuffer-缓冲";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/ds-plus/dataview.md": {
-	id: "js/ds-plus/dataview.md";
-  slug: "js/ds-plus/dataview";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/ds-plus/elementtype.md": {
-	id: "js/ds-plus/elementtype.md";
-  slug: "js/ds-plus/elementtype";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/ds-plus/endianness-字节序.md": {
-	id: "js/ds-plus/endianness-字节序.md";
-  slug: "js/ds-plus/endianness-字节序";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/ds-plus/map.md": {
-	id: "js/ds-plus/map.md";
-  slug: "js/ds-plus/map";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/ds-plus/set.md": {
-	id: "js/ds-plus/set.md";
-  slug: "js/ds-plus/set";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/ds-plus/typed-array-history-历史.md": {
-	id: "js/ds-plus/typed-array-history-历史.md";
-  slug: "js/ds-plus/typed-array-history-历史";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/ds-plus/typed-array-定型数组.md": {
-	id: "js/ds-plus/typed-array-定型数组.md";
-  slug: "js/ds-plus/typed-array-定型数组";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/ds-plus/weakmap.md": {
-	id: "js/ds-plus/weakmap.md";
-  slug: "js/ds-plus/weakmap";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/ds-plus/weakset.md": {
-	id: "js/ds-plus/weakset.md";
-  slug: "js/ds-plus/weakset";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/call-apply-bind.md": {
-	id: "js/function/call-apply-bind.md";
-  slug: "js/function/call-apply-bind";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/closure-(闭包).md": {
-	id: "js/function/closure-(闭包).md";
-  slug: "js/function/closure-闭包";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/collect-or-rest-and-spread-function-arguments-(收集,-剩余与扩展参数).md": {
-	id: "js/function/collect-or-rest-and-spread-function-arguments-(收集,-剩余与扩展参数).md";
-  slug: "js/function/collect-or-rest-and-spread-function-arguments-收集-剩余与扩展参数";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/function-arguments-(函数参数).md": {
-	id: "js/function/function-arguments-(函数参数).md";
-  slug: "js/function/function-arguments-函数参数";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/function-creation-(创建函数).md": {
-	id: "js/function/function-creation-(创建函数).md";
-  slug: "js/function/function-creation-创建函数";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/function-feature-(函数本质与特点).md": {
-	id: "js/function/function-feature-(函数本质与特点).md";
-  slug: "js/function/function-feature-函数本质与特点";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/function-names-(读取函数名).md": {
-	id: "js/function/function-names-(读取函数名).md";
-  slug: "js/function/function-names-读取函数名";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/function.md": {
-	id: "js/function/function.md";
-  slug: "js/function/function";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/functional-programming-js-函数式编程.md": {
-	id: "js/function/functional-programming-js-函数式编程.md";
-  slug: "js/function/functional-programming-js-函数式编程";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/new.target-功能用法-(es6).md": {
-	id: "js/function/new.target-功能用法-(es6).md";
-  slug: "js/function/newtarget-功能用法-es6";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/the-return-statement.md": {
-	id: "js/function/the-return-statement.md";
-  slug: "js/function/the-return-statement";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/function/this-in-js-function.md": {
-	id: "js/function/this-in-js-function.md";
-  slug: "js/function/this-in-js-function";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/js-api/js-api.md": {
-	id: "js/js-api/js-api.md";
-  slug: "js/js-api/js-api";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/js-api/observer-api.md": {
-	id: "js/js-api/observer-api.md";
-  slug: "js/js-api/observer-api";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/math/math.md": {
-	id: "js/math/math.md";
-  slug: "js/math/math";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/assign-merge-objects-(对象合并).md": {
-	id: "js/object/assign-merge-objects-(对象合并).md";
-  slug: "js/object/assign-merge-objects-对象合并";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/constructor-function-(构造函数模式).md": {
-	id: "js/object/constructor-function-(构造函数模式).md";
-  slug: "js/object/constructor-function-构造函数模式";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/factory-function-(工厂模式).md": {
-	id: "js/object/factory-function-(工厂模式).md";
-  slug: "js/object/factory-function-工厂模式";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/identify-object-equality-(对象全等判定).md": {
-	id: "js/object/identify-object-equality-(对象全等判定).md";
-  slug: "js/object/identify-object-equality-对象全等判定";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/object-creation-(创建对象).md": {
-	id: "js/object/object-creation-(创建对象).md";
-  slug: "js/object/object-creation-创建对象";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/object-destructuring-(对象解构).md": {
-	id: "js/object/object-destructuring-(对象解构).md";
-  slug: "js/object/object-destructuring-对象解构";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/object-iteration-(对象迭代).md": {
-	id: "js/object/object-iteration-(对象迭代).md";
-  slug: "js/object/object-iteration-对象迭代";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/object-literal-(对象字面量表示法).md": {
-	id: "js/object/object-literal-(对象字面量表示法).md";
-  slug: "js/object/object-literal-对象字面量表示法";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/object-property-&-value-(对象属性与值).md": {
-	id: "js/object/object-property-&-value-(对象属性与值).md";
-  slug: "js/object/object-property--value-对象属性与值";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/object-types-(instanceof-标识对象类型).md": {
-	id: "js/object/object-types-(instanceof-标识对象类型).md";
-  slug: "js/object/object-types-instanceof-标识对象类型";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/object.md": {
-	id: "js/object/object.md";
-  slug: "js/object/object";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/prototype-pattern-(原型模式).md": {
-	id: "js/object/prototype-pattern-(原型模式).md";
-  slug: "js/object/prototype-pattern-原型模式";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/object/use-new-operator-(使用-new-操作符).md": {
-	id: "js/object/use-new-operator-(使用-new-操作符).md";
-  slug: "js/object/use-new-operator-使用-new-操作符";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/oop/class-(es6-类).md": {
-	id: "js/oop/class-(es6-类).md";
-  slug: "js/oop/class-es6-类";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/oop/inheritance.md": {
-	id: "js/oop/inheritance.md";
-  slug: "js/oop/inheritance";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/oop/oop-principles.md": {
-	id: "js/oop/oop-principles.md";
-  slug: "js/oop/oop-principles";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/oop/oop.md": {
-	id: "js/oop/oop.md";
-  slug: "js/oop/oop";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/oop/prototype-chain-inheritance.md": {
-	id: "js/oop/prototype-chain-inheritance.md";
-  slug: "js/oop/prototype-chain-inheritance";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/practice/copy-深浅拷贝.md": {
-	id: "js/practice/copy-深浅拷贝.md";
-  slug: "js/practice/copy-深浅拷贝";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/practice/generator-生成器.md": {
-	id: "js/practice/generator-生成器.md";
-  slug: "js/practice/generator-生成器";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/practice/iteration-and-spread-operators-迭代与扩展操作.md": {
-	id: "js/practice/iteration-and-spread-operators-迭代与扩展操作.md";
-  slug: "js/practice/iteration-and-spread-operators-迭代与扩展操作";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/practice/iterator-迭代器.md": {
-	id: "js/practice/iterator-迭代器.md";
-  slug: "js/practice/iterator-迭代器";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/regexp/regexp.md": {
-	id: "js/regexp/regexp.md";
-  slug: "js/regexp/regexp";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/scope/call-stack-执行栈与执行上下文.md": {
-	id: "js/scope/call-stack-执行栈与执行上下文.md";
-  slug: "js/scope/call-stack-执行栈与执行上下文";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/scope/context-and-scope-执行上下文与作用域.md": {
-	id: "js/scope/context-and-scope-执行上下文与作用域.md";
-  slug: "js/scope/context-and-scope-执行上下文与作用域";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/scope/garbage-collection-垃圾回收.md": {
-	id: "js/scope/garbage-collection-垃圾回收.md";
-  slug: "js/scope/garbage-collection-垃圾回收";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
 "js/string/string-basics/character-literals-字符字面量.md": {
 	id: "js/string/string-basics/character-literals-字符字面量.md";
   slug: "js/string/string-basics/character-literals-字符字面量";
@@ -913,8 +325,8 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-basics/convert-value-to-a-string-(转字符串方法).md": {
-	id: "js/string/string-basics/convert-value-to-a-string-(转字符串方法).md";
+"js/string/string-basics/convert-value-to-a-string-转字符串方法.md": {
+	id: "js/string/string-basics/convert-value-to-a-string-转字符串方法.md";
   slug: "js/string/string-basics/convert-value-to-a-string-转字符串方法";
   body: string;
   collection: "docs";
@@ -934,22 +346,22 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-case-methods-(大小写).md": {
-	id: "js/string/string-instance-methods/string-case-methods-(大小写).md";
+"js/string/string-instance-methods/string-case-methods-大小写.md": {
+	id: "js/string/string-instance-methods/string-case-methods-大小写.md";
   slug: "js/string/string-instance-methods/string-case-methods-大小写";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-concat-(拼接方法).md": {
-	id: "js/string/string-instance-methods/string-concat-(拼接方法).md";
+"js/string/string-instance-methods/string-concat-拼接方法.md": {
+	id: "js/string/string-instance-methods/string-concat-拼接方法.md";
   slug: "js/string/string-instance-methods/string-concat-拼接方法";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-inclusion-methods-(包含方法).md": {
-	id: "js/string/string-instance-methods/string-inclusion-methods-(包含方法).md";
+"js/string/string-instance-methods/string-inclusion-methods-包含方法.md": {
+	id: "js/string/string-instance-methods/string-inclusion-methods-包含方法.md";
   slug: "js/string/string-instance-methods/string-inclusion-methods-包含方法";
   body: string;
   collection: "docs";
@@ -962,57 +374,57 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-iterators-and-destructuring-(迭代与解构).md": {
-	id: "js/string/string-instance-methods/string-iterators-and-destructuring-(迭代与解构).md";
+"js/string/string-instance-methods/string-iterators-and-destructuring-迭代与解构.md": {
+	id: "js/string/string-instance-methods/string-iterators-and-destructuring-迭代与解构.md";
   slug: "js/string/string-instance-methods/string-iterators-and-destructuring-迭代与解构";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-location-methods-(位置方法).md": {
-	id: "js/string/string-instance-methods/string-location-methods-(位置方法).md";
+"js/string/string-instance-methods/string-location-methods-位置方法.md": {
+	id: "js/string/string-instance-methods/string-location-methods-位置方法.md";
   slug: "js/string/string-instance-methods/string-location-methods-位置方法";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-padstart()-and-padend()-fill-methods-(填充方法).md": {
-	id: "js/string/string-instance-methods/string-padstart()-and-padend()-fill-methods-(填充方法).md";
+"js/string/string-instance-methods/string-padstart-and-padend-fill-methods-填充方法.md": {
+	id: "js/string/string-instance-methods/string-padstart-and-padend-fill-methods-填充方法.md";
   slug: "js/string/string-instance-methods/string-padstart-and-padend-fill-methods-填充方法";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-pattern-matching-methods-(查找匹配替换).md": {
-	id: "js/string/string-instance-methods/string-pattern-matching-methods-(查找匹配替换).md";
+"js/string/string-instance-methods/string-pattern-matching-methods-查找匹配替换.md": {
+	id: "js/string/string-instance-methods/string-pattern-matching-methods-查找匹配替换.md";
   slug: "js/string/string-instance-methods/string-pattern-matching-methods-查找匹配替换";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-repeat-method-(重复方法).md": {
-	id: "js/string/string-instance-methods/string-repeat-method-(重复方法).md";
+"js/string/string-instance-methods/string-repeat-method-重复方法.md": {
+	id: "js/string/string-instance-methods/string-repeat-method-重复方法.md";
   slug: "js/string/string-instance-methods/string-repeat-method-重复方法";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-slice,-substring,-substr-(截取方法).md": {
-	id: "js/string/string-instance-methods/string-slice,-substring,-substr-(截取方法).md";
+"js/string/string-instance-methods/string-slice,-substring,-substr-截取方法.md": {
+	id: "js/string/string-instance-methods/string-slice,-substring,-substr-截取方法.md";
   slug: "js/string/string-instance-methods/string-slice-substring-substr-截取方法";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-split,-join-(拆合方法).md": {
-	id: "js/string/string-instance-methods/string-split,-join-(拆合方法).md";
+"js/string/string-instance-methods/string-split,-join-拆合方法.md": {
+	id: "js/string/string-instance-methods/string-split,-join-拆合方法.md";
   slug: "js/string/string-instance-methods/string-split-join-拆合方法";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/string/string-instance-methods/string-trim-space-method-(去空格方法).md": {
-	id: "js/string/string-instance-methods/string-trim-space-method-(去空格方法).md";
+"js/string/string-instance-methods/string-trim-space-method-去空格方法.md": {
+	id: "js/string/string-instance-methods/string-trim-space-method-去空格方法.md";
   slug: "js/string/string-instance-methods/string-trim-space-method-去空格方法";
   body: string;
   collection: "docs";
@@ -1025,20 +437,6 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"js/web-worker/service-worker.md": {
-	id: "js/web-worker/service-worker.md";
-  slug: "js/web-worker/service-worker";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"js/web-worker/web-worker.md": {
-	id: "js/web-worker/web-worker.md";
-  slug: "js/web-worker/web-worker";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
 "overview.mdx": {
 	id: "overview.mdx";
   slug: "overview";
@@ -1046,316 +444,316 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"react/Data-Fetching/README.md": {
-	id: "react/Data-Fetching/README.md";
+"react/data-fetching/README.md": {
+	id: "react/data-fetching/README.md";
   slug: "react/data-fetching/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Data-Fetching/React-Query/README.md": {
-	id: "react/Data-Fetching/React-Query/README.md";
+"react/data-fetching/react-query/README.md": {
+	id: "react/data-fetching/react-query/README.md";
   slug: "react/data-fetching/react-query/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/File-Upload/README.md": {
-	id: "react/File-Upload/README.md";
+"react/file-upload/README.md": {
+	id: "react/file-upload/README.md";
   slug: "react/file-upload/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/README.md": {
-	id: "react/Hooks/README.md";
+"react/hooks/README.md": {
+	id: "react/hooks/README.md";
   slug: "react/hooks/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/README.md": {
-	id: "react/Hooks/State-Management/README.md";
+"react/hooks/state-management/README.md": {
+	id: "react/hooks/state-management/README.md";
   slug: "react/hooks/state-management/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/lib-for-state/README.md": {
-	id: "react/Hooks/State-Management/lib-for-state/README.md";
+"react/hooks/state-management/lib-for-state/README.md": {
+	id: "react/hooks/state-management/lib-for-state/README.md";
   slug: "react/hooks/state-management/lib-for-state/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/useContext/README.md": {
-	id: "react/Hooks/State-Management/useContext/README.md";
+"react/hooks/state-management/useContext/README.md": {
+	id: "react/hooks/state-management/useContext/README.md";
   slug: "react/hooks/state-management/usecontext/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/useReducer/README.md": {
-	id: "react/Hooks/State-Management/useReducer/README.md";
+"react/hooks/state-management/useReducer/README.md": {
+	id: "react/hooks/state-management/useReducer/README.md";
   slug: "react/hooks/state-management/usereducer/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/useState/README.md": {
-	id: "react/Hooks/State-Management/useState/README.md";
+"react/hooks/state-management/useState/README.md": {
+	id: "react/hooks/state-management/useState/README.md";
   slug: "react/hooks/state-management/usestate/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/useState/add-interactivity/README.md": {
-	id: "react/Hooks/State-Management/useState/add-interactivity/README.md";
+"react/hooks/state-management/useState/add-interactivity/README.md": {
+	id: "react/hooks/state-management/useState/add-interactivity/README.md";
   slug: "react/hooks/state-management/usestate/add-interactivity/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/useState/add-interactivity/Update Screen (Event Handlers).md": {
-	id: "react/Hooks/State-Management/useState/add-interactivity/Update Screen (Event Handlers).md";
+"react/hooks/state-management/useState/add-interactivity/Update Screen (Event Handlers).md": {
+	id: "react/hooks/state-management/useState/add-interactivity/Update Screen (Event Handlers).md";
   slug: "react/hooks/state-management/usestate/add-interactivity/update-screen-event-handlers";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/useState/preserve-reset-state/README.md": {
-	id: "react/Hooks/State-Management/useState/preserve-reset-state/README.md";
+"react/hooks/state-management/useState/preserve-reset-state/README.md": {
+	id: "react/hooks/state-management/useState/preserve-reset-state/README.md";
   slug: "react/hooks/state-management/usestate/preserve-reset-state/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/useState/react-to-input/README.md": {
-	id: "react/Hooks/State-Management/useState/react-to-input/README.md";
+"react/hooks/state-management/useState/react-to-input/README.md": {
+	id: "react/hooks/state-management/useState/react-to-input/README.md";
   slug: "react/hooks/state-management/usestate/react-to-input/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/useState/react-to-input/Respond to Events (Inputs).md": {
-	id: "react/Hooks/State-Management/useState/react-to-input/Respond to Events (Inputs).md";
+"react/hooks/state-management/useState/react-to-input/Respond to Events (Inputs).md": {
+	id: "react/hooks/state-management/useState/react-to-input/Respond to Events (Inputs).md";
   slug: "react/hooks/state-management/usestate/react-to-input/respond-to-events-inputs";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/useState/share-state/README.md": {
-	id: "react/Hooks/State-Management/useState/share-state/README.md";
+"react/hooks/state-management/useState/share-state/README.md": {
+	id: "react/hooks/state-management/useState/share-state/README.md";
   slug: "react/hooks/state-management/usestate/share-state/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/State-Management/useState/state-structure/README.md": {
-	id: "react/Hooks/State-Management/useState/state-structure/README.md";
+"react/hooks/state-management/useState/state-structure/README.md": {
+	id: "react/hooks/state-management/useState/state-structure/README.md";
   slug: "react/hooks/state-management/usestate/state-structure/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/useEffect/README.md": {
-	id: "react/Hooks/useEffect/README.md";
+"react/hooks/useEffect/README.md": {
+	id: "react/hooks/useEffect/README.md";
   slug: "react/hooks/useeffect/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/useImperativeHandle/README.md": {
-	id: "react/Hooks/useImperativeHandle/README.md";
+"react/hooks/useImperativeHandle/README.md": {
+	id: "react/hooks/useImperativeHandle/README.md";
   slug: "react/hooks/useimperativehandle/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/useMemo/README.md": {
-	id: "react/Hooks/useMemo/README.md";
+"react/hooks/useMemo/README.md": {
+	id: "react/hooks/useMemo/README.md";
   slug: "react/hooks/usememo/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Hooks/useRef/README.md": {
-	id: "react/Hooks/useRef/README.md";
+"react/hooks/useRef/README.md": {
+	id: "react/hooks/useRef/README.md";
   slug: "react/hooks/useref/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Basics/Demo.mdx": {
-	id: "react/React-Basics/Demo.mdx";
+"react/react-basics/Demo.mdx": {
+	id: "react/react-basics/Demo.mdx";
   slug: "react/react-basics/demo";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"react/React-Basics/README.md": {
-	id: "react/React-Basics/README.md";
+"react/react-basics/README.md": {
+	id: "react/react-basics/README.md";
   slug: "react/react-basics/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Basics/React CDD-组件化开发.md": {
-	id: "react/React-Basics/React CDD-组件化开发.md";
+"react/react-basics/React CDD-组件化开发.md": {
+	id: "react/react-basics/React CDD-组件化开发.md";
   slug: "react/react-basics/react-cdd-组件化开发";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Basics/z-class-component/README.md": {
-	id: "react/React-Basics/z-class-component/README.md";
+"react/react-basics/z-class-component/README.md": {
+	id: "react/react-basics/z-class-component/README.md";
   slug: "react/react-basics/z-class-component/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Basics/z-react-loadable/README.md": {
-	id: "react/React-Basics/z-react-loadable/README.md";
+"react/react-basics/z-react-loadable/README.md": {
+	id: "react/react-basics/z-react-loadable/README.md";
   slug: "react/react-basics/z-react-loadable/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Bundle-Issue/README.md": {
-	id: "react/React-Bundle-Issue/README.md";
+"react/react-bundle-issue/README.md": {
+	id: "react/react-bundle-issue/README.md";
   slug: "react/react-bundle-issue/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Form-Lib/README.md": {
-	id: "react/React-Form-Lib/README.md";
+"react/react-form-lib/README.md": {
+	id: "react/react-form-lib/README.md";
   slug: "react/react-form-lib/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Intl/README.md": {
-	id: "react/React-Intl/README.md";
+"react/react-intl/README.md": {
+	id: "react/react-intl/README.md";
   slug: "react/react-intl/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Performance/README.md": {
-	id: "react/React-Performance/README.md";
+"react/react-performance/README.md": {
+	id: "react/react-performance/README.md";
   slug: "react/react-performance/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Security-Issue/README.md": {
-	id: "react/React-Security-Issue/README.md";
+"react/react-security-issue/README.md": {
+	id: "react/react-security-issue/README.md";
   slug: "react/react-security-issue/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Source-Code/README.md": {
-	id: "react/React-Source-Code/README.md";
+"react/react-source-code/README.md": {
+	id: "react/react-source-code/README.md";
   slug: "react/react-source-code/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/React-Versions-Features/README.md": {
-	id: "react/React-Versions-Features/README.md";
+"react/react-versions-features/README.md": {
+	id: "react/react-versions-features/README.md";
   slug: "react/react-versions-features/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Relay/README.md": {
-	id: "react/Relay/README.md";
+"react/relay/README.md": {
+	id: "react/relay/README.md";
   slug: "react/relay/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Routing/README.md": {
-	id: "react/Routing/README.md";
+"react/routing/README.md": {
+	id: "react/routing/README.md";
   slug: "react/routing/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Routing/React-Router/README.md": {
-	id: "react/Routing/React-Router/README.md";
+"react/routing/react-router/README.md": {
+	id: "react/routing/react-router/README.md";
   slug: "react/routing/react-router/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Server-Component/README.md": {
-	id: "react/Server-Component/README.md";
+"react/server-component/README.md": {
+	id: "react/server-component/README.md";
   slug: "react/server-component/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Style-for-React/CSS-Module/README.md": {
-	id: "react/Style-for-React/CSS-Module/README.md";
-  slug: "react/style-for-react/css-module/readme";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"react/Style-for-React/README.md": {
-	id: "react/Style-for-React/README.md";
+"react/style-for-react/README.md": {
+	id: "react/style-for-react/README.md";
   slug: "react/style-for-react/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Suspense/README.md": {
-	id: "react/Suspense/README.md";
+"react/style-for-react/css-module/README.md": {
+	id: "react/style-for-react/css-module/README.md";
+  slug: "react/style-for-react/css-module/readme";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"react/suspense/README.md": {
+	id: "react/suspense/README.md";
   slug: "react/suspense/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Think-in-React/README.md": {
-	id: "react/Think-in-React/README.md";
+"react/think-in-react/README.md": {
+	id: "react/think-in-react/README.md";
   slug: "react/think-in-react/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Think-in-React/Think in React.md": {
-	id: "react/Think-in-React/Think in React.md";
+"react/think-in-react/Think in React.md": {
+	id: "react/think-in-react/Think in React.md";
   slug: "react/think-in-react/think-in-react";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Think-in-React/product-table-app/mock.md": {
-	id: "react/Think-in-React/product-table-app/mock.md";
+"react/think-in-react/product-table-app/mock.md": {
+	id: "react/think-in-react/product-table-app/mock.md";
   slug: "react/think-in-react/product-table-app/mock";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Think-in-React/tic-tac-toe/README.md": {
-	id: "react/Think-in-React/tic-tac-toe/README.md";
+"react/think-in-react/tic-tac-toe/README.md": {
+	id: "react/think-in-react/tic-tac-toe/README.md";
   slug: "react/think-in-react/tic-tac-toe/readme";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Think-in-React/tic-tac-toe/Tic-Tac-Toe.md": {
-	id: "react/Think-in-React/tic-tac-toe/Tic-Tac-Toe.md";
+"react/think-in-react/tic-tac-toe/Tic-Tac-Toe.md": {
+	id: "react/think-in-react/tic-tac-toe/Tic-Tac-Toe.md";
   slug: "react/think-in-react/tic-tac-toe/tic-tac-toe";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"react/Try-React/README.md": {
-	id: "react/Try-React/README.md";
+"react/try-react/README.md": {
+	id: "react/try-react/README.md";
   slug: "react/try-react/readme";
   body: string;
   collection: "docs";

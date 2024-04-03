@@ -1,6 +1,6 @@
 ---
 title: Array
-Type: O
+tags: ["js"]
 DateStarted: 2022-12-01
 DateModified: 2023-11-28
 status:

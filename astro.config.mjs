@@ -23,7 +23,7 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
 	site: "https://jenniferwonder.github.io",
-	base: "/js-note",
+	base: "/technote",
 	// markdown: {
 	// 	rehypePlugins: [rehypeAstroRelativeMarkdownLinks, options],
 	// 	remarkPlugins: [

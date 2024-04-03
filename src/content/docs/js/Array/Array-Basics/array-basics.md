@@ -6,7 +6,7 @@ tags:
   - JavaScript
 DateDue:
 DateReviewed: 2024-01-26
-Type: D
+Type: O
 DateStarted: 2023-08-07
 DateModified: 2024-01-26
 status:

@@ -2,7 +2,7 @@
 title: Array Instance Methods
 Topic:
   - Array
-Type: D
+Type: O
 tags:
   - JavaScript
 DateStarted: 2023-08-07
@@ -13,7 +13,6 @@ DateDue:
 DateReviewed: 2024-01-26
 Reviewed: 4
 Difficulty: Good
-mindmap-plugin: basic
 status:
   - ToUseMore
 Comment:
