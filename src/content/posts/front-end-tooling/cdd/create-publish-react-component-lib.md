@@ -8,7 +8,7 @@ topic:
 Datereviewed: 
 Type: D
 DateStarted: 2024-01-16
-DateModified: 2024-04-18
+DateModified: 2024-04-19
 reviewed: 
 status: 
 difficulty: 
@@ -269,7 +269,7 @@ registry=https://registry.npmjs.org/
 - Select permission
   - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/z-GitHub-Token-Permission.png)
 - Token for my-react-component-lib (2024-02-28, 7 days)
-  - `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`
+  - `...`
 
 #### Publish Lib
 
