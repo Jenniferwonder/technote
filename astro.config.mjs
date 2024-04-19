@@ -1,140 +1,101 @@
+import tailwind from "@astrojs/tailwind";
+import Compress from "astro-compress";
+import icon from "astro-icon";
 import { defineConfig } from "astro/config";
-import starlight from "@astrojs/starlight";
-// import starlightObsidian, { obsidianSidebarGroup } from "starlight-obsidian";
-// import markdown from "remark-parse";
-// import starlightLinksValidator from "starlight-links-validator";
-// import wikiLinkPlugin from "@portaljs/remark-wiki-link";
-// import { getPermalinks } from "@portaljs/remark-wiki-link";
-import react from "@astrojs/react";
+import Color from "colorjs.io";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import rehypeKatex from "rehype-katex";
+import rehypeSlug from "rehype-slug";
+import remarkMath from "remark-math";
+import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
+import svelte from "@astrojs/svelte";
+import swup from "@swup/astro";
 
-// import rehypeAstroRelativeMarkdownLinks from "astro-rehype-relative-markdown-links";
+const oklchToHex = (str) => {
+	const DEFAULT_HUE = 250;
+	const regex = /-?\d+(\.\d+)?/g;
+	const matches = str.string.match(regex);
+	const lch = [matches[0], matches[1], DEFAULT_HUE];
+	return new Color("oklch", lch).to("srgb").toString({
+		format: "hex",
+	});
+};
 
-// TODO: support for markdown link or wikilink
-// https://github.com/vernak2539/astro-rehype-relative-markdown-links
-// https://stackoverflow.com/questions/76163067/using-markdown-wiki-links-in-astro-framework
-// https://starlight-links-validator.vercel.app/getting-started/
-
-// const processor = unified().use(markdown).use(wikiLinkPlugin);
-// const pageUrlPathPrefix = "http://localhost:4321/";
-// const options = {
-// contentPath:"",
-// basePath: "/js-note",
-// };
 // https://astro.build/config
 export default defineConfig({
-	site: "https://jenniferwonder.github.io",
-	base: "/technote",
-	// markdown: {
-	// 	rehypePlugins: [rehypeAstroRelativeMarkdownLinks, options],
-	// 	remarkPlugins: [
-	// 		[
-	// 			wikiLinkPlugin,
-	// 			{
-	// 				pathFormat: "obsidian-absolute",
-	// 				// generate url of the linked page.
-	// 				// here `slug` would be "Page Name" for wiki link [[Page Name]].
-	// 				wikiLinkResolver: (slug) => [pageUrlPathPrefix + slug],
-	// 			},
-	// 		],
-	// 	],
+	site: "https://jenniferwonder.github.io/technote",
+	base: "/",
+	// i18n: {
+	//   defaultLocale: "en",
+	//   locales: ["en", "es", "pt-br"],
+	//   routing: {
+	//     prefixDefaultLocale: false
+	// }
 	// },
 	integrations: [
-		starlight({
-			sidebar: [
-				{
-					label: "Overview",
-					link: "overview",
-				},
-				{
-					label: "JS",
-					collapsed: true,
-					// items: [
-					// 	{
-					// 		label: "基础",
-					// 		collapsed: true,
-					// 		autogenerate: {
-					// 			directory: "js/basics",
-					// 		},
-					// 		translations: { en: "Basics" },
-					// 	},
-					// 	{
-					// 		label: "数组",
-					// 		collapsed: true,
-					// 		autogenerate: {
-					// 			directory: "js/array",
-					// 		},
-					// 		translations: { en: "Array" },
-					// 	},
-					// ],
-					autogenerate: {
-						directory: "js",
-					},
-				},
-				{
-					label: "React",
-					collapsed: true,
-					autogenerate: {
-						directory: "react",
-					},
-				},
-				// {
-				// 	label: "Guides",
-				// 	items: [
-				// 		// Each item here is one entry in the navigation menu.
-				// 		{ label: "Example Guide", link: "/guides/example/" },
-				// 	],
-				// },
-				/* 
-    {
-    	label: "Reference",
-    	autogenerate: { directory: "reference" },
-    }, */
-				/* {
-    	label: "String Instance Method",
-    	autogenerate: { directory: "string-instance" },
-    }, */
-				// Add the generated sidebar group to the sidebar.
-				// obsidianSidebarGroup,
-			],
-			title: "瞻思笔记",
-			// translations: { en: "JenCode" },
-			editLink: {
-				baseUrl: "https://github.com/Jenniferwonder/js-note/tree/main/",
-			},
-			components: {
-				// Override
-				PageTitle: "./src/components/PageTitle.astro",
-				ContentPanel: "./src/components/ContentPanel.astro",
-				MarkdownContent: "./src/components/MarkdownContent.astro",
-				// PageSidebar: "./src/components/PageSidebar.astro",
-			},
-			social: {
-				github: "https://github.com/Jenniferwonder/js-note",
-			},
-			// Set English as the default language for this site.
-			defaultLocale: "root",
-			locales: {
-				// English docs in `src/content/docs/en/`
-				root: {
-					label: "简体中文",
-					lang: "zh-CN",
-				},
-				// Simplified Chinese docs in `src/content/docs/zh-cn/`
-				en: {
-					label: "English",
-					lang: "en",
-				},
-			},
-			plugins: [
-				// Generate the Obsidian vault pages.
-				// starlightObsidian({
-				// 	vault: "./vault",
-				// }),
-				// starlightLinksValidator({
-				// 	errorOnRelativeLinks: false,
-				// })
-			],
+		tailwind(),
+		swup({
+			theme: false,
+			animationClass: "transition-",
+			containers: ["main"],
+			smoothScrolling: true,
+			cache: true,
+			preload: true,
+			accessibility: true,
+			globalInstance: true,
 		}),
-		react(),
+		icon({
+			include: {
+				"material-symbols": ["*"],
+				"fa6-brands": ["*"],
+				"fa6-regular": ["*"],
+				"fa6-solid": ["*"],
+			},
+		}),
+		Compress({
+			Image: false,
+		}),
+		svelte(),
 	],
+	markdown: {
+		remarkPlugins: [remarkMath, remarkReadingTime],
+		rehypePlugins: [
+			rehypeKatex,
+			rehypeSlug,
+			[
+				rehypeAutolinkHeadings,
+				{
+					behavior: "append",
+					properties: {
+						className: ["anchor"],
+					},
+					content: {
+						type: "element",
+						tagName: "span",
+						properties: {
+							className: ["anchor-icon"],
+							"data-pagefind-ignore": true,
+						},
+						children: [
+							{
+								type: "text",
+								value: "#",
+							},
+						],
+					},
+				},
+			],
+		],
+	},
+	vite: {
+		css: {
+			preprocessorOptions: {
+				stylus: {
+					define: {
+						oklchToHex: oklchToHex,
+					},
+				},
+			},
+		},
+	},
 });
