@@ -385,6 +385,405 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"css/accessibility/accessibility.md": {
+	id: "css/accessibility/accessibility.md";
+  slug: "css/accessibility/accessibility";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/basics/base-styles.md": {
+	id: "css/basics/base-styles.md";
+  slug: "css/basics/base-styles";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/basics/button-style.md": {
+	id: "css/basics/button-style.md";
+  slug: "css/basics/button-style";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/basics/color-scheme.md": {
+	id: "css/basics/color-scheme.md";
+  slug: "css/basics/color-scheme";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/basics/css-basics.md": {
+	id: "css/basics/css-basics.md";
+  slug: "css/basics/css-basics";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/basics/css-cascade-specificity-and-inheritance-(优先级原理).md": {
+	id: "css/basics/css-cascade-specificity-and-inheritance-(优先级原理).md";
+  slug: "css/basics/css-cascade-specificity-and-inheritance-优先级原理";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/basics/css-for-react.md": {
+	id: "css/basics/css-for-react.md";
+  slug: "css/basics/css-for-react";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/basics/css-methodology.md": {
+	id: "css/basics/css-methodology.md";
+  slug: "css/basics/css-methodology";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/basics/css-properties-and-values.md": {
+	id: "css/basics/css-properties-and-values.md";
+  slug: "css/basics/css-properties-and-values";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/borders/border-radius-(rounded-corners).md": {
+	id: "css/borders/border-radius-(rounded-corners).md";
+  slug: "css/borders/border-radius-rounded-corners";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/borders/borders.md": {
+	id: "css/borders/borders.md";
+  slug: "css/borders/borders";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/box-model-spacing/border-box-explained.md": {
+	id: "css/box-model-spacing/border-box-explained.md";
+  slug: "css/box-model-spacing/border-box-explained";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/box-model-spacing/box-display-types-block-and-inline-boxes.md": {
+	id: "css/box-model-spacing/box-display-types-block-and-inline-boxes.md";
+  slug: "css/box-model-spacing/box-display-types-block-and-inline-boxes";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/box-model-spacing/box-model-spacing.md": {
+	id: "css/box-model-spacing/box-model-spacing.md";
+  slug: "css/box-model-spacing/box-model-spacing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/box-model-spacing/box-spacing-basics.md": {
+	id: "css/box-model-spacing/box-spacing-basics.md";
+  slug: "css/box-model-spacing/box-spacing-basics";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/clipping-masking/clipping.md": {
+	id: "css/clipping-masking/clipping.md";
+  slug: "css/clipping-masking/clipping";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/clipping-masking/masks.md": {
+	id: "css/clipping-masking/masks.md";
+  slug: "css/clipping-masking/masks";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/css-backgrounds/css-backgrounds.md": {
+	id: "css/css-backgrounds/css-backgrounds.md";
+  slug: "css/css-backgrounds/css-backgrounds";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/css-filters/css-filters.md": {
+	id: "css/css-filters/css-filters.md";
+  slug: "css/css-filters/css-filters";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/css-selectors/attribute-selectors.md": {
+	id: "css/css-selectors/attribute-selectors.md";
+  slug: "css/css-selectors/attribute-selectors";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/css-selectors/basic-selectors.md": {
+	id: "css/css-selectors/basic-selectors.md";
+  slug: "css/css-selectors/basic-selectors";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/css-selectors/combinators-selector-combinations.md": {
+	id: "css/css-selectors/combinators-selector-combinations.md";
+  slug: "css/css-selectors/combinators-selector-combinations";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/css-selectors/css-selectors.md": {
+	id: "css/css-selectors/css-selectors.md";
+  slug: "css/css-selectors/css-selectors";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/css-selectors/pseudo-classes-selectors-伪类.md": {
+	id: "css/css-selectors/pseudo-classes-selectors-伪类.md";
+  slug: "css/css-selectors/pseudo-classes-selectors-伪类";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/css-selectors/pseudo-elements-selectors-伪元素.md": {
+	id: "css/css-selectors/pseudo-elements-selectors-伪元素.md";
+  slug: "css/css-selectors/pseudo-elements-selectors-伪元素";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/effects/box-shadow.md": {
+	id: "css/effects/box-shadow.md";
+  slug: "css/effects/box-shadow";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/effects/css-blending.md": {
+	id: "css/effects/css-blending.md";
+  slug: "css/effects/css-blending";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/interactivity/interactivity.md": {
+	id: "css/interactivity/interactivity.md";
+  slug: "css/interactivity/interactivity";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/layout/css-normal-flow.md": {
+	id: "css/layout/css-normal-flow.md";
+  slug: "css/layout/css-normal-flow";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/layout/css-overflowing-content.md": {
+	id: "css/layout/css-overflowing-content.md";
+  slug: "css/layout/css-overflowing-content";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/layout/css-positioning.md": {
+	id: "css/layout/css-positioning.md";
+  slug: "css/layout/css-positioning";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/layout/flexbox.md": {
+	id: "css/layout/flexbox.md";
+  slug: "css/layout/flexbox";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/layout/floats.md": {
+	id: "css/layout/floats.md";
+  slug: "css/layout/floats";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/layout/form-style.md": {
+	id: "css/layout/form-style.md";
+  slug: "css/layout/form-style";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/layout/grids.md": {
+	id: "css/layout/grids.md";
+  slug: "css/layout/grids";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/layout/hiding-elements.md": {
+	id: "css/layout/hiding-elements.md";
+  slug: "css/layout/hiding-elements";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/layout/table-style.md": {
+	id: "css/layout/table-style.md";
+  slug: "css/layout/table-style";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/motion/css-animation-&-transition.md": {
+	id: "css/motion/css-animation-&-transition.md";
+  slug: "css/motion/css-animation--transition";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/motion/css-transform.md": {
+	id: "css/motion/css-transform.md";
+  slug: "css/motion/css-transform";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/rules-and-functions/css-@rules-(at-rules).md": {
+	id: "css/rules-and-functions/css-@rules-(at-rules).md";
+  slug: "css/rules-and-functions/css-rules-at-rules";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/rules-and-functions/css-functions.md": {
+	id: "css/rules-and-functions/css-functions.md";
+  slug: "css/rules-and-functions/css-functions";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/rules-and-functions/media-query.md": {
+	id: "css/rules-and-functions/media-query.md";
+  slug: "css/rules-and-functions/media-query";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/sass/sass-预处理器.md": {
+	id: "css/sass/sass-预处理器.md";
+  slug: "css/sass/sass-预处理器";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/sizing-units-and-values/absolute-length-units-(for-print-styles).md": {
+	id: "css/sizing-units-and-values/absolute-length-units-(for-print-styles).md";
+  slug: "css/sizing-units-and-values/absolute-length-units-for-print-styles";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/sizing-units-and-values/css-image-video-and-other-replaced-elements.md": {
+	id: "css/sizing-units-and-values/css-image-video-and-other-replaced-elements.md";
+  slug: "css/sizing-units-and-values/css-image-video-and-other-replaced-elements";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/sizing-units-and-values/css-values-and-units.md": {
+	id: "css/sizing-units-and-values/css-values-and-units.md";
+  slug: "css/sizing-units-and-values/css-values-and-units";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/sizing-units-and-values/relative-length-units-(for-responsive-design).md": {
+	id: "css/sizing-units-and-values/relative-length-units-(for-responsive-design).md";
+  slug: "css/sizing-units-and-values/relative-length-units-for-responsive-design";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/sizing-units-and-values/sizing-units.md": {
+	id: "css/sizing-units-and-values/sizing-units.md";
+  slug: "css/sizing-units-and-values/sizing-units";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/svg-style/svg-style.md": {
+	id: "css/svg-style/svg-style.md";
+  slug: "css/svg-style/svg-style";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/tailwindcss/01-弹性盒布局方法总结-medium-主页.md": {
+	id: "css/tailwindcss/01-弹性盒布局方法总结-medium-主页.md";
+  slug: "css/tailwindcss/01-弹性盒布局方法总结-medium-主页";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/tailwindcss/02-圣杯式布局-twitter主页.md": {
+	id: "css/tailwindcss/02-圣杯式布局-twitter主页.md";
+  slug: "css/tailwindcss/02-圣杯式布局-twitter主页";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/tailwindcss/o-tailwindcss.md": {
+	id: "css/tailwindcss/o-tailwindcss.md";
+  slug: "css/tailwindcss/o-tailwindcss";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/tailwindcss/s-tailwindcss.md": {
+	id: "css/tailwindcss/s-tailwindcss.md";
+  slug: "css/tailwindcss/s-tailwindcss";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/typography/css-text-directions.md": {
+	id: "css/typography/css-text-directions.md";
+  slug: "css/typography/css-text-directions";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/typography/styling-links.md": {
+	id: "css/typography/styling-links.md";
+  slug: "css/typography/styling-links";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/typography/styling-lists.md": {
+	id: "css/typography/styling-lists.md";
+  slug: "css/typography/styling-lists";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/typography/typography.md": {
+	id: "css/typography/typography.md";
+  slug: "css/typography/typography";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "front-end-frameworks/astro/astro-basics.md": {
 	id: "front-end-frameworks/astro/astro-basics.md";
   slug: "front-end-frameworks/astro/astro-basics";

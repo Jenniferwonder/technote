@@ -42,12 +42,36 @@ export async function getTagList(): Promise<Tag[]> {
 		});
 	});
 
-	// sort tags
-	const keys: string[] = Object.keys(countMap).sort((a, b) => {
+	// sort tags by tag name
+	/* const keys: string[] = Object.keys(countMap).sort((a, b) => {
 		return a.toLowerCase().localeCompare(b.toLowerCase());
 	});
+	return keys.map((key) => ({ name: key, count: countMap[key] })); */
 
-	return keys.map((key) => ({ name: key, count: countMap[key] }));
+	// 💡Get the list by mapping keys first, then sort by number
+	const keys: string[] = Object.keys(countMap);
+	return keys
+		.map((key) => ({ name: key, count: countMap[key] }))
+		.sort((a, b) => b.count - a.count);
+
+	// ❌ Sort number value first, then map
+	// const values: number[] = Object.values(countMap).sort((a, b) => b - a);
+	// const tagList: Tag[] = [];
+	// return values.map((v) => {
+	// 	tagList.push(
+	// 		...getObjectKey(countMap, v).map((key) => ({
+	// 			name: key,
+	// 			count: countMap[key],
+	// 		}))
+	// 	);
+	// 	return tagList;
+	// });
+	// return tagList;
+	// ❌ Map first, then sort
+	// const tagList: Tag[] = Object.values(countMap).map((v)=>{name:})
+}
+function getObjectKey(obj, value) {
+	return Object.keys(obj).filter((key) => obj[key] === value);
 }
 
 export type Category = {
@@ -71,13 +95,15 @@ export async function getCategoryList(): Promise<Category[]> {
 			: 1;
 	});
 
-	const lst = Object.keys(count).sort((a, b) => {
-		return a.toLowerCase().localeCompare(b.toLowerCase());
-	});
+	// const lst = Object.keys(count).sort((a, b) => {
+	// 	return a.toLowerCase().localeCompare(b.toLowerCase());
+	// });
+	const lst = Object.keys(count);
 
 	const ret: Category[] = [];
 	for (const c of lst) {
 		ret.push({ name: c, count: count[c] });
 	}
+	ret.sort((a, b) => b.count - a.count);
 	return ret;
 }

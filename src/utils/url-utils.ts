@@ -23,6 +23,11 @@ export function getCategoryUrl(category: string): string | null {
 		return "/technote/archive/category/uncategorized";
 	return `/technote/archive/category/${category}`;
 }
+// 2024-04-19: Add
+/* export function getTagUrl(tag: string): string | null {
+	if (!tag) return null;
+	return `/technote/archive/tag/${tag}`;
+} */
 
 export function getDir(path: string): string {
 	const lastSlashIndex = path.lastIndexOf("/");
