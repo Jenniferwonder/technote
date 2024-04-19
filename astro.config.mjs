@@ -24,7 +24,7 @@ const oklchToHex = (str) => {
 // https://astro.build/config
 export default defineConfig({
 	site: "https://jenniferwonder.github.io/technote",
-	base: "/",
+	base: "/technote",
 	// i18n: {
 	//   defaultLocale: "en",
 	//   locales: ["en", "es", "pt-br"],
