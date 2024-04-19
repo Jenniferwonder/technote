@@ -707,13 +707,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"front-end-frameworks/react/state-management/react-events.md": {
-	id: "front-end-frameworks/react/state-management/react-events.md";
-  slug: "front-end-frameworks/react/state-management/react-events";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "front-end-frameworks/react/state-management/share-state-组件间通信.md": {
 	id: "front-end-frameworks/react/state-management/share-state-组件间通信.md";
   slug: "front-end-frameworks/react/state-management/share-state-组件间通信";

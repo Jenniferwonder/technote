@@ -1,19 +1,23 @@
 ---
 category: Front-End Frameworks
 Datereviewed: 
-title: astro-basics
+title: Astro Basics
 topic: 
 type: 
 tags:
   - Astro
 DateStarted: 2024-03-29
-DateModified: 2024-04-18
+DateModified: 2024-04-19
 ewed: 
 reviewed: 
 difficulty: 
 status: 
 comment: 
+aliases:
+  - Astro Basics
 ---
+
+# Astro Basics
 
 ### Why
 
