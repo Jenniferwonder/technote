@@ -50,7 +50,7 @@ if (r < page.lastPage)
     pages.push(page.lastPage);
 
 const parts: string[] = page.url.current.split('/');
-const commonUrl: string = parts.slice(0, -1).join('/') + '/';
+const commonUrl: string = parts.slice(0, -1).join('/') + '/technote/';
 
 const getPageUrl = (p: number) => {
     if (p == 1)
