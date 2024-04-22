@@ -1,4 +1,6 @@
+import svelte from "@astrojs/svelte";
 import tailwind from "@astrojs/tailwind";
+import swup from "@swup/astro";
 import Compress from "astro-compress";
 import icon from "astro-icon";
 import { defineConfig } from "astro/config";
@@ -8,8 +10,6 @@ import rehypeKatex from "rehype-katex";
 import rehypeSlug from "rehype-slug";
 import remarkMath from "remark-math";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
-import svelte from "@astrojs/svelte";
-import swup from "@swup/astro";
 
 const oklchToHex = (str) => {
 	const DEFAULT_HUE = 250;
@@ -34,16 +34,16 @@ export default defineConfig({
 	// },
 	integrations: [
 		tailwind(),
-		swup({
-			theme: false,
-			animationClass: "transition-",
-			containers: ["main"],
-			smoothScrolling: true,
-			cache: true,
-			preload: true,
-			accessibility: true,
-			globalInstance: true,
-		}),
+		// swup({
+		//   theme: false,
+		//   animationClass: 'transition-',
+		//   containers: ['main'],
+		//   smoothScrolling: true,
+		//   cache: false,
+		//   preload: false,
+		//   accessibility: true,
+		//   globalInstance: true,
+		// }),
 		icon({
 			include: {
 				"material-symbols": ["*"],

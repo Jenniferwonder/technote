@@ -20,7 +20,7 @@
 ### 功能特性
 
 - [x] 原模版标签、分类按命名排序，调整为按笔记数量排序 ✅ 2024-04-19
-- [ ] 添加单页目录 ToC
+- [x] 添加单页目录 ToC ✅ 2024-04-22
 - [ ] 添加边栏隐藏，宽屏视图
 - [ ] 标签组件改为标签云样式
 - [ ] 添加多语种支持
@@ -54,6 +54,34 @@
   - `npm run build` 本地构建生成 `dist` 文件夹
   - 配置 GitHub action workflow 将 `dist` 发布至 GitHub Pages
     - 使用 `gh-pages`
+
+### 开发日志
+
+#### ToC 相关
+
+- 添加目录组件，并调整样式以兼容
+  - `components/widget/Toc`
+  - `components/widget/TocHeading`
+  - `utils/generateToc`
+- 新增文章布局，以 **仅在文章页** 显示目录组件
+  - `layout/PostDetails`
+- 使目录组件自适应屏幕尺寸及现有布局
+  - `tailwind.config.cjs` 添加 `3xl: 1740px` 自定义屏幕尺寸
+- 🐛 Bug Fix
+  - 目录只能在硬刷新后渲染
+    - 停用 `astro/swup`
+      - `astro.config.mjs` 中注释掉 `swup` 相关配置
+      - 参考：[GitHub - swup/astro: Astro integration for swup 🚀](https://github.com/swup/astro)
+  - 停用 `astro/swup` 后 **页面切换动画** 失效
+    - 改用 Astro 内置的 `<ViewTransitions>`
+      - `Layout.astro` 的`head` 标签中添加 `<ViewTransitions>`
+      - 参考：[View Transitions | Docs](https://docs.astro.build/en/guides/view-transitions/)
+  - 停用 `astro/swup` 后 **目录滚动跳转动画** 失效
+    - `Layout.astro` 的 `html` 标签中添加 tailwind class `scroll-smooth`
+    - 参考：
+  - 主页文章卡片分类图标只能在硬刷新后渲染
+    - 替换分类图标
+      - 参考: [Open Source Icon Sets - Iconify](https://icon-sets.iconify.design)
 
 <p align="center">
   <br>
