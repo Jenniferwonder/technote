@@ -32,5 +32,3 @@
 - ✉️ 邮箱：jenniferwonder_12@outlook.com
 
 ### 很高兴见到你，欢迎和我一起进步~
-
-![](https://komarev.com/ghpvc/?username=Jenniferwonder&style=flat)
