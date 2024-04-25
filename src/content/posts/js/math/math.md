@@ -1,9 +1,16 @@
 ---
+Datereviewed: 
+difficulty: 
+comment: 
+aliases:
+  - Math
+draft: false
 title: Math
 type: D
 DateStarted: 2022-12-01
-DateModified: 2024-04-18
-status: Young
+DateModified: 2024-04-25
+status:
+  - Young
 Cards: 21
 reviewed: 2
 topic:
@@ -11,9 +18,10 @@ topic:
 category: Programming
 tags:
   - JavaScript
+linter-yaml-title-alias: Math
 ---
 
-# [D-JS](O-JS) Math
+# Math
 
 ## Metadata
 

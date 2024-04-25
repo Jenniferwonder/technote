@@ -10,7 +10,7 @@ reviewed:
 difficulty: 
 comment: 
 DateStarted: 2023-08-11
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 Datereviewed: 
 status:
   - Snooze
@@ -18,6 +18,7 @@ aliases:
   - History Object
 category: Programming
 draft: true
+linter-yaml-title-alias: History Object
 ---
 
 # History Object

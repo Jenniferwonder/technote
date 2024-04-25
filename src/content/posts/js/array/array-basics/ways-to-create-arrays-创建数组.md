@@ -12,7 +12,7 @@ topic:
 tags:
   - JavaScript
 DateStarted: 2024-01-26
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 reviewed: 1
 status:
   - Mature
@@ -125,11 +125,13 @@ Back:
 
 Basic
 
-### 创建一个指定类名下 DOM 元素的数组
+### 将类数组转换为数组
 
 Back:
 
-- `Array.from(document.querySelectorAll('.className'), function)`
+- `Array.from(document.querySelectorAll('.className'))`
+- `[...document.querySelectorAll('.className')]`
+- `Array.prototype.slice.call(document.querySelectorAll('.className'))`
 <!--ID: 1706536858052-->
 
 ---
@@ -220,3 +222,36 @@ Back:
 ---
 
 <!--SR:!2024-02-05,7,250-->
+### 类数组和数组的区别，dom 的类数组如何转换成数组
+类数组（Array-like）和数组（Array）都是用于存储多个值的数据结构，但它们之间存在一些关键区别：
+1. 类型：数组是 JavaScript 的内置对象类型，继承自`Array.prototype`，具有一系列数组方法（如`push()`、`pop()`、`map()`等）。类数组是普通的对象，其属性名为索引（如`0`、`1`、`2`等），具有一个`length`属性，但不具备数组的方法。
+2. 原型：数组的原型为`Array.prototype`，因此具有数组的所有方法。类数组的原型通常为`Object.prototype`，并不包含数组的方法。  
+要将 DOM 的类数组（例如，通过`document.getElementsByClassName()`或`document.querySelectorAll()`获取的元素集合）转换为数组，可以使用以下方法之一：
+3. 使用`Array.from()`方法：
+
+   ```js
+   let nodeList = document.querySelectorAll("div");
+   let array = Array.from(nodeList);
+   ```
+
+   `Array.from()`方法会创建一个新数组，并将类数组的元素逐个复制到新数组中。
+
+4. 使用扩展运算符（Spread Operator）：
+
+   ```js
+   let nodeList = document.querySelectorAll("div");
+   let array = [...nodeList];
+   ```
+
+   扩展运算符`...`可以将类数组直接转换为数组。
+
+5. 使用`Array.prototype.slice.call()`：
+
+   ```js
+   let nodeList = document.querySelectorAll("div");
+   let array = Array.prototype.slice.call(nodeList);
+   ```
+
+`Array.prototype.slice.call()`方法会将类数组作为上下文，并创建一个新数组，将类数组的元素逐个复制到新数组中。
+
+这些方法可以将类数组转换为数组，这样就可以在转换后的数组上使用数组的方法了。注意，这些方法不仅适用于 DOM 类数组，还适用于其他类数组对象。

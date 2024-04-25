@@ -1,8 +1,14 @@
 ---
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
+aliases:
+  - ArrayBuffer 缓冲
 title: ArrayBuffer 缓冲
 type: D
 DateStarted: 2023-08-09
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status:
   - Snooze
 Up:
@@ -13,6 +19,7 @@ category: Programming
 tags:
   - JavaScript
 draft: true
+linter-yaml-title-alias: ArrayBuffer 缓冲
 ---
 
 # ArrayBuffer 缓冲

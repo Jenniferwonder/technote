@@ -1,11 +1,16 @@
 ---
-title: 生成器
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
+title: Generator-生成器
 type: D
 DateStarted: 2023-08-13
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status:
   - Young
 aliases:
+  - Generator-生成器
   - Generator
   - 生成器
 topic:
@@ -14,6 +19,7 @@ category: Programming
 tags:
   - JavaScript
 draft: true
+linter-yaml-title-alias: Generator-生成器
 ---
 
 # Generator-生成器

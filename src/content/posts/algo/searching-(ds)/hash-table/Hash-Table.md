@@ -9,7 +9,7 @@ type: D
 topic:
   - HashTable
 DateStarted: 2023-09-07
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status: 
 aliases:
   - 哈希表
@@ -22,8 +22,8 @@ tags:
 
 ## LeetNote
 
-- [LC-01](<1.两数之和-(Two-Sums)>)
-- [LC-217](<217.存在重复元素(Includes-Duplicates)>)
+- [LC-01](1.两数之和-Two-Sums)
+- [LC-217](217.存在重复元素(Includes-Duplicates)
 
 ## LeetCode
 

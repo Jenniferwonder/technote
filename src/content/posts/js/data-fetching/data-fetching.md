@@ -1,9 +1,14 @@
 ---
-title: Data Request
+type: 
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
+title: data-fetching
 tags:
   - JavaScript
 DateStarted: 2023-03-15
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status: 
 category: Programming
 topic:
@@ -26,12 +31,11 @@ draft: true
 
 ## Scope
 
-- [O-JS](../Private/O-JS)
-  - [JSON](JSON)
+- - [json](json)
   - [Ajax](Ajax)
   - [Fetch API](Fetch-API)
   - [Axios](Axios)
-  - [CORS (跨域)](<../CORS-(跨域)>>)
+  - [CORS (跨域)](../CORS-跨域>>)
   - [Async...await](Async/Async...await)
   - [API Resources](API-Resources)
   - [Web APIs and API Design Patterns](Web-APIs-and-API-Design-Patterns)
@@ -39,7 +43,7 @@ draft: true
 - Mock Data
   - How to use mock data to create UI displaying data?
 - Data Sources and Format
-  - How to connect local [JSON](JSON) data with UI?
+  - How to connect local [json](json) data with UI?
 - [Next.js](Next.js) > `next/router` / `next/link`
   - Connect with [Sanity](Sanity)
   - Connect with [MongoDB](MongoDB)

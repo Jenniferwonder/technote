@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Copy-深浅拷贝
 tags:
   - JavaScript
@@ -7,7 +8,7 @@ type: D
 topic:
   - Practice
 DateStarted: 2022-12-16
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 
 status: 
 difficulty: Hard
@@ -20,9 +21,11 @@ category: Programming
 
 # Copy-深浅拷贝
 
-Related:: [Primitive and Reference Values-原始值与引用值](Primitive-and-Reference-Values-原始值与引用值)
+### 什么是深拷贝、什么是浅拷贝？
+浅拷贝： 创建一个新对象，这个对象有着原始对象属性值的一份精确拷贝。如果属性是基本类型，拷贝的就是基本类型的值，如果属性是引用类型，拷贝的就是内存地址 ，所以如果其中一个对象改变了这个 地址，就会影响到另一个对象。  
+深拷贝： 会拷贝所有的属性，并拷贝属性指向的动态分配的内存。当对象和它所引用的对象一起拷贝时即 发生深拷贝。 深拷贝相比于浅拷贝速度较慢并且花销较大。拷贝前后两个对象互不影响。
 
-## Reference
+### Reference
 
 - [JavaScript 基础心法——深浅拷贝](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Faxuebin%2Farticles%2Fissues%2F20 https://github.com/axuebin/articles/issues/20)
 - [深拷贝的终极探索（90%的人都不知道）](https://juejin.cn/post/6844903692756336653 https://juejin.cn/post/6844903692756336653)

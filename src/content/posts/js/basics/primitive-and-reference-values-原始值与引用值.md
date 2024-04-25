@@ -1,16 +1,23 @@
 ---
+Datereviewed: 
+reviewed: 
+comment: 
+aliases:
+  - Primitive and Reference Values-原始值与引用值
+draft: false
 title: Primitive and Reference Values-原始值与引用值
 topic:
   - Basics
 type: D
 DateStarted: 2023-07-28
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 status:
   - Mature
 difficulty: Easy
 category: Programming
 tags:
   - JavaScript
+linter-yaml-title-alias: Primitive and Reference Values-原始值与引用值
 ---
 
 # Primitive and Reference Values-原始值与引用值

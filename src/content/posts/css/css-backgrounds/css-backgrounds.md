@@ -9,7 +9,7 @@ tags:
   - CSS
 status: 
 DateStarted: 2023-09-20
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 difficulty: Hard
 reviewed: 1
 Datereviewed: 2023-09-23T00:00:00.000+08:00
@@ -19,19 +19,19 @@ topic:
 linter-yaml-title-alias: CSS Backgrounds
 ---
 
-# [CSS](O-CSS) Backgrounds
+# Backgrounds
 
 ## Shorthand Property & Values
 
 ### `background: url(bg-graphic.png) 10px 10px repeat-x fixed, red;`
 
-- ```css
+```css
   background-color: red;
   background-image: url(bg-graphic.png);
   background-position: 10px 10px;
   background-repeat: repeat-x;
   background-attachment: fixed;
-  ```
+```
 
 ### A background-color may only be specified **after the final comma**
 

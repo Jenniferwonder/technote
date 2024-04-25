@@ -1,5 +1,6 @@
 ---
-title: The `return` Statement
+draft: false
+title: the-return-statement
 tags:
   - JavaScript
 topic:
@@ -10,7 +11,7 @@ reviewed: 1
 difficulty: 
 comment: 
 DateStarted: 2023-07-14
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 status: 
 category: Programming
 ---

@@ -1,15 +1,21 @@
 ---
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
 title: Typed Array-定型数组
 type: D
 DateStarted: 2023-08-06
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status: Snooze
 Pomo: 8
-Pages: 5
+pages: 5
 Up:
   - - C06-Collection Reference Type-集合引用类型
 Cards: 34
-aliases: JS Typed Array
+aliases:
+  - Typed Array-定型数组
+  - JS Typed Array
 topic:
   - Array
   - DS+
@@ -17,6 +23,7 @@ category: Programming
 tags:
   - JavaScript
 draft: true
+linter-yaml-title-alias: Typed Array-定型数组
 ---
 
 # Typed Array-定型数组

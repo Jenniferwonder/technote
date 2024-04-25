@@ -1,4 +1,5 @@
 ---
+draft: false
 title: String Basics
 topic:
   - String
@@ -7,7 +8,7 @@ tags:
 difficulty: Good
 type: D
 DateStarted: 2023-08-13
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 2024-01-26
 status:
   - Mature
@@ -16,6 +17,7 @@ aliases:
 reviewed: 3
 comment: 
 category: Programming
+linter-yaml-title-alias: String Basics
 ---
 
 # String Basics

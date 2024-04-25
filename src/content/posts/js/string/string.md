@@ -1,4 +1,5 @@
 ---
+draft: false
 title: String
 tags:
   - JavaScript
@@ -9,7 +10,7 @@ difficulty:
 comment: 
 type: O
 DateStarted: 2022-12-01
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 status:
   - Mature
 reviewed: 3

@@ -133,6 +133,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"algo/algo-interview.md": {
+	id: "algo/algo-interview.md";
+  slug: "algo/algo-interview";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "algo/intro/algo-intro.md": {
 	id: "algo/intro/algo-intro.md";
   slug: "algo/intro/algo-intro";
@@ -514,6 +521,13 @@ declare module 'astro:content' {
 "css/css-filters/css-filters.md": {
 	id: "css/css-filters/css-filters.md";
   slug: "css/css-filters/css-filters";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/css-interview.md": {
+	id: "css/css-interview.md";
+  slug: "css/css-interview";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1463,16 +1477,16 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/basics/data-types.md": {
-	id: "js/basics/data-types.md";
-  slug: "js/basics/data-types";
+"js/basics/data-types-数据类型.md": {
+	id: "js/basics/data-types-数据类型.md";
+  slug: "js/basics/data-types-数据类型";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/basics/ecmascript-version.md": {
-	id: "js/basics/ecmascript-version.md";
-  slug: "js/basics/ecmascript-version";
+"js/basics/es-version.md": {
+	id: "js/basics/es-version.md";
+  slug: "js/basics/es-version";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1491,9 +1505,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/basics/number.md": {
-	id: "js/basics/number.md";
-  slug: "js/basics/number";
+"js/basics/loops-循环语句.md": {
+	id: "js/basics/loops-循环语句.md";
+  slug: "js/basics/loops-循环语句";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1515,6 +1529,13 @@ declare module 'astro:content' {
 "js/basics/statements-语句.md": {
 	id: "js/basics/statements-语句.md";
   slug: "js/basics/statements-语句";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/basics/strict-mode.md": {
+	id: "js/basics/strict-mode.md";
+  slug: "js/basics/strict-mode";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1589,6 +1610,83 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"js/class/class-es6-类.md": {
+	id: "js/class/class-es6-类.md";
+  slug: "js/class/class-es6-类";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/class/computed-properties.md": {
+	id: "js/class/computed-properties.md";
+  slug: "js/class/computed-properties";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/class/getters-setters.md": {
+	id: "js/class/getters-setters.md";
+  slug: "js/class/getters-setters";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/class/inheritance.md": {
+	id: "js/class/inheritance.md";
+  slug: "js/class/inheritance";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/class/new.target-功能用法-es6.md": {
+	id: "js/class/new.target-功能用法-es6.md";
+  slug: "js/class/newtarget-功能用法-es6";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/class/private-methods-properties.md": {
+	id: "js/class/private-methods-properties.md";
+  slug: "js/class/private-methods-properties";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/class/static-methods-properties.md": {
+	id: "js/class/static-methods-properties.md";
+  slug: "js/class/static-methods-properties";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/client-store/cookies.md": {
+	id: "js/client-store/cookies.md";
+  slug: "js/client-store/cookies";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/client-store/indexed-db.md": {
+	id: "js/client-store/indexed-db.md";
+  slug: "js/client-store/indexed-db";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/client-store/local-storage.md": {
+	id: "js/client-store/local-storage.md";
+  slug: "js/client-store/local-storage";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/client-store/session-storage.md": {
+	id: "js/client-store/session-storage.md";
+  slug: "js/client-store/session-storage";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "js/data-fetching/async...await.md": {
 	id: "js/data-fetching/async...await.md";
   slug: "js/data-fetching/asyncawait";
@@ -1599,13 +1697,6 @@ declare module 'astro:content' {
 "js/data-fetching/axios.md": {
 	id: "js/data-fetching/axios.md";
   slug: "js/data-fetching/axios";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"js/data-fetching/callbacks.md": {
-	id: "js/data-fetching/callbacks.md";
-  slug: "js/data-fetching/callbacks";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1624,16 +1715,30 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/data-fetching/event-loop-事件循环.md": {
-	id: "js/data-fetching/event-loop-事件循环.md";
-  slug: "js/data-fetching/event-loop-事件循环";
+"js/data-fetching/fetch-api.md": {
+	id: "js/data-fetching/fetch-api.md";
+  slug: "js/data-fetching/fetch-api";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/data-fetching/fetch-api.md": {
-	id: "js/data-fetching/fetch-api.md";
-  slug: "js/data-fetching/fetch-api";
+"js/data-fetching/json.md": {
+	id: "js/data-fetching/json.md";
+  slug: "js/data-fetching/json";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/data-fetching/promise-chaining-链式调用.md": {
+	id: "js/data-fetching/promise-chaining-链式调用.md";
+  slug: "js/data-fetching/promise-chaining-链式调用";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/data-fetching/promise-composition-组合调用.md": {
+	id: "js/data-fetching/promise-composition-组合调用.md";
+  slug: "js/data-fetching/promise-composition-组合调用";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1652,30 +1757,79 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/data-store/json.md": {
-	id: "js/data-store/json.md";
-  slug: "js/data-store/json";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"js/data-store/local-storage.md": {
-	id: "js/data-store/local-storage.md";
-  slug: "js/data-store/local-storage";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"js/data-store/session.md": {
-	id: "js/data-store/session.md";
-  slug: "js/data-store/session";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "js/date/date.md": {
 	id: "js/date/date.md";
   slug: "js/date/date";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/dom/dom-basics.md": {
+	id: "js/dom/dom-basics.md";
+  slug: "js/dom/dom-basics";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/dom/dom-events.md": {
+	id: "js/dom/dom-events.md";
+  slug: "js/dom/dom-events";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/dom/dom-interview.md": {
+	id: "js/dom/dom-interview.md";
+  slug: "js/dom/dom-interview";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/dom/dom.md": {
+	id: "js/dom/dom.md";
+  slug: "js/dom/dom";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/dom/element-styles.md": {
+	id: "js/dom/element-styles.md";
+  slug: "js/dom/element-styles";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/dom/manipulate-elements.md": {
+	id: "js/dom/manipulate-elements.md";
+  slug: "js/dom/manipulate-elements";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/dom/scripting-web-forms.md": {
+	id: "js/dom/scripting-web-forms.md";
+  slug: "js/dom/scripting-web-forms";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/dom/select-elements.md": {
+	id: "js/dom/select-elements.md";
+  slug: "js/dom/select-elements";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/dom/traverse-elements.md": {
+	id: "js/dom/traverse-elements.md";
+  slug: "js/dom/traverse-elements";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/dom/work-with-attributes.md": {
+	id: "js/dom/work-with-attributes.md";
+  slug: "js/dom/work-with-attributes";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1757,6 +1911,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"js/function/callbacks-回调函数.md": {
+	id: "js/function/callbacks-回调函数.md";
+  slug: "js/function/callbacks-回调函数";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "js/function/closure-闭包.md": {
 	id: "js/function/closure-闭包.md";
   slug: "js/function/closure-闭包";
@@ -1806,23 +1967,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/function/new.target-功能用法-es6.md": {
-	id: "js/function/new.target-功能用法-es6.md";
-  slug: "js/function/newtarget-功能用法-es6";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "js/function/the-return-statement.md": {
 	id: "js/function/the-return-statement.md";
   slug: "js/function/the-return-statement";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"js/function/this-in-js-function.md": {
-	id: "js/function/this-in-js-function.md";
-  slug: "js/function/this-in-js-function";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1848,6 +1995,41 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"js/js-internal/call-stack-执行栈.md": {
+	id: "js/js-internal/call-stack-执行栈.md";
+  slug: "js/js-internal/call-stack-执行栈";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/js-internal/event-loop-事件循环.md": {
+	id: "js/js-internal/event-loop-事件循环.md";
+  slug: "js/js-internal/event-loop-事件循环";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/js-internal/garbage-collection-垃圾回收.md": {
+	id: "js/js-internal/garbage-collection-垃圾回收.md";
+  slug: "js/js-internal/garbage-collection-垃圾回收";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/js-internal/js-internal-feature.md": {
+	id: "js/js-internal/js-internal-feature.md";
+  slug: "js/js-internal/js-internal-feature";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/js-interview.md": {
+	id: "js/js-interview.md";
+  slug: "js/js-interview";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "js/math/math.md": {
 	id: "js/math/math.md";
   slug: "js/math/math";
@@ -1855,128 +2037,107 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/class-es6-类.md": {
-	id: "js/oop/class-es6-类.md";
-  slug: "js/oop/class-es6-类";
+"js/number/number.md": {
+	id: "js/number/number.md";
+  slug: "js/number/number";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/factory-function-工厂模式.md": {
-	id: "js/oop/factory-function-工厂模式.md";
-  slug: "js/oop/factory-function-工厂模式";
+"js/object/assign-merge-objects-对象合并.md": {
+	id: "js/object/assign-merge-objects-对象合并.md";
+  slug: "js/object/assign-merge-objects-对象合并";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/inheritance.md": {
-	id: "js/oop/inheritance.md";
-  slug: "js/oop/inheritance";
+"js/object/constructor-function-构造函数模式.md": {
+	id: "js/object/constructor-function-构造函数模式.md";
+  slug: "js/object/constructor-function-构造函数模式";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/assign-merge-objects-对象合并.md": {
-	id: "js/oop/object/assign-merge-objects-对象合并.md";
-  slug: "js/oop/object/assign-merge-objects-对象合并";
+"js/object/factory-function-工厂函数模式.md": {
+	id: "js/object/factory-function-工厂函数模式.md";
+  slug: "js/object/factory-function-工厂函数模式";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/constructor-function-构造函数模式.md": {
-	id: "js/oop/object/constructor-function-构造函数模式.md";
-  slug: "js/oop/object/constructor-function-构造函数模式";
+"js/object/identify-object-equality-对象全等判定.md": {
+	id: "js/object/identify-object-equality-对象全等判定.md";
+  slug: "js/object/identify-object-equality-对象全等判定";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/identify-object-equality-对象全等判定.md": {
-	id: "js/oop/object/identify-object-equality-对象全等判定.md";
-  slug: "js/oop/object/identify-object-equality-对象全等判定";
+"js/object/object-creation-创建对象.md": {
+	id: "js/object/object-creation-创建对象.md";
+  slug: "js/object/object-creation-创建对象";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/object-creation-创建对象.md": {
-	id: "js/oop/object/object-creation-创建对象.md";
-  slug: "js/oop/object/object-creation-创建对象";
+"js/object/object-destructuring-对象解构.md": {
+	id: "js/object/object-destructuring-对象解构.md";
+  slug: "js/object/object-destructuring-对象解构";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/object-destructuring-对象解构.md": {
-	id: "js/oop/object/object-destructuring-对象解构.md";
-  slug: "js/oop/object/object-destructuring-对象解构";
+"js/object/object-iteration-对象迭代.md": {
+	id: "js/object/object-iteration-对象迭代.md";
+  slug: "js/object/object-iteration-对象迭代";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/object-iteration-对象迭代.md": {
-	id: "js/oop/object/object-iteration-对象迭代.md";
-  slug: "js/oop/object/object-iteration-对象迭代";
+"js/object/object-literal-对象字面量表示法.md": {
+	id: "js/object/object-literal-对象字面量表示法.md";
+  slug: "js/object/object-literal-对象字面量表示法";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/object-literal-对象字面量表示法.md": {
-	id: "js/oop/object/object-literal-对象字面量表示法.md";
-  slug: "js/oop/object/object-literal-对象字面量表示法";
+"js/object/object-property-&-value-对象属性与值.md": {
+	id: "js/object/object-property-&-value-对象属性与值.md";
+  slug: "js/object/object-property--value-对象属性与值";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/object-property-&-value-对象属性与值.md": {
-	id: "js/oop/object/object-property-&-value-对象属性与值.md";
-  slug: "js/oop/object/object-property--value-对象属性与值";
+"js/object/object-types-instanceof-标识对象类型.md": {
+	id: "js/object/object-types-instanceof-标识对象类型.md";
+  slug: "js/object/object-types-instanceof-标识对象类型";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/object-types-instanceof-标识对象类型.md": {
-	id: "js/oop/object/object-types-instanceof-标识对象类型.md";
-  slug: "js/oop/object/object-types-instanceof-标识对象类型";
+"js/object/object.md": {
+	id: "js/object/object.md";
+  slug: "js/object/object";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/object.md": {
-	id: "js/oop/object/object.md";
-  slug: "js/oop/object/object";
+"js/object/prototype-chain-inheritance-原型链继承.md": {
+	id: "js/object/prototype-chain-inheritance-原型链继承.md";
+  slug: "js/object/prototype-chain-inheritance-原型链继承";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/object/use-new-operator-使用-new-操作符.md": {
-	id: "js/oop/object/use-new-operator-使用-new-操作符.md";
-  slug: "js/oop/object/use-new-operator-使用-new-操作符";
+"js/object/prototype-pattern-原型模式.md": {
+	id: "js/object/prototype-pattern-原型模式.md";
+  slug: "js/object/prototype-pattern-原型模式";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/oop/oop-principles.md": {
-	id: "js/oop/oop-principles.md";
-  slug: "js/oop/oop-principles";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"js/oop/oop.md": {
-	id: "js/oop/oop.md";
-  slug: "js/oop/oop";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"js/oop/prototype-chain-inheritance.md": {
-	id: "js/oop/prototype-chain-inheritance.md";
-  slug: "js/oop/prototype-chain-inheritance";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"js/oop/prototype-pattern-原型模式.md": {
-	id: "js/oop/prototype-pattern-原型模式.md";
-  slug: "js/oop/prototype-pattern-原型模式";
+"js/object/use-new-operator-使用-new-操作符.md": {
+	id: "js/object/use-new-operator-使用-new-操作符.md";
+  slug: "js/object/use-new-operator-使用-new-操作符";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1995,16 +2156,16 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/regexp/regexp.md": {
-	id: "js/regexp/regexp.md";
-  slug: "js/regexp/regexp";
+"js/practice/modules.md": {
+	id: "js/practice/modules.md";
+  slug: "js/practice/modules";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/scope/call-stack-执行栈与执行上下文.md": {
-	id: "js/scope/call-stack-执行栈与执行上下文.md";
-  slug: "js/scope/call-stack-执行栈与执行上下文";
+"js/regexp/regexp.md": {
+	id: "js/regexp/regexp.md";
+  slug: "js/regexp/regexp";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -2016,9 +2177,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"js/scope/garbage-collection-垃圾回收.md": {
-	id: "js/scope/garbage-collection-垃圾回收.md";
-  slug: "js/scope/garbage-collection-垃圾回收";
+"js/scope/this-in-js.md": {
+	id: "js/scope/this-in-js.md";
+  slug: "js/scope/this-in-js";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -2145,6 +2306,55 @@ declare module 'astro:content' {
 "js/string/string.md": {
 	id: "js/string/string.md";
   slug: "js/string/string";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/web-api/canvas/canvas-api.md": {
+	id: "js/web-api/canvas/canvas-api.md";
+  slug: "js/web-api/canvas/canvas-api";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/web-api/drag-and-drop-api.md": {
+	id: "js/web-api/drag-and-drop-api.md";
+  slug: "js/web-api/drag-and-drop-api";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/web-api/file-reader-api.md": {
+	id: "js/web-api/file-reader-api.md";
+  slug: "js/web-api/file-reader-api";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/web-api/form-data-api.md": {
+	id: "js/web-api/form-data-api.md";
+  slug: "js/web-api/form-data-api";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/web-api/geo-location-api.md": {
+	id: "js/web-api/geo-location-api.md";
+  slug: "js/web-api/geo-location-api";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/web-api/history-api.md": {
+	id: "js/web-api/history-api.md";
+  slug: "js/web-api/history-api";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"js/web-api/notification-api.md": {
+	id: "js/web-api/notification-api.md";
+  slug: "js/web-api/notification-api";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

@@ -1,4 +1,5 @@
 ---
+draft: false
 tags:
   - JavaScript
 Datereviewed: 
@@ -10,7 +11,7 @@ aliases:
 title: Async... await (Syntactical Sugar)
 type: D
 DateStarted: 2022-12-09
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 status: 
 topic:
   - Async
@@ -23,8 +24,9 @@ category: Programming
 > [[英字] JavaScript 异步编程（Async/Await、Promise、Callback）FreeCodeCamp](https://www.bilibili.com/video/BV1g44y1z7N3/?spm_id_from=333.788.recommend_more_video.4&vd_source=be278a4cfd00a5f72dcf153eaca79333)  
 > [FreeCodeCamp-Blog](https://www.freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream/)
 
-Better way to write **promises** and it helps us keep our code simple and clean
-
+Better way to write **promises** and it helps us keep our code simple and clean  
+async await 是es7里面的新语法、它的作用就是 async 用于申明一个 function 是异步的，而 await 用于等待一个异步方法执行完成。它可以很好的替代 promise 中的 then  
+async 函数返回一个 Promise 对象，可以使用 then 方法添加回调函数。当函数执行的时候，一旦遇 到 await 就会先返回， 等到异步操作完成，再接着执行函数体内后面的语句。
 #### 1. Before async/await
 
 ```javascript

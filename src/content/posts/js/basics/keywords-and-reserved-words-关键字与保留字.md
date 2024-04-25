@@ -1,16 +1,23 @@
 ---
+Datereviewed: 
+difficulty: 
+comment: 
+aliases:
+  - Keywords and Reserved Words-关键字与保留字
+draft: false
 title: Keywords and Reserved Words-关键字与保留字
 topic:
   - Basics
 type: D
 DateStarted: 2023-07-13
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 status:
   - Snooze
 reviewed: 1
 category: Programming
 tags:
   - JavaScript
+linter-yaml-title-alias: Keywords and Reserved Words-关键字与保留字
 ---
 
 # Keywords and Reserved Words-关键字与保留字

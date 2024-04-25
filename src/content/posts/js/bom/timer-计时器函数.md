@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Timer Functions-计时器函数
 tags:
   - JavaScript
@@ -8,7 +9,7 @@ topic:
 type: D
 status: 
 DateStarted: 2022-12-14
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 2024-04-17
 reviewed: 1
 difficulty: 

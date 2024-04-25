@@ -1,11 +1,16 @@
 ---
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
 title: Iterator 迭代器
 type: D
 DateStarted: 2023-08-13
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status:
   - Young
 aliases:
+  - Iterator 迭代器
   - Iterator
   - 迭代器
 topic:
@@ -14,6 +19,7 @@ tags:
   - JavaScript
 category: Programming
 draft: true
+linter-yaml-title-alias: Iterator 迭代器
 ---
 
 # Iterator 迭代器
@@ -71,7 +77,6 @@ draft: true
 - 显示迭代器与原生迭代器的实现 - 类实现显示迭代器
   <!--SR:!2023-08-16,3,250-->
 
-          
 ```js
 class Foo {
 	[Symbol.iterator]() {
@@ -87,7 +92,6 @@ let f = new Foo(); // 打印出实现了迭代器接口的对象 console.log(f[S
 
 - Array 类型的原生迭代器
 
-          
 ```js
 	let a = new Array(); // 打印出 ArrayIterator 的实例 console.log(a[Symbol.iterator]()); // Array Iterator {}
 ```

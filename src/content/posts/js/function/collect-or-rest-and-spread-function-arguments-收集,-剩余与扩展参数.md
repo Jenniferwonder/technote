@@ -1,4 +1,5 @@
 ---
+draft: false
 aliases:
   - Collect and Spread Function Arguments-收集与扩展参数
 title: Collect and Spread Function Arguments-收集与扩展参数
@@ -8,7 +9,7 @@ type: D
 tags:
   - JavaScript
 DateStarted: 2024-02-16
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 2024-02-16
 reviewed: 1
 difficulty: 

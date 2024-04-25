@@ -1,8 +1,14 @@
 ---
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
+aliases:
+  - Typed Array History-历史
 title: Typed Array History-历史
 type: D
 DateStarted: 2023-08-09
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status:
   - Snooze
 Up:
@@ -14,6 +20,7 @@ category: Programming
 tags:
   - JavaScript
 draft: true
+linter-yaml-title-alias: Typed Array History-历史
 ---
 
 # [Typed Array](Typed-Array-定型数组) History-历史

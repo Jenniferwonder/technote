@@ -1,4 +1,6 @@
 ---
+aliases:
+  - THE NAVIGATOR OBJECT
 title: THE NAVIGATOR OBJECT
 tags:
   - JavaScript
@@ -9,13 +11,14 @@ difficulty:
 comment: 
 type: D
 DateStarted: 2023-08-11
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 Datereviewed: 
 reviewed: 
 status:
   - Snooze
 category: Programming
 draft: true
+linter-yaml-title-alias: THE NAVIGATOR OBJECT
 ---
 
 # THE NAVIGATOR OBJECT

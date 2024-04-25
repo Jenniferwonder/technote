@@ -1,8 +1,12 @@
 ---
+Datereviewed: 
+difficulty: 
+comment: 
+draft: false
 title: String Instance Methods
 type: O
 DateStarted: 2023-08-13
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 aliases:
   - String Instance Methods
 reviewed: 3
@@ -13,6 +17,7 @@ status:
 category: Programming
 tags:
   - JavaScript
+linter-yaml-title-alias: String Instance Methods
 ---
 
 # String Instance Methods
@@ -33,7 +38,7 @@ tags:
 
 ### [String Concat-拼接方法](string-concat-拼接方法)
 
-### [String Split, Join (拆合方法)](<../String-Split,-Join-(拆合方法)>)
+### [String Split, Join (拆合方法)](../String-Split,-Join-拆合方法)
 
 ### [String Slice, Substring, Substr-截取方法](string-slice-substring-substr-截取方法)
 

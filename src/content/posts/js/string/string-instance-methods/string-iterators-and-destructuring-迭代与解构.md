@@ -1,4 +1,5 @@
 ---
+draft: false
 aliases:
   - String Iterators and Destructuring-迭代与解构
 title: String Iterators and Destructuring-迭代与解构
@@ -8,7 +9,7 @@ type: D
 tags:
   - JavaScript
 DateStarted: 2024-03-02
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 
 reviewed: 
 difficulty: 

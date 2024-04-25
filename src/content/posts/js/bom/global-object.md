@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Global Object
+draft: false
 title: Global Object
 reviewed: 
 difficulty: 
@@ -10,11 +13,12 @@ tags:
   - JavaScript
 type: D
 DateStarted: 2023-07-20
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 
 status:
   - Snooze
 category: Programming
+linter-yaml-title-alias: Global Object
 ---
 
 # Global Object

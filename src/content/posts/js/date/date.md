@@ -1,16 +1,23 @@
 ---
+Datereviewed: 
+difficulty: 
+comment: 
+aliases:
+  - Date
+draft: false
 title: Date
 topic:
   - Date
 type: D
 DateStarted: 2022-12-01
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 status:
   - ToDistill
 reviewed: 2
 category: Programming
 tags:
   - JavaScript
+linter-yaml-title-alias: Date
 ---
 
 # Date

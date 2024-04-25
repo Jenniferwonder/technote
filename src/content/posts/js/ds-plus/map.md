@@ -1,10 +1,16 @@
 ---
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
+aliases:
+  - Map
 title: Map
 type: D
 DateStarted: 2023-07-29
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status: Snooze
-Pages: 6
+pages: 6
 Up:
   - - C06-Collection Reference Type-集合引用类型
 Pomo: 1
@@ -14,6 +20,7 @@ category: Programming
 tags:
   - JavaScript
 draft: true
+linter-yaml-title-alias: Map
 ---
 
 # Map
@@ -54,3 +61,14 @@ draft: true
 - 插入 Map 在所有浏览器中一般会稍微快 一点儿
 - 如果只包含少量键/值对， 则 Object 有时候速度更快。
 - Map 的 delete()操作都比插入和查找更快
+
+### Map 与 WeakMap 的区别
+
+Map 和 WeakMap 在 JavaScript 中都提供了键值对的存储，但它们的工作方式和底层实现有一些重要的区别。
+
+1. 键的引用：在 Map 中，键的引用是强引用，也就是说只要 Map 存在，那么它的键值对就会保留在内存中，不会被垃圾收集器回收。而在 WeakMap 中，键的引用是弱引用，也就是说如果没有其他地方引用该键，那么该键就会被垃圾收集器回收，不论该 WeakMap 是否还存在。
+2. 键的类型：在 Map 中，键可以是任何类型，包括原始类型（比如字符串、数字、布尔值）和对象类型。而在 WeakMap 中，键必须是对象。
+3. 迭代器和清除方法：Map 具有诸如 `size`、`clear`、`keys`、`values` 和 `entries` 等方法，允许开发者获取大小，清除所有键值对，或者迭代所有的键或值。然而，由于 WeakMap 的键是弱引用，为了防止在垃圾回收过程中可能引发的并发问题，WeakMap 没有这些方法。
+4. 底层实现：JavaScript 本身是高级语言，其具体实现取决于底层的 JavaScript 引擎，如 V8 或 SpiderMonkey。在一般情况下，Map 可以使用简单的哈希表来实现。对于 WeakMap，由于其键是弱引用，因此在内存管理方面需要更加复杂的处理。这些处理通常在引擎级别完成，而不是在 JavaScript 代码级别。
+
+以上这些区别使得 Map 和 WeakMap 有各自适用的情况。比如，当你需要存储的键值对在某个时间点之后不再需要时，使用 WeakMap 可以防止内存泄漏。而当你需要完全控制何时删除键值对时，使用 Map 更为合适。

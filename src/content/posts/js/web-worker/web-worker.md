@@ -1,12 +1,12 @@
 ---
-title: Web Worker
+title: web-worker
 tags:
   - JavaScript
 type: C
 topic:
   - Worker
 DateStarted: 2022-12-16
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 Datereviewed: 
 reviewed: 
 difficulty: 

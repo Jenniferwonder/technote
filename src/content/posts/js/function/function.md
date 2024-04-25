@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Function
 title: Function
 topic:
   - Function
@@ -6,30 +8,31 @@ type:
 tags:
   - JavaScript
 DateStarted: 2024-02-06
-DateModified: 2024-04-19
-Datereviewed: 
-reviewed: 
+DateModified: 2024-04-25
+Datereviewed: 2024-04-25
+reviewed: 2
 difficulty: 
 status: 
 comment: 
 category: Programming
 draft: true
+linter-yaml-title-alias: Function
 ---
 
 # Function
 
-### [Function Feature (函数本质与特点)](<../Function-Feature-(函数本质与特点)>)
+### [function-feature-函数本质与特点](function-feature-函数本质与特点)
 
-### [Function Creation (创建函数)](<../Function-Creation-(创建函数)>)
+### [function-creation-创建函数](function-creation-创建函数)
 
-### [Function Names (读取函数名)](<../Function-Names-(读取函数名)>)
+### [function-names-读取函数名](function-names-读取函数名)
 
-### [Function Arguments (函数参数)](<../Function-Arguments-(函数参数)>)
+### [function-arguments-函数参数](function-arguments-函数参数)
 
 ### 函数内部特殊对象
 
 - [`this` in JS Function](`this`-in-JS-Function)
-- [`new.target` 功能用法 (ES6)](<../`new.target`-功能用法-(ES6)>)
+- [`new.target` 功能用法 (ES6)](../`new.target`-功能用法-ES6)
 
 ### 函数属性与方法
 
@@ -44,7 +47,7 @@ draft: true
   - `console.log(inner.caller);`
     - ![image](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/programming/0abc5bc2d093e03182bbcfdb1ab7ca89.png)
 
-### [Closure (闭包)](<../Closure-(闭包)>)
+### [Closure (闭包)](../Closure-闭包)
 
 ### 立即调用的函数表达式 (IIFE)
 

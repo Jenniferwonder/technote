@@ -1,4 +1,5 @@
 ---
+draft: false
 topic:
   - Basics
 type: D
@@ -12,7 +13,7 @@ aliases:
   - Undefined and Null
 title: Undefined and Null
 DateStarted: 2023-07-28
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 status:
   - Mature
 linter-yaml-title-alias: Undefined and Null

@@ -1,8 +1,14 @@
 ---
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
+aliases:
+  - Promise
 type: D
 title: Promise
 DateStarted: 2022-12-09
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status: 
 topic:
   - Async
@@ -10,49 +16,38 @@ tags:
   - JavaScript
 category: Programming
 draft: true
+linter-yaml-title-alias: Promise
 ---
 
 # Promise
 
-## Reference
-
-- ⭐[通俗易懂的 Promise 知识点总结，检验一下你是否真的完全掌握了 Promise？ - 掘金](https://juejin.cn/post/7020335414980378655)
-  - [Promise - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-  - [Using Promises - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
-- [你好，JavaScript 异步编程---- 理解 JavaScript 异步的美妙](https://juejin.cn/post/6844903648162480142 https://juejin.cn/post/6844903648162480142)
-- [Promise 不会？？看这里！！！史上最通俗易懂的 Promise！！！](https://juejin.cn/post/6844903607968481287 https://juejin.cn/post/6844903607968481287)
-- [当 async/await 遇上 forEach](https://link.juejin.cn?target=https%3A%2F%2Fobjcer.com%2F2017%2F10%2F12%2Fasync-await-with-forEach%2F https://objcer.com/2017/10/12/async-await-with-forEach/)
-- [Promise 必知必会（十道题）](https://juejin.cn/post/6844903509934997511 https://juejin.cn/post/6844903509934997511)
-
-### Write a Promise
-
-- ⭐[Promises/A+](https://promisesaplus.com/)
-  - 🛠️[Conformant Promises/A+ Implementations](https://promisesaplus.com/implementations)
-  - 🛠️[Promises/A+ · GitHub](https://github.com/promises-aplus)
-- 🚀[手写 Promise：实现符合 Promises/A+规范的 Promise - 掘金](https://juejin.cn/post/7274887531271012388#heading-13)
-- 🚀[手写 Promise 核心代码 - JavaScript 前端 Web 工程师\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1RR4y1p7my/?vd_source=be278a4cfd00a5f72dcf153eaca79333)
-  - [手把手一行一行代码教你“手写 Promise“，完美通过 Promises/A+ 官方 872 个测试用例 - 掘金](https://juejin.cn/post/7043758954496655397#heading-14)
-- [Promise 实现原理（附源码）](https://juejin.cn/post/6844903665686282253 https://juejin.cn/post/6844903665686282253)
-- [100 行代码实现 Promises/A+ 规范](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FqdJ0Xd8zTgtetFdlJL3P1g https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
-- [一起学习造轮子（一）：从零开始写一个符合 Promises/A+规范的 promise](https://juejin.cn/post/6844903617619558408#heading-34 https://juejin.cn/post/6844903617619558408#heading-34)
-- [BAT 前端经典面试问题：史上最最最详细的手写 Promise 教程](https://juejin.cn/post/6844903625769091079#heading-9 https://juejin.cn/post/6844903625769091079#heading-9)
-
 ## What is a Promise?
+
+Promise 是一种在 JavaScript 中用于处理异步操作的编程模式。它表示一个尚未完成但预计在未来某个时刻完成的操作的结果。Promise 允许我们以更简洁、易读的方式处理异步操作，避免了传统的回调地狱（callback hell）问题。
 
 - A promise is a returned **object** to which you attach callbacks, instead of passing callbacks into a function.
 - It represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
-- Promise 是一种处理异步代码（而不会陷入回调地狱）的方式。
 
-## Promise State & Result
-
-#### 3 种状态 (PromiseState)
+### Promise 3 种状态
 
 - **pending**: initial state, neither fulfilled nor rejected.
 - **fulfilled** (resolved): meaning that the operation was completed successfully.
 - **rejected**: meaning that the operation failed
 - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/programming/z-PromiseState-1.png) ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/programming/z-PromiseState.png)
 
-#### 执行特点
+### Promise 核心特点
+
+1. ? Promise 对象是不可变的，一旦创建，其状态就不能再被改变。
+2. Promise 状态只能从 pending 变为 fulfilled 或 rejected，不能逆向改变，且只能改变一次。
+3. Promise 允许我们将成功和失败的处理函数分开，增加代码的可读性。
+
+### Promise 缺点
+
+1. 无法取消：一旦创建了 Promise，就无法取消它。这可能导致在某些情况下，不再需要结果的异步操作仍然在执行。
+2. 总是异步：Promise 的回调总是异步执行，即使操作已经完成。这可能会导致一些意外的行为，特别是在执行顺序敏感的情况下。
+3. 调试困难：由于 Promise 的链式调用和异步特性，调试 Promise 可能比调试同步代码更具挑战性。错误堆栈可能不够清晰，难以确定问题出在哪里。
+
+### 执行特点
 
 - Promise 只以`第一次为准`，第一次成功就`永久`为`fulfilled`，第一次失败就永远状态为`rejected`
 - Promise 中有 `throw` 的话，就相当于执行了`reject`
@@ -76,7 +71,7 @@ let p3 = new Promise((resolve, reject) => {
 console.log(p3, p3);
 ```
 
-#### Pending State 特点
+### Pending State 特点
 
 - Promise 里没有执行`resolve`、`reject`以及`throw`的话，这个 promise 的状态也是`pending`
 - `pending`状态下的 promise 不会执行回调函数`then()`
@@ -95,6 +90,13 @@ myPromise2.then(() => {
 	console.log(myPromise2执行了then); // 在 Promise pending 状态下不会执行
 });
 ```
+
+## 常见用法
+
+1. 创建 Promise 对象：通过`new Promise(executor)`创建一个 Promise 对象，其中 executor 是一个执行器函数，接受两个参数：resolve 和 reject。成功时调用 resolve 函数并传递结果，失败时调用 reject 函数并传递原因。
+2. 链式调用：通过`.then()`方法处理 fulfilled 状态，接受一个回调函数作为参数，当 Promise 状态变为 fulfilled 时调用。`.catch()`方法处理 rejected 状态，接受一个回调函数作为参数，当 Promise 状态变为 rejected 时调用。
+3. Promise.all：接受一个 Promise 数组作为参数，当所有 Promise 都变为 fulfilled 状态时返回一个新的 Promise，其值为所有 Promise 结果的数组。如果有任意一个 Promise 变为 rejected 状态，则返回的 Promise 也变为 rejected，且返回原因是第一个 rejected 的 Promise 的原因。
+4. Promise.race：接受一个 Promise 数组作为参数，返回一个新的 Promise，其状态和结果与第一个完成（无论是 fulfilled 还是 rejected）的 Promise 相同。
 
 ## Create a Promise
 
@@ -220,302 +222,29 @@ Promise.reject(thenable).catch((e) => {
 // true
 ```
 
-## Consume Promise
+## [Promise Chaining-链式调用](promise-chaining-链式调用)
 
-### `Promise.prototype.then()`
+## [Promise Composition-组合调用](promise-composition-组合调用)
 
-接收两个回调函数作为参数，均为可选参数
+## Reference
 
-```js
-Promise.resolve().then(onFulfilled()=>{}, onReject()={})
-```
+- ⭐[通俗易懂的 Promise 知识点总结，检验一下你是否真的完全掌握了 Promise？ - 掘金](https://juejin.cn/post/7020335414980378655)
+  - [Promise - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+  - [Using Promises - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+- [你好，JavaScript 异步编程---- 理解 JavaScript 异步的美妙](https://juejin.cn/post/6844903648162480142 https://juejin.cn/post/6844903648162480142)
+- [Promise 不会？？看这里！！！史上最通俗易懂的 Promise！！！](https://juejin.cn/post/6844903607968481287 https://juejin.cn/post/6844903607968481287)
+- [当 async/await 遇上 forEach](https://link.juejin.cn?target=https%3A%2F%2Fobjcer.com%2F2017%2F10%2F12%2Fasync-await-with-forEach%2F https://objcer.com/2017/10/12/async-await-with-forEach/)
+- [Promise 必知必会（十道题）](https://juejin.cn/post/6844903509934997511 https://juejin.cn/post/6844903509934997511)
 
-### `Promise.prototype.catch()`
+### Write a Promise
 
-#### 错误捕获条件
-
-❌ 在`then`或`catch`中 `return` 一个 `new Error` 对象不会被捕获：
-`return new Error(Error!)`
-✅ 必须使用以下任一一种语法：
-
-```js
-return Promise.reject(new Error(error!!!));
-throw new Error(error!!!);
-```
-
-#### 级联错误
-
-- 如果在  `catch()`  内部引发错误，则可以附加第二个  `catch()`来处理，依此类推
-
-```js
-new Promise((resolve, reject) => {
-	throw new Error(错误);
-})
-	.catch((err) => {
-		throw new Error(错误);
-	})
-	.catch((err) => {
-		console.error(err);
-	});
-```
-
-### `Promise.prototype.finally()`
-
-- 用于指定不管 Promise 对象最后状态如何，都会执行的操作。该方法是 ES2018 引入标准的
-  - 避免了同样的语句需要在`then()`和`catch()`中各写一次的情况。
-
-### Example (Consume Promise )
-
-#### Example (Promise chain)
-
-```js
-// import fetch from node-fetch;
-const promise = fetch(https://jsonplaceholder.typicode.com/todos/1);
-promise
-	.then((res) => res.json())
-	.then((todo) => {
-		throw new Error(uh oh);
-		return todo;
-	})
-	.then((todo) => console.log(😛, todo.title)) // This line will be bypasses
-	.catch((err) => console.error(😭, err));
-console.log(🥪 Synchronous);
-```
-
-#### Example (Ice-cream Shop)
-
-- [[英字] JavaScript 异步编程（Async/Await、Promise、Callback）FreeCodeCamp](https://www.bilibili.com/video/BV1g44y1z7N3/?spm_id_from=333.788.recommend_more_video.4&vd_source=be278a4cfd00a5f72dcf153eaca79333)
-- [FreeCodeCamp-Blog](https://www.freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream/)
-
-##### Relationship between time and work
-
-```javascript
-let is_shop_open = true;
-let order = (time, work) => {
-	return new Promise((resolve, reject) => {
-		if (is_shop_open) {
-			setTimeout(() => {
-				// work is 👇 getting done here
-				resolve(work());
-				// Setting 👇 time here for 1 work
-			}, time);
-		} else {
-			reject(console.log(Our shop is closed));
-		}
-	});
-};
-```
-
-##### Promise chaining
-
-```js
-// step 1
-order(2000, () => console.log(`${stocks.Fruits[0]} was selected`))
-	// step 2
-	.then(() => order(0000, () => console.log(production has started)))
-	// step 3
-	.then(() => {
-		return order(2000, () => console.log(Fruit has been chopped));
-	})
-	// step 4
-	.then(() => {
-		return order(1000, () =>
-			console.log(`${stocks.liquid[0]} and ${stocks.liquid[1]} added`)
-		);
-	})
-	// step 5
-	.then(() => {
-		return order(1000, () => console.log(start the machine));
-	})
-	// step 6
-	.then(() => {
-		return order(2000, () =>
-			console.log(`ice cream placed on ${stocks.holder[1]}`)
-		);
-	})
-	// step 7
-	.then(() => {
-		return order(3000, () => console.log(`${stocks.toppings[0]} as toppings`));
-	})
-	// Step 8
-	.then(() => {
-		return order(2000, () => console.log(Serve Ice Cream));
-	});
-```
-
-##### Error handling
-
-```javascript
-let is_shop_open = false;
-// Add Error handling at the end of the Promise chain
-.catch(()=>{
-  console.log(Customer left)
-})
-// Output:
-// Our shop is closed -- from reject
-// Customer left -- from catch
-```
-
-##### The `.finally` handler
-
-The `finally` handler which works regardless of whether our promise was resolved or rejected.
-
-```javascript
-// Whether we serve no customers or 100 customers, our shop will close at the end of the day. Optional - Add `finally` at the very bottom of the chain
-.finally(()=>{
-  console.log(end of day)
-})
-```
-
-#### Avoid Mistakes
-
-```js
-doSomething()
-	.then(function (result) {
-		// If using a full function expression: return the promise
-		return doSomethingElse(result);
-	})
-	// If using arrow functions: omit the braces and implicitly return the result
-	.then((newResult) => doThirdThing(newResult))
-	// Even if the previous chained promise returns a result, the next one
-	// doesn't necessarily have to use it. You can pass a handler that doesn't
-	// consume any result.
-	.then((/* result ignored */) => doFourthThing())
-	// Always end the promise chain with a catch handler to avoid any
-	// unhandled rejections!
-	.catch((error) => console.error(error));
-```
-
-## More Promise Method (更多 Promise 对象方法)
-
-### `Promise.all()`
-
-- 发起多个并发请求，然后在所有 promise 都被解决后执行一些操作
-- 适合彼此相互依赖或者在其中任何一个`reject`时立即结束
-
-```js
-const promise1 = Promise.resolve(3);
-const promise2 = 42;
-const promise3 = new Promise((resolve, reject) => {
-	setTimeout(resolve, 100, foo);
-});
-Promise.all([promise1, promise2, promise3]).then((values) => {
-	console.log(values);
-});
-// expected output: Array [3, 42, foo]
-```
-
-### `Promise.race()`
-
-- 传入多个 promise 实例，谁跑的快，就以谁的结果执行回调
-
-```js
-const first = new Promise((resolve, reject) => {
-	setTimeout(resolve, 500, 第一个);
-});
-const second = new Promise((resolve, reject) => {
-	setTimeout(resolve, 100, 第二个);
-});
-Promise.race([first, second]).then((result) => {
-	console.log(result); // 第二个
-});
-```
-
-#### Use Case
-
-1、把异步操作和定时器放到一起，如果定时器先触发，认为超时，告知用户
-
-```js
-function timeOut(time) {
-	let result = new Promise((resolve, reject) => {
-		setTimeout(() => {
-			resolve(请求超时);
-		}, time); // 为了验证方法，可以把时间设小点
-	});
-	return result;
-}
-Promise.race([timeOut(200), fetch(https://api.github.com/users/ruanyf)]).then(
-	(res) => {
-		console.log(res);
-	}
-);
-```
-
-2、如果图片等资源有多个存放路径，但是不确定哪个路径的资源更快，可以用该方法同时请求多个路径，哪个路径的资源最先拿到，使用哪个资源
-
-3、如果指定时间内没有获得结果，就将 Promise 的状态变为 `reject`，否则变为`resolve`
-
-```js
-const p = Promise.race([
-	fetch(/resource-that-may-take-a-while),
-	new Promise(function (resolve, reject) {
-		setTimeout(() => reject(new Error(request timeout)), 5000);
-	}),
-]);
-p.then(console.log).catch(console.error);
-```
-
-### `Promise.allSettled()` (ES2020)
-
-- 由 ES2020 引入
-- 功能
-  - 有多个彼此不依赖的异步任务成功完成时，或者您总是想知道每个 promise 的结果时，通常使用
-  - `Promise.all()`无法确定所有请求都结束。想要达到这个目的，写起来很麻烦，有了`Promise.allSettled()`，这就很容易了
-
-```js
-const urls = [
-	/* ... */
-];
-const requests = urls.map((x) => fetch(x));
-try {
-	await Promise.all(requests);
-	console.log(所有请求都成功。);
-} catch {
-	console.log(至少一个请求失败，其他请求可能还没结束。);
-}
-```
-
-#### 返回值
-
-- 返回一个在所有给定的 promise 都已经`fulfilled`或`rejected`后的 promise，并带有一个**对象数组**，每个对象表示对应的 promise 结果
-  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/programming/z-Promise.allSettled.png)
-- 每个对象都有`status`属性，该属性的值只可能是字符串`fulfilled`或字符串`rejected`。
-  - `fulfilled`时，对象有`value`属性，
-  - `rejected`时有`reason`属性，对应两种状态的返回值。
-
-```js
-const promises = [fetch(index.html), fetch(https://does-not-exist/)];
-const results = await Promise.allSettled(promises);
-// 过滤出成功的请求
-const successfulPromises = results.filter((p) => p.status === fulfilled);
-// 过滤出失败的请求，并输出原因
-const errors = results
-	.filter((p) => p.status === rejected)
-	.map((p) => p.reason);
-```
-
-### `Promise.any()` (ES2020)
-
-- 输入
-  - 一个 Promise 数组
-- 返回值
-  - 一个新的 Promise 对象
-    - 该 Promise 对象在传入的 Promise 数组中的任何一个 Promise 解决时就会被解决
-    - 若所有的 Promise 都被拒绝，则返回的 Promise 会被拒绝，并且它的拒因是一个 `AggregateError` 对象实例，包含了所有被拒绝的 Promise 的原因 (可通过 `.errors` 属性读取)
-- 返回值处理
-
-```js
-Promise.any([p10, p11])
-	.then((res) => console.log(res))
-	.catch((err) => {
-		if (err instanceof AggregateError) {
-			console.error(AggregateError occurred:);
-			console.log(err.errors);
-			err.errors.forEach((err, index) => {
-				console.error(`Error ${index + 1}:`, err);
-			});
-		} else {
-			console.error(Other error occurred:, err);
-		}
-	});
-```
+- ⭐[Promises/A+](https://promisesaplus.com/)
+  - 🛠️[Conformant Promises/A+ Implementations](https://promisesaplus.com/implementations)
+  - 🛠️[Promises/A+ · GitHub](https://github.com/promises-aplus)
+- 🚀[手写 Promise：实现符合 Promises/A+规范的 Promise - 掘金](https://juejin.cn/post/7274887531271012388#heading-13)
+- 🚀[手写 Promise 核心代码 - JavaScript 前端 Web 工程师\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1RR4y1p7my/?vd_source=be278a4cfd00a5f72dcf153eaca79333)
+  - [手把手一行一行代码教你“手写 Promise“，完美通过 Promises/A+ 官方 872 个测试用例 - 掘金](https://juejin.cn/post/7043758954496655397#heading-14)
+- [Promise 实现原理（附源码）](https://juejin.cn/post/6844903665686282253 https://juejin.cn/post/6844903665686282253)
+- [100 行代码实现 Promises/A+ 规范](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FqdJ0Xd8zTgtetFdlJL3P1g https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
+- [一起学习造轮子（一）：从零开始写一个符合 Promises/A+规范的 promise](https://juejin.cn/post/6844903617619558408#heading-34 https://juejin.cn/post/6844903617619558408#heading-34)
+- [BAT 前端经典面试问题：史上最最最详细的手写 Promise 教程](https://juejin.cn/post/6844903625769091079#heading-9 https://juejin.cn/post/6844903625769091079#heading-9)

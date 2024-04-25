@@ -1,5 +1,5 @@
 ---
-title: Service Worker
+title: service-worker
 topic:
   - Worker
 tags:
@@ -10,7 +10,7 @@ reviewed:
 difficulty: 
 comment: 
 DateStarted: 2022-12-16
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status: 
 category: Programming
 draft: true

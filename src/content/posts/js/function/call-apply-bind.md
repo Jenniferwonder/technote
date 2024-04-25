@@ -1,5 +1,5 @@
 ---
-title: call; apply; bind
+title: call-apply-bind
 topic:
   - Scope
   - Objects
@@ -12,7 +12,7 @@ reviewed: 2
 difficulty: 
 comment: 
 DateStarted: 2022-12-16
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status: 
 category: Programming
 draft: true

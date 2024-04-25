@@ -1,4 +1,5 @@
 ---
+draft: false
 title: RegExp
 tags:
   - JavaScript
@@ -6,7 +7,7 @@ topic:
   - RegExp
 type: D
 DateStarted: 2023-07-19
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 2024-04-17
 reviewed: 
 difficulty: 

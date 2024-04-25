@@ -1,5 +1,5 @@
 ---
-title: Screen Object
+title: screen-object
 type: D
 tags:
   - JavaScript
@@ -9,7 +9,7 @@ topic:
 difficulty: 
 comment: 
 DateStarted: 2023-08-11
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 Datereviewed: 
 reviewed: 
 status:

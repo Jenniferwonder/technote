@@ -1,12 +1,13 @@
 ---
-title: Function Feature (函数本质与特点)
+draft: false
+title: function-feature-函数本质与特点
 topic:
   - Function
 type: D
 tags:
   - JavaScript
 DateStarted: 2024-02-16
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 2024-02-16
 reviewed: 1
 difficulty: Good

@@ -1,12 +1,12 @@
 ---
-title: Fetch API
+title: fetch-api
 topic:
   - Data
 tags:
   - JavaScript
 type: D
 DateStarted: 2022-12-05
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 Datereviewed: 
 reviewed: 2
 status: 
@@ -50,8 +50,8 @@ fetch(https://reqres.in/api/users, {
 });
 ```
 
-- Result: 
-	- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/programming/Pasted-image-20221210115058.png)
+- Result:
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/programming/Pasted-image-20221210115058.png)
 
 ### Response
 
@@ -61,7 +61,7 @@ Once aÂ [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response)Â
 
 #### 1. Convert the JSON response to Object
 
-- `res.json()` returns a [Promise](Async/Promise) that **resolves** to an [object](object) containing all the JSON data
+- `res.json()` returns a [Promise](Async/Promise) that **resolves** to an [object](../object/object) containing all the JSON data
 - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/programming/Pasted-image-20221210112955.png)
 
 #### 2. How to handle HTTP error status?

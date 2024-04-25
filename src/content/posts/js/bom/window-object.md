@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Window Object
 topic:
   - Objects
@@ -6,7 +7,7 @@ topic:
 tags:
   - JavaScript
 type: D
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 DateStarted: 2023-08-11
 Datereviewed: 
 status:
@@ -17,6 +18,7 @@ comment:
 aliases:
   - Window Object
 category: Programming
+linter-yaml-title-alias: Window Object
 ---
 
 # Window Object

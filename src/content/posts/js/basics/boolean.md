@@ -1,10 +1,15 @@
 ---
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
+draft: false
 title: Boolean
 topic:
   - Basics
 type: D
 DateStarted: 2023-07-14
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 aliases:
   - Boolean
 status:
@@ -12,6 +17,7 @@ status:
 category: Programming
 tags:
   - JavaScript
+linter-yaml-title-alias: Boolean
 ---
 
 # Boolean

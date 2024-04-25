@@ -1,12 +1,13 @@
 ---
-title: Function Arguments (函数参数)
+draft: false
+title: function-arguments-函数参数
 topic:
   - Function
 type: D
 tags:
   - JavaScript
 DateStarted: 2024-02-16
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 2024-02-16
 reviewed: 1
 difficulty: 
@@ -39,10 +40,10 @@ Back:
     - `arguments[0]`
   - 不声明参数也可以
   - 可用作 `apply()` 的第二个参数：[call; apply; bind](call;-apply;-bind)
-- 箭头函数中没有 `arguments` 对象
-_ 支持收集参数，可实现类似功能：[Collect or Rest and Spread Function Arguments (收集, 剩余与扩展参数)](<../Collect-or-Rest-and-Spread-Function-Arguments-(收集,-剩余与扩展参数)>)
-_ 可以在包装函数中把它提供给箭头函数 \* ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/programming/1691646042322.png)
-📌: JS::JS-Function
+- 箭头函数中没有 `arguments` 对象  
+_ 支持收集参数，可实现类似功能：[Collect or Rest and Spread Function Arguments (收集, 剩余与扩展参数)](../Collect-or-Rest-and-Spread-Function-Arguments-收集,-剩余与扩展参数)  
+_ 可以在包装函数中把它提供给箭头函数 \* ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/programming/1691646042322.png)  
+📌: JS::JS-Function  
 🏷️: JS-Function
 <!--ID: 1708067341797-->
 
@@ -61,9 +62,9 @@ Back:
 - 案例：阶乘函数
   - `return num * factorial(num - 1);`
   - `return num * arguments.callee(num - 1);`
-- 在严格模式下运行的代码是不能访问 `arguments.callee`
-_ 可使用命名函数表达式（named function expression）
-_ `const factorial = (function f(num) {`
+- 在严格模式下运行的代码是不能访问 `arguments.callee`  
+_ 可使用命名函数表达式（named function expression）  
+_ `const factorial = (function f(num) {`  
 _ `return num _ f(num - 1);`
 <!--ID: 1708067341809-->
 
@@ -88,4 +89,4 @@ Back:
 
 ---
 
-### [Collect or Rest and Spread Function Arguments (收集, 剩余与扩展参数)](<../Collect-or-Rest-and-Spread-Function-Arguments-(收集,-剩余与扩展参数)>)
+### [Collect or Rest and Spread Function Arguments (收集, 剩余与扩展参数)](../Collect-or-Rest-and-Spread-Function-Arguments-收集,-剩余与扩展参数)

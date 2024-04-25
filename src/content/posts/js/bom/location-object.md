@@ -1,5 +1,5 @@
 ---
-title: Location Object
+title: location-object
 type: D
 tags:
   - JavaScript
@@ -12,7 +12,7 @@ difficulty:
 status: 
 comment: 
 DateStarted: 2023-08-11
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 category: Programming
 draft: true
 ---

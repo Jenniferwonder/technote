@@ -1,10 +1,16 @@
 ---
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
+aliases:
+  - WeakMap
 title: WeakMap
 type: D
 DateStarted: 2023-08-06
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status: Snooze
-Pages: 6
+pages: 6
 Up:
   - - C06-Collection Reference Type-集合引用类型
 Pomo: 1
@@ -14,6 +20,7 @@ category: Programming
 tags:
   - JavaScript
 draft: true
+linter-yaml-title-alias: WeakMap
 ---
 
 # WeakMap

@@ -8,7 +8,7 @@ type: D
 tags:
   - CSS
 DateStarted: 2024-01-09
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status: 
 reviewed: 1
 Datereviewed: 2024-01-19T00:00:00.000+08:00
@@ -47,14 +47,14 @@ linter-yaml-title-alias: Box Display Types (Block and Inline Boxes)
 - The `width` and `height` properties will not apply
 - Top and bottom padding, margins, and borders will apply but will **not cause** other inline boxes to move away from the box
 - Left and right padding, margins, and borders will apply and will **cause** other inline boxes to move away from the box.
-- ![](<https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/web-design/CSS-Box-Model-(盒模型)-Inline.png>)
+- ![](<https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/web-design/css-box-model-(盒模型)-inline.png>)
 - 📌 `<a>`, `<span>`, `<em>` and `<strong>` use **inline** as their outer display type by default
 
 ### `display: inline-block`
 
 - provides a middle ground
 - Use it if you do not want an item to break onto a new line, but do want it to respect width and height
-  - ![](<https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/web-design/CSS-Box-Model-(盒模型)-Inline-Block.png>)
+  - ![](<https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/web-design/css-box-model-(盒模型)-inline-block.png>)
 - Allow padding to be set on it, making it easier for a user to click the link
 
 ## 🏷️[Hiding Elements](Hiding-Elements)

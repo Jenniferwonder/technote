@@ -1,0 +1,28 @@
+---
+title: strict-mode
+topic:
+  - Practice
+type: D
+tags:
+  - JavaScript
+category: Programming
+DateStarted: 2024-04-25
+DateModified: 2024-04-25
+Datereviewed: 
+reviewed: 
+difficulty: 
+status: 
+comment: 
+draft: true
+---
+## 对严格模式的理解
+要启用严格模式，可以在脚本或函数开头添加`"use strict";`指令。这将对整个脚本或函数体中的代码启用严格模式。推荐使用严格模式编写代码，因为它可以帮助发现潜在的错误并避免一些不良的编程实践。
+
+在 JavaScript 中，严格模式（strict mode）和非严格模式（sloppy mode）主要有以下几个区别：
+1. 变量声明： 在严格模式下，必须明确地声明变量（使用`let`、`const`或`var`关键字）。否则，将会抛出一个引用错误（ReferenceError）。在非严格模式下，如果没有声明变量，JavaScript 会自动将其声明为全局变量，这可能会导致意外的全局污染。
+2. this 指针： 在严格模式下，全局作用域中的`this`值为`undefined`。在非严格模式下，全局作用域中的`this`值为全局对象（浏览器环境中为`window`对象，Node.js 环境中为`global`对象）。此外，在严格模式下，不允许使用`call`、`apply`或`bind`将`this`值设置为`null`或`undefined`。
+3. 禁止使用未来保留字： 严格模式中，不能将一些未来保留字（如`implements`、`interface`、`let`、`package`、`private`、`protected`、`public`、`static`和`yield`）用作变量名或函数名。
+4. 禁止使用八进制字面量： 在严格模式下，不允许使用八进制字面量（如`0123`）。非严格模式下，八进制字面量是允许的。
+5. 禁止删除变量、函数和函数参数： 严格模式中，使用`delete`操作符删除变量、函数和函数参数会引发语法错误（SyntaxError）。在非严格模式下，这样的操作是允许的，但实际上不会删除这些对象。
+6. 限制函数参数的重复声明： 在严格模式下，如果一个函数具有多个相同名称的参数，将会抛出一个语法错误。非严格模式下允许这种重复声明，但只有最后一个参数值会生效。
+7. 错误处理： 严格模式相较于非严格模式，更严格地处理某些类型的错误。例如，当试图修改只读属性、给不可扩展的对象添加属性或删除不可配置的属性时，严格模式会抛出类型错误（TypeError），而非严格模式下则会静默失败。

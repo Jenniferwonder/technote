@@ -1,8 +1,12 @@
 ---
-title: Endianness 字节序
+Datereviewed: 
+reviewed: 
+difficulty: 
+comment: 
+title: endianness-字节序
 type: D
 DateStarted: 2023-08-09
-DateModified: 2024-04-19
+DateModified: 2024-04-25
 status:
   - Snooze
 aliases:

@@ -1,4 +1,5 @@
 ---
+draft: false
 aliases:
   - Character Literals-字符字面量
 title: Character Literals-字符字面量
@@ -8,7 +9,7 @@ type: D
 tags:
   - JavaScript
 DateStarted: 2024-01-26
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 2024-01-26
 reviewed: 1
 difficulty: Good

@@ -1,4 +1,5 @@
 ---
+draft: false
 aliases:
   - String Pattern-Matching Methods-查找匹配替换
 title: String Pattern-Matching Methods-查找匹配替换
@@ -8,7 +9,7 @@ type: D
 tags:
   - JavaScript
 DateStarted: 2024-03-02
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 2024-03-02
 reviewed: 1
 difficulty: 

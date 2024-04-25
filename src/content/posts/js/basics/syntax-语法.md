@@ -1,4 +1,5 @@
 ---
+draft: false
 tags:
   - JavaScript
 difficulty: 
@@ -10,7 +11,7 @@ topic:
   - Basics
 type: D
 DateStarted: 2023-07-13
-DateModified: 2024-04-18
+DateModified: 2024-04-25
 Datereviewed: 2024-04-17
 status:
   - Mature
