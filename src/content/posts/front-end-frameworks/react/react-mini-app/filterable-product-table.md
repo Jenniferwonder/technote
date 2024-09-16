@@ -13,7 +13,7 @@ comment:
 aliases:
   - Build a Filterable Product Table
 DateStarted: 2024-04-18
-DateModified: 2024-04-19
+DateModified: 2024-09-14
 linter-yaml-title-alias: Build a Filterable Product Table
 draft: true
 ---

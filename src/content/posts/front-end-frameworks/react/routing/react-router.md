@@ -14,7 +14,7 @@ aliases:
   - React Router DOM
   - react-router
 DateStarted: 2024-04-02
-DateModified: 2024-04-18
+DateModified: 2024-09-14
 linter-yaml-title-alias: React Router DOM
 category: Front-End Frameworks
 ---

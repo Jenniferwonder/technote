@@ -12,7 +12,7 @@ title: TypeScript
 tags:
   - TypeScript
 DateStarted: 2022-11-29
-DateModified: 2024-04-18
+DateModified: 2024-09-14
 status: 
 linter-yaml-title-alias: TypeScript
 ---

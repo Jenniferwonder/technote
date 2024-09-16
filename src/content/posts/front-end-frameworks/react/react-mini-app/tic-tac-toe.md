@@ -11,7 +11,7 @@ status:
 comment: 
 title: Tic-Tac-Toe
 DateStarted: 2023-12-03
-DateModified: 2024-04-19
+DateModified: 2024-09-14
 aliases:
   - Tic-Tac-Toe
 linter-yaml-title-alias: Tic-Tac-Toe

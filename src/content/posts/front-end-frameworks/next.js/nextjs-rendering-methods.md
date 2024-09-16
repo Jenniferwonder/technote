@@ -12,7 +12,7 @@ tags:
   - NextJS
 status: 
 DateStarted: 2023-11-30
-DateModified: 2024-04-18
+DateModified: 2024-09-14
 category: Front-End Frameworks
 linter-yaml-title-alias: Next.js Rendering Methods
 ---

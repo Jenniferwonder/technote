@@ -12,7 +12,7 @@ type: O
 tags:
   - DevPractice
 DateStarted: 2023-12-21
-DateModified: 2024-04-19
+DateModified: 2024-09-14
 status: 
 linter-yaml-title-alias: Front-End Practice
 draft: true

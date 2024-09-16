@@ -1,0 +1,1 @@
+import{defineCollection,z}from"../../content/entry.mjs";const postsCollection=defineCollection({schema:z.object({title:z.string(),DateStarted:z.date(),draft:z.boolean().optional(),description:z.string().optional(),image:z.string().optional(),category:z.string().optional()})}),collections={posts:postsCollection};export{collections};

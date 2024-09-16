@@ -1,0 +1,1 @@
+function getDefaultHue(){const e=document.getElementById("config-carrier");return parseInt(e?.dataset.hue||"250")}function getHue(){const e=localStorage.getItem("hue");return e?parseInt(e):getDefaultHue()}function setHue(e){localStorage.setItem("hue",String(e));const t=document.querySelector(":root");t&&t.style.setProperty("--hue",e)}export{getDefaultHue,getHue,setHue};

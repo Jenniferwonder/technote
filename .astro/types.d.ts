@@ -798,6 +798,188 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"css/ui-resources/chart-图表.md": {
+	id: "css/ui-resources/chart-图表.md";
+  slug: "css/ui-resources/chart-图表";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/color-颜色与背景.md": {
+	id: "css/ui-resources/color-颜色与背景.md";
+  slug: "css/ui-resources/color-颜色与背景";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/css-framework-resources.md": {
+	id: "css/ui-resources/css-framework-resources.md";
+  slug: "css/ui-resources/css-framework-resources";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/css-reference.md": {
+	id: "css/ui-resources/css-reference.md";
+  slug: "css/ui-resources/css-reference";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/css-tools.md": {
+	id: "css/ui-resources/css-tools.md";
+  slug: "css/ui-resources/css-tools";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/css-tutorials.md": {
+	id: "css/ui-resources/css-tutorials.md";
+  slug: "css/ui-resources/css-tutorials";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/design-resources-and-toolkit.md": {
+	id: "css/ui-resources/design-resources-and-toolkit.md";
+  slug: "css/ui-resources/design-resources-and-toolkit";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/design-systems.md": {
+	id: "css/ui-resources/design-systems.md";
+  slug: "css/ui-resources/design-systems";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/design.md": {
+	id: "css/ui-resources/design.md";
+  slug: "css/ui-resources/design";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/font-字体.md": {
+	id: "css/ui-resources/font-字体.md";
+  slug: "css/ui-resources/font-字体";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/html-css-templates.md": {
+	id: "css/ui-resources/html-css-templates.md";
+  slug: "css/ui-resources/html-css-templates";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/icons/icons-dashy.md": {
+	id: "css/ui-resources/icons/icons-dashy.md";
+  slug: "css/ui-resources/icons/icons-dashy";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/icons/icons.md": {
+	id: "css/ui-resources/icons/icons.md";
+  slug: "css/ui-resources/icons/icons";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/icons/s-favicons.md": {
+	id: "css/ui-resources/icons/s-favicons.md";
+  slug: "css/ui-resources/icons/s-favicons";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/icons/s-logo.md": {
+	id: "css/ui-resources/icons/s-logo.md";
+  slug: "css/ui-resources/icons/s-logo";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/image-resources/background.md": {
+	id: "css/ui-resources/image-resources/background.md";
+  slug: "css/ui-resources/image-resources/background";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/image-resources/image-compression-and-resizing.md": {
+	id: "css/ui-resources/image-resources/image-compression-and-resizing.md";
+  slug: "css/ui-resources/image-resources/image-compression-and-resizing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/image-resources/image-editing-and-mockup-tool.md": {
+	id: "css/ui-resources/image-resources/image-editing-and-mockup-tool.md";
+  slug: "css/ui-resources/image-resources/image-editing-and-mockup-tool";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/image-resources/product-and-image-mockup.md": {
+	id: "css/ui-resources/image-resources/product-and-image-mockup.md";
+  slug: "css/ui-resources/image-resources/product-and-image-mockup";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/image-resources/qr-tool.md": {
+	id: "css/ui-resources/image-resources/qr-tool.md";
+  slug: "css/ui-resources/image-resources/qr-tool";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/image-resources/stock-photos.md": {
+	id: "css/ui-resources/image-resources/stock-photos.md";
+  slug: "css/ui-resources/image-resources/stock-photos";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/image-resources/ui-graphics.md": {
+	id: "css/ui-resources/image-resources/ui-graphics.md";
+  slug: "css/ui-resources/image-resources/ui-graphics";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/image-resources/vector&-clip-art.md": {
+	id: "css/ui-resources/image-resources/vector&-clip-art.md";
+  slug: "css/ui-resources/image-resources/vector-clip-art";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/motion-resources/s-css-animation.md": {
+	id: "css/ui-resources/motion-resources/s-css-animation.md";
+  slug: "css/ui-resources/motion-resources/s-css-animation";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/ui-componenet-library.md": {
+	id: "css/ui-resources/ui-componenet-library.md";
+  slug: "css/ui-resources/ui-componenet-library";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"css/ui-resources/video-resource.md": {
+	id: "css/ui-resources/video-resource.md";
+  slug: "css/ui-resources/video-resource";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "front-end-frameworks/astro/astro-basics.md": {
 	id: "front-end-frameworks/astro/astro-basics.md";
   slug: "front-end-frameworks/astro/astro-basics";
@@ -868,6 +1050,90 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"front-end-frameworks/next.js/o-nextjs.md": {
+	id: "front-end-frameworks/next.js/o-nextjs.md";
+  slug: "front-end-frameworks/nextjs/o-nextjs";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/class-component-类组件.md": {
+	id: "front-end-frameworks/react/component-basics/class-component-类组件.md";
+  slug: "front-end-frameworks/react/component-basics/class-component-类组件";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/component-life-cycle-组件声明周期.md": {
+	id: "front-end-frameworks/react/component-basics/component-life-cycle-组件声明周期.md";
+  slug: "front-end-frameworks/react/component-basics/component-life-cycle-组件声明周期";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/component-naming-structure-组件命名与结构.md": {
+	id: "front-end-frameworks/react/component-basics/component-naming-structure-组件命名与结构.md";
+  slug: "front-end-frameworks/react/component-basics/component-naming-structure-组件命名与结构";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/component-types-组件类型与划分.md": {
+	id: "front-end-frameworks/react/component-basics/component-types-组件类型与划分.md";
+  slug: "front-end-frameworks/react/component-basics/component-types-组件类型与划分";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/pure-function-component-纯函数组件.md": {
+	id: "front-end-frameworks/react/component-basics/pure-function-component-纯函数组件.md";
+  slug: "front-end-frameworks/react/component-basics/pure-function-component-纯函数组件";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/react-event-事件机制.md": {
+	id: "front-end-frameworks/react/component-basics/react-event-事件机制.md";
+  slug: "front-end-frameworks/react/component-basics/react-event-事件机制";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/react-features-versions-版本特性.md": {
+	id: "front-end-frameworks/react/component-basics/react-features-versions-版本特性.md";
+  slug: "front-end-frameworks/react/component-basics/react-features-versions-版本特性";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/react-server-component.md": {
+	id: "front-end-frameworks/react/component-basics/react-server-component.md";
+  slug: "front-end-frameworks/react/component-basics/react-server-component";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/react-strict-mode-严格模式.md": {
+	id: "front-end-frameworks/react/component-basics/react-strict-mode-严格模式.md";
+  slug: "front-end-frameworks/react/component-basics/react-strict-mode-严格模式";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/react-syntax-jsx-语法.md": {
+	id: "front-end-frameworks/react/component-basics/react-syntax-jsx-语法.md";
+  slug: "front-end-frameworks/react/component-basics/react-syntax-jsx-语法";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/component-basics/share-state-组件间通信.md": {
+	id: "front-end-frameworks/react/component-basics/share-state-组件间通信.md";
+  slug: "front-end-frameworks/react/component-basics/share-state-组件间通信";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "front-end-frameworks/react/data-fetching/react-data-fetching.md": {
 	id: "front-end-frameworks/react/data-fetching/react-data-fetching.md";
   slug: "front-end-frameworks/react/data-fetching/react-data-fetching";
@@ -917,6 +1183,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"front-end-frameworks/react/hooks/useDebugValue.md": {
+	id: "front-end-frameworks/react/hooks/useDebugValue.md";
+  slug: "front-end-frameworks/react/hooks/usedebugvalue";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/hooks/useDeferredValue.md": {
+	id: "front-end-frameworks/react/hooks/useDeferredValue.md";
+  slug: "front-end-frameworks/react/hooks/usedeferredvalue";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "front-end-frameworks/react/hooks/useEffect.md": {
 	id: "front-end-frameworks/react/hooks/useEffect.md";
   slug: "front-end-frameworks/react/hooks/useeffect";
@@ -941,6 +1221,13 @@ declare module 'astro:content' {
 "front-end-frameworks/react/hooks/useRef.md": {
 	id: "front-end-frameworks/react/hooks/useRef.md";
   slug: "front-end-frameworks/react/hooks/useref";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/hooks/useTransition.md": {
+	id: "front-end-frameworks/react/hooks/useTransition.md";
+  slug: "front-end-frameworks/react/hooks/usetransition";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1036,6 +1323,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"front-end-frameworks/react/react-internal/react-internal.md": {
+	id: "front-end-frameworks/react/react-internal/react-internal.md";
+  slug: "front-end-frameworks/react/react-internal/react-internal";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "front-end-frameworks/react/react-intl/react-intl.md": {
 	id: "front-end-frameworks/react/react-intl/react-intl.md";
   slug: "front-end-frameworks/react/react-intl/react-intl";
@@ -1050,9 +1344,23 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"front-end-frameworks/react/react-mini-app/react-mini-app.md": {
+	id: "front-end-frameworks/react/react-mini-app/react-mini-app.md";
+  slug: "front-end-frameworks/react/react-mini-app/react-mini-app";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "front-end-frameworks/react/react-mini-app/tic-tac-toe.md": {
 	id: "front-end-frameworks/react/react-mini-app/tic-tac-toe.md";
   slug: "front-end-frameworks/react/react-mini-app/tic-tac-toe";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/react-mini-app/todo-react.md": {
+	id: "front-end-frameworks/react/react-mini-app/todo-react.md";
+  slug: "front-end-frameworks/react/react-mini-app/todo-react";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1155,6 +1463,27 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"front-end-frameworks/react/style-for-react/react-animation-lib.md": {
+	id: "front-end-frameworks/react/style-for-react/react-animation-lib.md";
+  slug: "front-end-frameworks/react/style-for-react/react-animation-lib";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/style-for-react/react-icons.md": {
+	id: "front-end-frameworks/react/style-for-react/react-icons.md";
+  slug: "front-end-frameworks/react/style-for-react/react-icons";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/react/style-for-react/react-style-basics.md": {
+	id: "front-end-frameworks/react/style-for-react/react-style-basics.md";
+  slug: "front-end-frameworks/react/style-for-react/react-style-basics";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "front-end-frameworks/react/style-for-react/style-for-react.md": {
 	id: "front-end-frameworks/react/style-for-react/style-for-react.md";
   slug: "front-end-frameworks/react/style-for-react/style-for-react";
@@ -1169,6 +1498,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"front-end-frameworks/refine/refine-search-modal.md": {
+	id: "front-end-frameworks/refine/refine-search-modal.md";
+  slug: "front-end-frameworks/refine/refine-search-modal";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-frameworks/refine/refine.md": {
+	id: "front-end-frameworks/refine/refine.md";
+  slug: "front-end-frameworks/refine/refine";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "front-end-tooling/cdd/create-publish-react-component-lib.md": {
 	id: "front-end-tooling/cdd/create-publish-react-component-lib.md";
   slug: "front-end-tooling/cdd/create-publish-react-component-lib";
@@ -1179,6 +1522,69 @@ declare module 'astro:content' {
 "front-end-tooling/cli-脚手架.md": {
 	id: "front-end-tooling/cli-脚手架.md";
   slug: "front-end-tooling/cli-脚手架";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/convention/coding-convention-编码规范.md": {
+	id: "front-end-tooling/convention/coding-convention-编码规范.md";
+  slug: "front-end-tooling/convention/coding-convention-编码规范";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/convention/commit-convention.md": {
+	id: "front-end-tooling/convention/commit-convention.md";
+  slug: "front-end-tooling/convention/commit-convention";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/deployment/ci-cd.md": {
+	id: "front-end-tooling/deployment/ci-cd.md";
+  slug: "front-end-tooling/deployment/ci-cd";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/deployment/containerization-&-virtualization.md": {
+	id: "front-end-tooling/deployment/containerization-&-virtualization.md";
+  slug: "front-end-tooling/deployment/containerization--virtualization";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/deployment/deployment.md": {
+	id: "front-end-tooling/deployment/deployment.md";
+  slug: "front-end-tooling/deployment/deployment";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/deployment/github-pages-deployment.md": {
+	id: "front-end-tooling/deployment/github-pages-deployment.md";
+  slug: "front-end-tooling/deployment/github-pages-deployment";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/deployment/hosting-service-托管服务.md": {
+	id: "front-end-tooling/deployment/hosting-service-托管服务.md";
+  slug: "front-end-tooling/deployment/hosting-service-托管服务";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/deployment/vercel.md": {
+	id: "front-end-tooling/deployment/vercel.md";
+  slug: "front-end-tooling/deployment/vercel";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/deployment/代理-nginx.md": {
+	id: "front-end-tooling/deployment/代理-nginx.md";
+  slug: "front-end-tooling/deployment/代理-nginx";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1225,6 +1631,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"front-end-tooling/package-manager.md": {
+	id: "front-end-tooling/package-manager.md";
+  slug: "front-end-tooling/package-manager";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/sentry.md": {
+	id: "front-end-tooling/sentry.md";
+  slug: "front-end-tooling/sentry";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "front-end-tooling/testing/cypress.md": {
 	id: "front-end-tooling/testing/cypress.md";
   slug: "front-end-tooling/testing/cypress";
@@ -1235,6 +1655,20 @@ declare module 'astro:content' {
 "front-end-tooling/testing/debugging-tools-调试.md": {
 	id: "front-end-tooling/testing/debugging-tools-调试.md";
   slug: "front-end-tooling/testing/debugging-tools-调试";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/testing/jest-vitest-rtl.md": {
+	id: "front-end-tooling/testing/jest-vitest-rtl.md";
+  slug: "front-end-tooling/testing/jest-vitest-rtl";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"front-end-tooling/testing/rtl-react-testing-library.md": {
+	id: "front-end-tooling/testing/rtl-react-testing-library.md";
+  slug: "front-end-tooling/testing/rtl-react-testing-library";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1967,6 +2401,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"js/function/recursive-function.md": {
+	id: "js/function/recursive-function.md";
+  slug: "js/function/recursive-function";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "js/function/the-return-statement.md": {
 	id: "js/function/the-return-statement.md";
   slug: "js/function/the-return-statement";
@@ -2373,9 +2814,30 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"markdown copy.md": {
+	id: "markdown copy.md";
+  slug: "markdown-copy";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"markdown.md": {
+	id: "markdown.md";
+  slug: "markdown";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "network/browser/bowser-cache.md": {
 	id: "network/browser/bowser-cache.md";
   slug: "network/browser/bowser-cache";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"network/browser/browser-routing-history-hash.md": {
+	id: "network/browser/browser-routing-history-hash.md";
+  slug: "network/browser/browser-routing-history-hash";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -2523,6 +2985,20 @@ declare module 'astro:content' {
 "network/web-protocol/url.md": {
 	id: "network/web-protocol/url.md";
   slug: "network/web-protocol/url";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"video copy.md": {
+	id: "video copy.md";
+  slug: "video-copy";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"video.md": {
+	id: "video.md";
+  slug: "video";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

@@ -13,7 +13,7 @@ title: File Upload in React
 aliases:
   - File Upload in React
 DateStarted: 2024-04-02
-DateModified: 2024-04-19
+DateModified: 2024-09-14
 linter-yaml-title-alias: File Upload in React
 draft: true
 ---
