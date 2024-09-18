@@ -195,7 +195,7 @@ color_set({
     .float-panel {
         @apply top-[5.25rem] rounded-[var(--radius-large)] overflow-hidden bg-[var(--float-panel-bg)] transition shadow-xl dark:shadow-none
     }
-    .float-panel.closed {
+    .float-panel-closed {
         @apply top-[4.75rem] opacity-0 pointer-events-none
     }
     .search-panel mark {
@@ -239,12 +239,28 @@ color_set({
         @apply text-black/25 dark:text-white/25
     }
 
-    html.is-changing .transition-fade {
+    html.is-changing .transition-swup-fade {
         @apply transition-all duration-200
     }
-    html.is-animating .transition-fade {
+    html.is-animating .transition-swup-fade {
         @apply opacity-0 translate-y-4
     }
+   /* PhotoSwipe */
+   .pswp__button {
+      @apply transition bg-black/40 hover:bg-black/50 active:bg-black/60 flex items-center justify-center mr-0 w-12 h-12 !important;
+  }
+  .pswp__button--zoom, .pswp__button--close {
+      @apply mt-4 rounded-xl active:scale-90 !important;
+  }
+  .pswp__button--zoom {
+      @apply mr-2.5 !important;
+  }
+  .pswp__button--close {
+      @apply mr-4 !important;
+  }
+  .custom-md img, #post-cover img {
+      @apply cursor-zoom-in
+  }
 }
 
 @keyframes fade-in-up {
@@ -274,6 +290,10 @@ color_set({
 #footer {
     /* animation-delay: 400ms; */
 }
-
-
+#navbar {
+    animation-delay: 0ms
+}
+#banner-credit {
+    animation-delay: 400ms;
+}
 </style>

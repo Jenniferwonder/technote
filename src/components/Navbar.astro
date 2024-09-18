@@ -5,6 +5,7 @@ import {LinkPreset, NavBarLink} from "../types/config";
 import {navBarConfig, siteConfig} from "../config";
 import NavMenuPanel from "./widget/NavMenuPanel.astro";
 import Search from "./Search.svelte";
+import {url} from "../utils/url-utils";
 import {LinkPresets} from "../constants/link-presets";
 const className = Astro.props.class;
 
@@ -107,13 +108,13 @@ function loadButtonScript() {
     let settingBtn = document.getElementById("display-settings-switch");
     settingBtn.addEventListener("click", function () {
         let settingPanel = document.getElementById("display-setting");
-        settingPanel.classList.toggle("closed");
+        settingPanel.classList.toggle("float-panel-closed");
     });
 
     let menuBtn = document.getElementById("nav-menu-switch");
     menuBtn.addEventListener("click", function () {
         let menuPanel = document.getElementById("nav-menu-panel");
-        menuPanel.classList.toggle("closed");
+        menuPanel.classList.toggle("float-panel-closed");
     });
 }
 
@@ -124,10 +125,13 @@ document.addEventListener('astro:after-swap', () => {
 }, { once: false });
 </script>
 
-{import.meta.env.PROD && <script is:raw>
+<!-- {import.meta.env.PROD && <script is:inline > -->
+<script is:inline >
 async function loadPagefind() {
-    const pagefind = await import('/pagefind/pagefind.js')
+    const pagefind = await import('/technote/pagefind/pagefind.js')
+    // console.log(pagefind)
     await pagefind.options({
+        'baseUrl':"/technote/",
         'excerptLength': 20
     })
     pagefind.init()
@@ -135,6 +139,6 @@ async function loadPagefind() {
     pagefind.search('')     // speed up the first search
 }
 loadPagefind()
-</script>}
+</script>
 
 
