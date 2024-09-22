@@ -1,9 +1,9 @@
 ---
 import type { CollectionEntry } from 'astro:content'
 import { siteConfig } from '@/config'
+import BackToTop from '@components/control/BackToTop.astro'
 import Footer from '@components/Footer.astro'
 import Navbar from '@components/Navbar.astro'
-import BackToTop from '@components/control/BackToTop.astro'
 import SideBar from '@components/widget/SideBar.astro'
 import TOC from '@components/widget/Toc.astro'
 // import { pathsEqual } from '@utils/url-utils'
@@ -15,7 +15,7 @@ interface Props {
   banner?: string
   posts: CollectionEntry<'posts'>
 }
-const { title, banner, posts} = Astro.props
+const { title, banner, posts } = Astro.props
 // const isPostPage = pathContains(Astro.url.pathname)
 const enableBanner = siteConfig.banner.enable
 
@@ -26,7 +26,7 @@ const { headings } = await posts.render()
 <div class="max-w-[var(--page-width)] min-h-screen grid grid-cols-[17.5rem_auto] grid-rows-[auto_auto_1fr_auto] lg:grid-rows-[auto_1fr_auto]
     mx-auto gap-4 relative px-0 md:px-4"
 >
-    <div id="top-row" class="col-span-2 grid-rows-1 z-50 onload-animation" class:list={[""]}>
+    <div id="top-row" class="col-span-2 grid-rows-1 z-50 onload-animation" class:list={['']}>
         <div class="absolute h-8 left-0 right-0 -top-8 bg-[var(--card-bg)] transition"></div> <!-- used for onload animation -->
         <Navbar></Navbar>
     </div>
@@ -35,13 +35,13 @@ const { headings } = await posts.render()
     <main id="swup" class="transition-swup-fade row-start-2 row-end-3 col-span-2 lg:col-span-1 overflow-hidden">
         <div id="content-wrapper" class=" overflow-hidden ">
             <!-- the overflow-hidden here prevent long text break the layout-->
-            <div >
+            <div>
                 <slot></slot>
             </div>
         </div>
-        {<TOC headings={headings} />}
+        <TOC headings={headings} />
     </main>
-    
+
     <div id="footer" class="grid-rows-3 col-span-2 mt-4 onload-animation">
         <Footer></Footer>
     </div>
@@ -50,20 +50,22 @@ const { headings } = await posts.render()
 </Layout>
 
 <script is:inline>
-    /** Attaches links to headings in the document,
-      *  allowing sharing of sections easily */
-      function addHeadingLinks() {
-       let headings = Array.from(document.querySelectorAll("h2, h3, h4, h5, h6"));
-       for (let heading of headings) {
-         heading.classList.add("group");
-         let link = document.createElement("a");
-         link.innerText = "";
-         link.className = "heading-link hidden link-lg transition text-50 text-sm font-medium hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap ml-2";
-         link.href = "#" + heading.id;
-         link.ariaHidden = "true";
-         heading.appendChild(link);
-       }
-        //    console.log(headings);
-     }
-     addHeadingLinks();
+/**
+ * Attaches links to headings in the document,
+ *  allowing sharing of sections easily
+ */
+function addHeadingLinks() {
+  const headings = Array.from(document.querySelectorAll('h2, h3, h4, h5, h6'))
+  for (const heading of headings) {
+    heading.classList.add('group')
+    const link = document.createElement('a')
+    link.innerText = ''
+    link.className = 'heading-link hidden link-lg transition text-50 text-sm font-medium hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap ml-2'
+    link.href = `#${heading.id}`
+    link.ariaHidden = 'true'
+    heading.appendChild(link)
+  }
+  //    console.log(headings);
+}
+addHeadingLinks()
 </script>

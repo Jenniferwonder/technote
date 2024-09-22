@@ -10,12 +10,13 @@ const {
 } = Astro.props
 ---
 
-<li class={`${depth > 2 ? "ms-2" : ""}`}>
+<li class={`${depth > 2 ? 'ms-2' : ''}`}>
   <a
     aria-label={`Scroll to section: ${text}`}
     class={`link-lg transition text-50 text-sm font-medium
-      hover:text-[var(--primary)] active:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap block text-nowrap max-w-[14rem] overflow-hidden overflow-ellipsis ${depth <= 2 ? "mt-3" : "mt-2 text-[0.80rem]"}`}
-    href={`#${slug}`}>{text}</a
+      hover:text-[var(--primary)] active:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap block text-nowrap max-w-[14rem] overflow-hidden overflow-ellipsis ${depth <= 2 ? 'mt-3' : 'mt-2 text-[0.80rem]'}`}
+    href={`#${slug}`}
+  >{text}</a
   >
   {
     !!children.length && (

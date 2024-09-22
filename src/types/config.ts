@@ -1,4 +1,4 @@
-export type SiteConfig = {
+export interface SiteConfig {
   title: string
   subtitle: string
 
@@ -17,17 +17,17 @@ export enum LinkPreset {
   About = 2,
 }
 
-export type NavBarLink = {
+export interface NavBarLink {
   name: string
   url: string
   external?: boolean
 }
 
-export type NavBarConfig = {
+export interface NavBarConfig {
   links: (NavBarLink | LinkPreset)[]
 }
 
-export type ProfileConfig = {
+export interface ProfileConfig {
   avatar?: string
   name: string
   bio?: string
@@ -38,7 +38,7 @@ export type ProfileConfig = {
   }[]
 }
 
-export type LicenseConfig = {
+export interface LicenseConfig {
   enable: boolean
   name: string
   url: string

@@ -1,16 +1,17 @@
 ---
-import '@fontsource-variable/jetbrains-mono';
-import '@fontsource-variable/jetbrains-mono/wght-italic.css';
+import '@fontsource-variable/jetbrains-mono'
+import '@fontsource-variable/jetbrains-mono/wght-italic.css'
 
 interface Props {
-    class: string;
+  class: string
 }
-const className = Astro.props.class;
+const className = Astro.props.class
 ---
+
 <div data-pagefind-body class=`prose dark:prose-invert prose-base max-w-none custom-md ${className}`>
-    <!--<div class="prose dark:prose-invert max-w-none custom-md">-->
-    <!--<div class="max-w-none custom-md">-->
-    <slot />
+  <!--<div class="prose dark:prose-invert max-w-none custom-md">-->
+  <!--<div class="max-w-none custom-md">-->
+  <slot />
 </div>
 
 <style lang="stylus" is:global>
@@ -138,14 +139,13 @@ const className = Astro.props.class;
 </style>
 
 <style lang="css" is:global>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
 
-@layer components {
+  @layer components {
     .custom-md h1 {
-        @apply text-3xl
+      @apply text-3xl;
     }
-}
-
+  }
 </style>
